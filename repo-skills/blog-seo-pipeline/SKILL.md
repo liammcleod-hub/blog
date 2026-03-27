@@ -33,6 +33,10 @@ Also read these when useful:
 
 - `docs/reference/Bastelschachtel Email Brand Voice Guide.txt`
 - `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.txt`
+- `docs/seo/bastelschachtel_seo_audit.docx`
+- `repo-skills/marketing-library/skills/seo-audit/SKILL.md`
+- `repo-skills/marketing-library/skills/programmatic-seo/SKILL.md`
+- `repo-skills/marketing-library/skills/ai-seo/SKILL.md`
 
 ## Current Operating Model
 
@@ -98,6 +102,32 @@ In this mode, use the integration contract to determine what can be fetched and 
    - improved draft
 6. Keep recommendations compatible with the current Retool process unless the user asks to redesign it.
 
+## Required Inference Layer
+
+Do not treat the brief as the only authority for what the article should contain.
+
+When reviewing or revising an article, infer required content structure from all three of these inputs:
+
+1. the research dossier
+2. the Bastelschachtel SEO audit and gap map
+3. the mirrored SEO skill library
+
+This means the skill should ask:
+
+- What content gaps does the Bastelschachtel audit say the site must close?
+- What search-intent patterns dominate this topic?
+- What content blocks do the SEO skills imply are necessary for this type of query?
+
+If the brief under-specifies the page, the skill should still require the missing sections when they are strongly implied by the audit and SEO skill guidance.
+
+Examples:
+
+- a listicle may still need a definition block, FAQ, maintenance section, or comparison block
+- a commerce article may still need informational sections if the search landscape is tutorial-heavy
+- a page targeting list-style queries must still provide unique per-item value and not read like thin template output
+
+Use this inference layer to judge whether the article actually matches the real search opportunity, not just whether it mechanically follows the brief.
+
 ## QA Checklist
 
 At minimum, check:
@@ -145,3 +175,4 @@ For operational execution:
 - `references/run-modes.md`
 - `references/qa-report-template.md`
 - `references/revision-plan-template.md`
+- `references/seo-inference-rules.md`

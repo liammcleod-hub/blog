@@ -12,3 +12,10 @@ These docs sit on top of the Retool references and define how Codex should inges
 - `run-modes.md`: first operational modes for using the skill
 - `qa-report-template.md`: expected QA output structure
 - `revision-plan-template.md`: expected revision planning structure
+- `seo-inference-rules.md`: rules for inferring required content structure from audit + SEO skills
+
+## Related Runtime Folder
+
+The preferred working bundle location for actual article jobs is:
+
+- `output/content-jobs/`

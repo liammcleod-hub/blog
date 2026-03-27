@@ -1,0 +1,142 @@
+[
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr -  Bleistifthalter",
+        "handle":  "bleistiftbehlter-292",
+        "price_eur":  7.89,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-bleistiftbehalter-bastelschachtel-19351.jpg?v=1767907079",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/bleistiftbehlter-292",
+        "role":  "primary"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Brotkorb",
+        "handle":  "brotkorb-293",
+        "price_eur":  12.72,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-brotkorb-bastelschachtel-44828.jpg?v=1767907077",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/brotkorb-293",
+        "role":  "primary"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Engelchen",
+        "handle":  "engelchen-295",
+        "price_eur":  7.92,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-engelchen-bastelschachtel-61975.jpg?v=1767907076",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/engelchen-295",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Glocke",
+        "handle":  "glocke-298",
+        "price_eur":  6.72,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-glocke-bastelschachtel-17161.jpg?v=1767907074",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/glocke-298",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Kochlöffelhalter",
+        "handle":  "kochloffelbehlter",
+        "price_eur":  8.94,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-kochloffelhalter-bastelschachtel-71714.jpg?v=1767907073",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/kochloffelbehlter",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Korb mit Deckel",
+        "handle":  "korb-mit-deckel-304",
+        "price_eur":  7.98,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-korb-mit-deckel-bastelschachtel-64223.jpg?v=1767907072",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/korb-mit-deckel-304",
+        "role":  "primary"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Körbchen mit abgerundetem Rand",
+        "handle":  "korbchen-mit-abgerundetem-rand-306",
+        "price_eur":  5.99,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/bastelset-aus-peddigrohr-korbchen-mit-abgerundetem-rand-bastelschachtel-95104.jpg?v=1767907069",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/korbchen-mit-abgerundetem-rand-306",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Mini Korb",
+        "handle":  "mini-korbchen-mit-griff-311",
+        "price_eur":  5.99,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/bastelset-aus-peddigrohr-mini-korbchen-mit-griff-bastelschachtel-81216.png?v=1767907102",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/mini-korbchen-mit-griff-311",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Runder Korb",
+        "handle":  "runder-korb-315",
+        "price_eur":  9.54,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/BastelsetausPeddigrohr-RunderKorb.png?v=1768228305",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/runder-korb-315",
+        "role":  "primary"
+    },
+    {
+        "include":  true,
+        "name":  "Bastelset aus Peddigrohr - Vogelkäfig Groß",
+        "handle":  "vogelkfig-324",
+        "price_eur":  9.99,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/bastelset-aus-peddigrohr-vogelkafig-bastelschachtel-30731.png?v=1767907092",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/vogelkfig-324",
+        "role":  "ranked_item"
+    },
+    {
+        "include":  true,
+        "name":  "Korbboden rund, Ø 9cm für Peddigrohr 2mm",
+        "handle":  "korbboden-rund-9cm-358",
+        "price_eur":  1.56,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/korbboden-rund-o-9cm-fur-peddigrohr-2mm-bastelschachtel-29490.jpg?v=1767886398",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/korbboden-rund-9cm-358",
+        "role":  "secondary"
+    },
+    {
+        "include":  true,
+        "name":  "Peddigrohr 2mm, 500g",
+        "handle":  "schilf-2mm-50dkg-512",
+        "price_eur":  22.92,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/Peddigrohr_2mm_500g_page1.png?v=1768312411",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/schilf-2mm-50dkg-512",
+        "role":  "secondary"
+    },
+    {
+        "include":  true,
+        "name":  "Korbboden Set rund, Ø 9cm für Peddigrohr 2mm - 5St",
+        "handle":  "korbboden-set-rund-9cm-5-stuck-2965",
+        "price_eur":  5.94,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/korbboden-set-rund-o-9cm-fur-peddigrohr-2mm-5st-bastelschachtel-44538.jpg?v=1767887269",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/korbboden-set-rund-9cm-5-stuck-2965",
+        "role":  "secondary"
+    },
+    {
+        "include":  true,
+        "name":  "Korbboden Set gemischt, klein für Peddigrohr 2mm und 3mm",
+        "handle":  "korbboden-set-gemischt-klein-2mm-und-3mm",
+        "price_eur":  8.99,
+        "image_url":  "https://cdn.shopify.com/s/files/1/0422/5397/5709/products/korbboden-set-gemischt-klein-fur-peddigrohr-2mm-und-3mm-bastelschachtel-89274.jpg?v=1767887297",
+        "score":  null,
+        "product_url":  "https://www.bastelschachtel.at/products/korbboden-set-gemischt-klein-2mm-und-3mm",
+        "role":  "secondary"
+    }
+]

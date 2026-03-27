@@ -61,6 +61,23 @@ Accepted as either:
 - explicit selected product list for the run
 - approved product list for the keyword
 
+## Preferred Bundle Layout
+
+Preferred working location:
+
+- `output/content-jobs/<job-slug>/`
+
+Preferred file set:
+
+- `job.json`
+- `research-dossier.json`
+- `brief.md`
+- `article.html`
+- `selected-products.json`
+- `qa-report.md`
+- `revision-plan.md`
+- `notes.md`
+
 ## Normalized Working Object
 
 Internally, the pipeline should normalize the job to this shape:
@@ -125,3 +142,19 @@ V1 does not require:
 ## Operating Assumption
 
 Until persistence improves, the user may still provide the brief and final article manually even if the dossier and product data are fetched from Retool-backed systems.
+
+The preferred manual handoff format is a content-job folder under `output/content-jobs/`.
+
+## Inference Requirement
+
+The evaluator should not rely only on the brief when deciding what the article must contain.
+
+It should also infer required content structure from:
+
+- the Bastelschachtel SEO audit
+- the dominant search-intent mix in the dossier
+- the relevant SEO skill guidance for this type of page
+
+This matters when a topic is mixed-intent and the brief is narrower than the real search opportunity.
+
+For example, a listicle may still require definition, maintenance, FAQ, or comparison blocks if those are strongly implied by the audit and the search landscape.
