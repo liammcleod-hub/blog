@@ -139,3 +139,9 @@ For v1 workflow details:
 For read-only integration planning:
 
 - `references/retool-readonly-plan.md`
+
+For operational execution:
+
+- `references/run-modes.md`
+- `references/qa-report-template.md`
+- `references/revision-plan-template.md`

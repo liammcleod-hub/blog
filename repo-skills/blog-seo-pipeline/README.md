@@ -11,6 +11,9 @@ Use this folder as the portable source copy when moving the repo across devices 
 - `SKILL.md`
 - `references/v1-ingest-and-qa.md`
 - `references/retool-readonly-plan.md`
+- `references/run-modes.md`
+- `references/qa-report-template.md`
+- `references/revision-plan-template.md`
 
 ## Important
 

@@ -9,3 +9,6 @@ These docs sit on top of the Retool references and define how Codex should inges
 - `v1-ingest-contract.md`: first narrow handoff contract for QA and refinement
 - `retool-readonly-access-plan.md`: read-only access plan for Retool-backed data
 - `retool-readonly-api-spec.md`: proposed thin API surface for Retool-backed reads
+- `run-modes.md`: first operational modes for using the skill
+- `qa-report-template.md`: expected QA output structure
+- `revision-plan-template.md`: expected revision planning structure
