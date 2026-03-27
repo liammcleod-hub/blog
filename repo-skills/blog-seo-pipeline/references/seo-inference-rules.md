@@ -54,6 +54,27 @@ Depending on the topic, the inferred structure may require some of:
 - internal-link support block
 - source-backed table
 
+## Tutorial-Intent Rule
+
+If the query or dossier is strongly tutorial-weighted, the article must contain actual procedural instruction.
+
+That means it should include some combination of:
+
+- first-step setup
+- preparation sequence
+- early technique guidance
+- common mistakes
+- a true step-by-step block
+
+Do not approve a tutorial-intent page if it is only:
+
+- a buying guide
+- a product roundup
+- a material list without process guidance
+- a soft catalog page with light educational framing
+
+For tutorial-heavy pages, product recommendations can support the article, but they cannot replace instruction.
+
 ## Example: Peddigrohr
 
 For `peddigrohr`, the dossier and search landscape show a mix of:
@@ -71,6 +92,13 @@ So even if the brief is a listicle, the page may still need:
 - a `peddigrohr vs holzschliff` comparison block
 - FAQ
 
+For a beginner-guide version of `peddigrohr`, the page should also include:
+
+- a real first-technique block
+- beginner mistakes
+- a lighter sales density than a listicle or buying guide variant
+- one explicit sentence on the first weave motion when the article teaches an initial project
+
 ## Failure Mode to Avoid
 
 Do not approve an article just because it:
@@ -80,3 +108,5 @@ Do not approve an article just because it:
 - includes product links
 
 If it does not satisfy the real search intent and the audit-driven content gap, it is not good enough.
+
+Also do not approve it if it satisfies the SEO structure but still sounds unlike Bastelschachtel or unlike the craft niche it is writing for.

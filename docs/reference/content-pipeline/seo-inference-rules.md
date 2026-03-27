@@ -34,6 +34,20 @@ Infer:
 - whether the page is likely too thin for the opportunity
 - whether the structure is extractable enough for AI search
 
+## Tutorial-Intent Rule
+
+If the topic is strongly tutorial-driven, the article must contain genuine procedural value.
+
+That means it should include:
+
+- setup steps
+- preparation guidance
+- early technique instruction
+- common beginner mistakes
+- at least one real how-to or step-by-step block
+
+Product recommendations may support the page, but they must not replace the instructional core.
+
 ## Example
 
 For `peddigrohr`, a listicle alone is not enough if the search landscape is also rich in:

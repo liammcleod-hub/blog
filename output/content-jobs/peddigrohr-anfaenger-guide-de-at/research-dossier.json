@@ -1,0 +1,191 @@
+{
+  "locale": "de-AT",
+  "topic": "peddigrohr",
+  "research_type": "general_dossier",
+  "competitor_url": null,
+  "max_sources": 30,
+  "summary": "Peddigrohr (Rattan) is a natural material from rattan palms used primarily for crafting, basket weaving, and bread proofing baskets. Search results reveal three dominant content categories: DIY weaving/crafting tutorials, maintenance and cleaning guides, and product comparisons. The topic attracts both hobbyist crafters and professional bakers seeking practical how-to content and material care instructions.",
+  "citations": [
+    {
+      "url": "https://www.morex.de/blog/webenanleitungen-von-peddigrohr/",
+      "title": "Webenanleitungen von Peddigrohr",
+      "publisher": "MOREX",
+      "published_date": null,
+      "quote": "Webenanleitungen von Peddigrohr · Anleitungen - Flechten aus Peddig · Engel aus Peddig · Weihnachtssterne aud Peddig · Glocke aus Peddig · Serviettenhalter"
+    },
+    {
+      "url": "https://www.roggenwolf.de/blogs/blog/garkorbchen-reinigen",
+      "title": "Gaerkorbchen reinigen - Peddigrohr, Holzschliff & Bezuege",
+      "publisher": "Roggenwolf",
+      "published_date": null,
+      "quote": "Mit der richtigen Pflege, ist ein Peddigrohr Gaerkorb ein langlebiger Backbegleiter. Anschliessend bei ca. 120° C fuer 20 Minuten im Ofen trocknen lassen"
+    },
+    {
+      "url": "https://www.vbs-hobby.com/basteltechniken/peddigrohr-flechten/",
+      "title": "Peddigrohr flechten: Guenstige Preise fuer die beliebte Technik bei VBS",
+      "publisher": "VBS Hobby",
+      "published_date": null,
+      "quote": "Indem du das Rattan in lauwarmes Wasser einweichst, kannst du das Material ganz einfach verarbeiten und so das Peddigrohr flechten, ohne dass es zerbricht"
+    },
+    {
+      "url": "https://brotliebling.com/pages/gaerkoerbchen",
+      "title": "Gaerkorbchen aus Holzschliff oder Peddigrohr",
+      "publisher": "Brotliebling",
+      "published_date": null,
+      "quote": "Peddigrohr, auch als Rattan bekannt, ist ein natuerliches Material, das aus der Rattanpalme gewonnen wird. Atmungsaktivitaet: Peddigrohr ist sehr atmungsaktiv, was dazu beitraegt, dass der Teig gut 'atmen' kann"
+    },
+    {
+      "url": "https://www.vbs-hobby.com/anleitung-peddigrohr-pflanzenkorb-t1423/",
+      "title": "Anleitung: Peddigrohr-Pflanzenkorb",
+      "publisher": "VBS Hobby",
+      "published_date": null,
+      "quote": "Nach dem Trocknen das Peddigrohr ca. 45 Minunten in Wasser einweichen, bis es ausreichend flexibel ist"
+    }
+  ],
+  "competitor_blueprints": [
+    {
+      "url": "https://www.morex.de/blog/webenanleitungen-von-peddigrohr/",
+      "title": "Webenanleitungen von Peddigrohr",
+      "framework": "Listicle",
+      "hook": "Multiple project ideas using Peddigrohr (angels, Christmas stars, bells, napkin holders)",
+      "gap": "Lacks detailed step-by-step instructions; serves as project inspiration index rather than comprehensive guide",
+      "evidence": {
+        "quote": "Anleitungen - Flechten aus Peddig · Engel aus Peddig · Weihnachtssterne aud Peddig · Glocke aus Peddig · Serviettenhalter",
+        "source_url": "https://www.morex.de/blog/webenanleitungen-von-peddigrohr/"
+      }
+    },
+    {
+      "url": "https://www.roggenwolf.de/blogs/blog/garkorbchen-reinigen",
+      "title": "Gaerkorbchen reinigen - Peddigrohr, Holzschliff & Bezuege",
+      "framework": "How-To",
+      "hook": "Practical maintenance guide for bread proofing baskets with specific temperature and technique instructions",
+      "gap": "Focuses narrowly on cleaning; does not address initial setup, material selection, or troubleshooting",
+      "evidence": {
+        "quote": "Mit der richtigen Pflege, ist ein Peddigrohr Gaerkorb ein langlebiger Backbegleiter. Anschliessend bei ca. 120° C fuer 20 Minuten im Ofen trocknen lassen",
+        "source_url": "https://www.roggenwolf.de/blogs/blog/garkorbchen-reinigen"
+      }
+    },
+    {
+      "url": "https://brotliebling.com/pages/gaerkoerbchen",
+      "title": "Gaerkorbchen aus Holzschliff oder Peddigrohr",
+      "framework": "Comparison",
+      "hook": "Direct material comparison between Peddigrohr and Holzschliff for bread baking applications",
+      "gap": "Comparison is limited to two materials; lacks broader context on other proofing basket options or cost analysis",
+      "evidence": {
+        "quote": "Materialbeschaffenheit: Peddigrohr ist ein Naturprodukt, das aus Pflanzenfasern besteht, waehrend Holzschliff aus fein gemahlenem Holz gefertigt wird. Feuchtigkeitsregulierung: Beide Materialien koennen Feuchtigkeit aufnehmen, aber Peddigrohr neigt dazu, Feuchtigkeit schneller abzugeben",
+        "source_url": "https://brotliebling.com/pages/gaerkoerbchen"
+      }
+    },
+    {
+      "url": "https://www.vbs-hobby.com/anleitung-peddigrohr-pflanzenkorb-t1423/",
+      "title": "Anleitung: Peddigrohr-Pflanzenkorb",
+      "framework": "How-To",
+      "hook": "Step-by-step plant basket weaving tutorial with specific material dimensions and preparation times",
+      "gap": "Assumes basic weaving knowledge; lacks beginner-friendly overview or troubleshooting section",
+      "evidence": {
+        "quote": "Nach dem Trocknen das Peddigrohr ca. 45 Minunten in Wasser einweichen, bis es ausreichend flexibel ist. Nun die 3 mm-Staken mit einem Seitenschneider auf die",
+        "source_url": "https://www.vbs-hobby.com/anleitung-peddigrohr-pflanzenkorb-t1423/"
+      }
+    },
+    {
+      "url": "https://www.vbs-hobby.com/basteltechniken/peddigrohr-flechten/",
+      "title": "Peddigrohr flechten: Guenstige Preise fuer die beliebte Technik bei VBS",
+      "framework": "How-To",
+      "hook": "Material preparation technique (water soaking) as entry point for beginners",
+      "gap": "Very brief; lacks comprehensive project examples or advanced techniques",
+      "evidence": {
+        "quote": "Indem du das Rattan in lauwarmes Wasser einweichst, kannst du das Material ganz einfach verarbeiten und so das Peddigrohr flechten, ohne dass es zerbricht",
+        "source_url": "https://www.vbs-hobby.com/basteltechniken/peddigrohr-flechten/"
+      }
+    }
+  ],
+  "competitor_findings": [
+    {
+      "url": "https://www.morex.de/blog/webenanleitungen-von-peddigrohr/",
+      "notes": "Project inspiration hub; links to multiple craft tutorials. Likely serves as content hub/directory rather than standalone guide.",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 150,
+      "target_keyword_guess": "Peddigrohr Anleitungen, Peddigrohr Flechten Projekte"
+    },
+    {
+      "url": "https://www.roggenwolf.de/blogs/blog/garkorbchen-reinigen",
+      "notes": "Maintenance-focused guide with specific technical instructions (temperature, duration). Includes brand-specific disclaimer suggesting custom content for their product line.",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 400,
+      "target_keyword_guess": "Gaerkorbchen reinigen, Peddigrohr Pflege, Gaerkorb Reinigung"
+    },
+    {
+      "url": "https://brotliebling.com/pages/gaerkoerbchen",
+      "notes": "Educational comparison page targeting bakers. Structured with clear material property breakdowns. Likely part of broader bread-baking knowledge base.",
+      "structure": {
+        "has_faq": false,
+        "has_tables": true,
+        "has_video": false
+      },
+      "word_count_estimate": 600,
+      "target_keyword_guess": "Gaerkorbchen Peddigrohr vs Holzschliff, Gaerkorb Material Vergleich"
+    },
+    {
+      "url": "https://www.vbs-hobby.com/anleitung-peddigrohr-pflanzenkorb-t1423/",
+      "notes": "Detailed craft tutorial with specific measurements and time estimates. Numbered instruction format suggests part of larger tutorial series.",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 350,
+      "target_keyword_guess": "Peddigrohr Pflanzenkorb Anleitung, Korb flechten Anleitung"
+    },
+    {
+      "url": "https://www.vbs-hobby.com/basteltechniken/peddigrohr-flechten/",
+      "notes": "Brief technique overview; appears to be landing page for product category with minimal instructional depth.",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 200,
+      "target_keyword_guess": "Peddigrohr flechten, Rattan flechten Anleitung"
+    }
+  ],
+  "search_intents": [
+    {
+      "intent": "How to weave/craft with Peddigrohr",
+      "type": "informational",
+      "why": "Multiple how-to guides and tutorials dominate results; users seek step-by-step instructions and project ideas",
+      "evidence_url": "https://www.vbs-hobby.com/anleitung-peddigrohr-pflanzenkorb-t1423/"
+    },
+    {
+      "intent": "How to clean and maintain Peddigrohr baskets",
+      "type": "informational",
+      "why": "Dedicated maintenance guide with specific care instructions indicates users need practical upkeep knowledge",
+      "evidence_url": "https://www.roggenwolf.de/blogs/blog/garkorbchen-reinigen"
+    },
+    {
+      "intent": "Peddigrohr vs. alternative materials for bread proofing",
+      "type": "commercial",
+      "why": "Comparison content between Peddigrohr and Holzschliff suggests users evaluating purchase decisions for baking equipment",
+      "evidence_url": "https://brotliebling.com/pages/gaerkoerbchen"
+    },
+    {
+      "intent": "Peddigrohr project ideas and inspiration",
+      "type": "informational",
+      "why": "Listicle format with multiple project examples (angels, stars, bells) indicates users seeking creative inspiration",
+      "evidence_url": "https://www.morex.de/blog/webenanleitungen-von-peddigrohr/"
+    },
+    {
+      "intent": "Material preparation techniques for Peddigrohr",
+      "type": "informational",
+      "why": "Multiple sources emphasize water-soaking process; users need to understand material conditioning before crafting",
+      "evidence_url": "https://www.vbs-hobby.com/basteltechniken/peddigrohr-flechten/"
+    }
+  ]
+}

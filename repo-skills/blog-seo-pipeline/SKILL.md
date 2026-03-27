@@ -34,6 +34,10 @@ Also read these when useful:
 - `docs/reference/Bastelschachtel Email Brand Voice Guide.txt`
 - `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.txt`
 - `docs/seo/bastelschachtel_seo_audit.docx`
+- `brand_assets/brand_guidelines.md`
+- `brand_assets/tone_doc.md`
+- `brand_assets/voice_guidelines.md`
+- `brand_assets/forbidden_phrases.md`
 - `repo-skills/marketing-library/skills/seo-audit/SKILL.md`
 - `repo-skills/marketing-library/skills/programmatic-seo/SKILL.md`
 - `repo-skills/marketing-library/skills/ai-seo/SKILL.md`
@@ -128,6 +132,34 @@ Examples:
 
 Use this inference layer to judge whether the article actually matches the real search opportunity, not just whether it mechanically follows the brief.
 
+## Brand Voice Layer
+
+For Bastelschachtel content, do not stop at SEO correctness.
+
+Also validate the article against the brand assets:
+
+- `brand_assets/brand_guidelines.md`
+- `brand_assets/tone_doc.md`
+- `brand_assets/voice_guidelines.md`
+- `brand_assets/forbidden_phrases.md`
+
+The article should feel:
+
+- warm
+- personal
+- helpful
+- unhurried
+- product-present but not product-dominated
+
+Reject wording that exposes the pipeline or sounds machine-written, for example:
+
+- `in deinem Setup`
+- `in deinem aktuellen Produktkontext`
+- tool-facing or system-facing phrasing
+- overly optimized or catalog-like transitions
+
+When SEO and brand voice are in tension, keep the search-intent coverage but rewrite the language so it still sounds like Bastelschachtel.
+
 ## QA Checklist
 
 At minimum, check:
@@ -176,3 +208,5 @@ For operational execution:
 - `references/qa-report-template.md`
 - `references/revision-plan-template.md`
 - `references/seo-inference-rules.md`
+- `references/brand-voice-rules.md`
+- `references/craft-language-rules.md`

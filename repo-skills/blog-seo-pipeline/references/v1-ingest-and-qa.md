@@ -62,6 +62,8 @@ The skill should normalize incoming work into this conceptual shape:
 - identify format and SEO mismatches
 - propose or apply revisions
 
+For tutorial-heavy topics, explicitly verify that the article teaches the reader how to start, not just what to buy.
+
 ## Recommended Workflow
 
 1. Create a new folder under `output/content-jobs/` using the `_template/` structure.
