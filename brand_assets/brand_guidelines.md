@@ -11,13 +11,13 @@
 - **Instagram:** @bastelschachtel_wattens
 - **Tagline:** "Hand-gepackt. Erreichbar. Immer."
 - **Founded:** 2023 (acquired from Zita's Creative)
-- **Team:** 5 people. Owner + marketing/ecom + 3 fulfillment. Everyone packs orders.
+- **Team:** 4 people. Owner + marketing/ecom + 3 fulfillment. Everyone packs orders.
 
 ---
 
 ## What Bastelschachtel Is
 
-A craft supply business that sells creativity, permission, and the experience of making — not just products. The hero offering is build-your-own DIY bundles ("Schachteln") across 3,000+ individual SKUs. Every order is hand-packed in Wattens.
+A specialist craft supply business that sells creativity, permission, and the experience of making — not just products. Today the business is best understood as a Kreativshop for Pentart, Reispapier/Decoupage, Korbflechten, Silikonformen fuer Gips & Beton, and related materials across 5,000+ SKUs. The "Schachteln" bundle concept is a brand-aligned opportunity, but not yet the perfected hero offer. Every order is hand-packed in Wattens.
 
 The brand exists at the intersection of:
 - **Creative possibility** — What she can make
@@ -90,7 +90,7 @@ Five bundle categories (permanent):
 4. **Für zu Hause** — Home decoration
 5. **Mit Kindern** — Family crafting
 
-Top product families: Glasätzungspaste, Korbflechten, Metallic/Wachspasten, Krepppapier, Rocailles, Peddigrohr.
+Top product families: Glasätzungspaste, Pentart, Reispapier/Decoupage, Korbflechten, Silikonformen fuer Gips & Beton, Metallic/Wachspasten, Krepppapier, Rocailles, Peddigrohr.
 
 ---
 
