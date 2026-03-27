@@ -8,6 +8,18 @@ For beginner-facing craft content, use domain-correct words, but explain them at
 
 Do not overload the reader with niche terminology too early.
 
+## German Orthography Rule
+
+For German content, always use real umlauts and ß where appropriate.
+
+Do not normalize:
+
+- `ae` instead of `ä`
+- `oe` instead of `ö`
+- `ue` instead of `ü`
+
+unless the string is a fixed technical limitation such as a URL, handle, slug, file name, or source text that must stay unchanged.
+
 ## For Peddigrohr / Korbflechten
 
 Prefer a progression like:
@@ -18,7 +30,7 @@ Prefer a progression like:
 
 Example:
 
-- `die senkrechten Staebe`
+- `die senkrechten Stäbe`
 - `oft auch Staken genannt`
 - later: `die Staken`
 
@@ -41,7 +53,7 @@ Use:
 
 Example:
 
-- `Die senkrechten Staebe bilden das Geruest des Korbs. Im Korbflechten nennt man sie oft Staken. Wenn sie am Anfang ungleich sitzen, wird spaeter auch die Form unruhig.`
+- `Die senkrechten Stäbe bilden das Gerüst des Korbs. Im Korbflechten nennt man sie oft Staken. Wenn sie am Anfang ungleich sitzen, wird später auch die Form unruhig.`
 
 ## Avoid
 
@@ -55,12 +67,12 @@ Prefer concrete verbs:
 
 - einweichen
 - anschneiden
-- einfuehren
-- fuehren
+- einführen
+- führen
 - flechten
 - nachfeuchten
 - ausrichten
-- abschliessen
+- abschließen
 
 Over weak verbs like:
 
@@ -78,12 +90,12 @@ If the article teaches a first project or first technique, it should name the ba
 Do not stop at:
 
 - `lege die erste Runde`
-- `fuehre das Material`
+- `führe das Material`
 - `beginne mit dem Flechten`
 
 Prefer one concrete sentence such as:
 
-- `Fuehre das Flechtrohr abwechselnd vor und hinter den Staken entlang.`
+- `Führe das Flechtrohr abwechselnd vor und hinter den Staken entlang.`
 - `Lege das Rohr in einer ruhigen Vor-und-hinter-Bewegung um die Staken.`
 
 The reader should be able to imagine the first hand movement without needing a video immediately.
