@@ -64,6 +64,12 @@ The skill should normalize incoming work into this conceptual shape:
 
 For tutorial-heavy topics, explicitly verify that the article teaches the reader how to start, not just what to buy.
 
+For article HTML, also verify layout rhythm at the markup level:
+
+- the first major heading after a special block like `.ai-summary` should not rely on naked theme defaults
+- special sections should use explicit classes instead of bare `<section>` tags when spacing consistency matters
+- major sections should keep consistent vertical rhythm relative to both the previous paragraph and the next heading
+
 ## Recommended Workflow
 
 1. Create a new folder under `output/content-jobs/` using the `_template/` structure.

@@ -43,6 +43,21 @@ Example:
 - `Boden`
 - `Spannung`
 
+## Material-Range Rule
+
+If a guide recommends one material size or strength as the default, it should usually mention the next relevant alternative as well.
+
+For example:
+
+- if `2mm` is the beginner default, briefly explain where `3mm` becomes useful
+- if one material is recommended for small projects, state when a sturdier option makes more sense
+
+The reader should leave with:
+
+- a default recommendation
+- one nearby alternative
+- a simple explanation of when to choose which
+
 ## Good Beginner Pattern
 
 Use:
