@@ -1,0 +1,18 @@
+{
+  "locale": "de-AT",
+  "topic": "peddigrohr",
+  "research_type": "general_dossier",
+  "summary": "Peddigrohr is used for basket weaving and beginner crafting. Search intent is strongly tutorial-first.",
+  "search_intents": [
+    {
+      "intent": "How to weave with Peddigrohr",
+      "type": "informational"
+    }
+  ],
+  "citations": [
+    {
+      "url": "https://example.com/peddigrohr",
+      "title": "Peddigrohr Guide"
+    }
+  ]
+}

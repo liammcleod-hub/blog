@@ -1,0 +1,48 @@
+{
+  "name": "blog-seo-pipeline",
+  "version": "0.1.0",
+  "description": "Retool-aware single-job content QA and revision plugin for Bastelschachtel.",
+  "author": {
+    "name": "Bastelschachtel",
+    "email": "hello@bastelschachtel.at",
+    "url": "https://www.bastelschachtel.at"
+  },
+  "homepage": "https://www.bastelschachtel.at",
+  "repository": "https://www.bastelschachtel.at",
+  "license": "UNLICENSED",
+  "keywords": [
+    "seo",
+    "content"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Blog SEO Pipeline",
+    "shortDescription": "Discover, QA, and revise Bastelschachtel content jobs.",
+    "longDescription": "Retool-aware single-job content workflow for discovering job artifacts, selecting the correct mode, generating structured QA outputs, and producing validated article revisions.",
+    "developerName": "Bastelschachtel",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.bastelschachtel.at",
+    "privacyPolicyURL": "https://www.bastelschachtel.at/policies/privacy-policy",
+    "termsOfServiceURL": "https://www.bastelschachtel.at/policies/terms-of-service",
+    "defaultPrompt": [
+      "Blog me this latest keyword from retool.",
+      "Blog me this output/content-jobs/job-slug.",
+      "Review and revise this Bastelschachtel article."
+    ],
+    "brandColor": "#8B5E3C",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot1.png",
+      "./assets/screenshot2.png",
+      "./assets/screenshot3.png"
+    ]
+  }
+}

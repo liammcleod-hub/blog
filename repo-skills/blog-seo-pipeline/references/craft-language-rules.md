@@ -20,6 +20,13 @@ Do not normalize:
 
 unless the string is a fixed technical limitation such as a URL, handle, slug, file name, or source text that must stay unchanged.
 
+Mojibake is a hard failure, not a style issue. Reject output containing strings like:
+
+- `fÃ¼r`
+- `StÃ¤rke`
+- `groÃŸ`
+- `AnfÃ¤nger`
+
 ## For Peddigrohr / Korbflechten
 
 Prefer a progression like:
@@ -51,6 +58,7 @@ For example:
 
 - if `2mm` is the beginner default, briefly explain where `3mm` becomes useful
 - if one material is recommended for small projects, state when a sturdier option makes more sense
+- if a concrete `2mm` or `3mm` product or set is linked, make sure the wording matches what the destination actually is
 
 The reader should leave with:
 
@@ -114,3 +122,35 @@ Prefer one concrete sentence such as:
 - `Lege das Rohr in einer ruhigen Vor-und-hinter-Bewegung um die Staken.`
 
 The reader should be able to imagine the first hand movement without needing a video immediately.
+
+## Inline Linking Rule
+
+When the article mentions product-relevant beginner phrases, link them naturally where they become useful.
+
+Examples:
+
+- `2mm Peddigrohr`
+- `Korbboden`
+- `Mini Korb`
+- `Bleistifthalter`
+- `Korb mit Deckel`
+
+Do not rely only on a link dump at the end of the article.
+
+## Section-Pruning Rule
+
+If a section does not clearly help the beginner start, choose, or succeed, cut it or rewrite it.
+
+Examples of weak sections:
+
+- comparison blocks that feel like leftover research
+- side-topic material comparisons that do not improve the first project decision
+
+## Product Image Rule
+
+If multiple product images appear in one article:
+
+- normalize their presentation intentionally
+- avoid cropping important product content
+- avoid adding visible background framing unless explicitly wanted
+- if the goal is square presentation without cropping, prefer `object-fit: contain` over `cover`

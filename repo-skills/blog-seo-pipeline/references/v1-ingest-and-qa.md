@@ -69,6 +69,11 @@ For article HTML, also verify layout rhythm at the markup level:
 - the first major heading after a special block like `.ai-summary` should not rely on naked theme defaults
 - special sections should use explicit classes instead of bare `<section>` tags when spacing consistency matters
 - major sections should keep consistent vertical rhythm relative to both the previous paragraph and the next heading
+- no malformed HTML causes a link to swallow following paragraphs or sections
+- German output is free of mojibake and UTF-8 corruption
+- anchor text truthfully matches the linked product or set
+- visible source sections are optional in publishable output; internal provenance can stay in repo artifacts instead
+- if multiple product showcase images appear, verify that they render consistently and do not crop important product content
 
 ## Recommended Workflow
 
@@ -76,6 +81,18 @@ For article HTML, also verify layout rhythm at the markup level:
 2. Drop the Retool dossier, brief, article, and selected products into that folder.
 3. Run `qa-article` or `revise-article` against the bundle.
 4. Save outputs back into `qa-report.md` and `revision-plan.md`.
+
+## Link Placement Check
+
+For commerce-tutorial guides, do not stop at verifying whether links work.
+
+Also verify whether links are placed where the reader naturally needs them:
+
+- link key material phrases inline when matching approved products exist
+- link first meaningful mentions of sizes or variants like `2mm` and `3mm` when those are product-relevant
+- prefer 2-4 useful inline links over an end-of-article link dump
+
+If repeated key phrases remain unlinked while a matching selected product exists, flag that as a revision opportunity.
 
 ## What V1 Should Not Depend On
 

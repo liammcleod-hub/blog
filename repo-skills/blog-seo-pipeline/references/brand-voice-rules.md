@@ -35,6 +35,8 @@ Flag or rewrite:
 - overly transactional product pushes
 - corporate or formal register
 - urgency language not grounded in fact
+- research-exhaust sections that feel like leftover source comparison instead of customer guidance
+- visible technical labels such as `Quellen` when they make the article feel academic or machine-assembled without helping the reader
 
 ## Practical Rule
 
@@ -66,3 +68,20 @@ Instead of:
 Prefer:
 
 - `Fuer den Einstieg ist 2mm oft die entspanntere Wahl...`
+
+## Bastelschachtel Test
+
+If the article is working, it should feel like a knowledgeable person from Bastelschachtel is helping a beginner start calmly.
+
+The reader should not feel:
+
+- processed
+- summarized at
+- moved through a research artifact
+
+Prefer:
+
+- calm reassurance
+- practical next steps
+- small-shop helpfulness
+- concrete project guidance over abstract authority language
