@@ -1,4 +1,5 @@
 # Retool Pipeline Architecture
+#retool #content-pipeline
 
 This document captures the current Bastelschachtel Retool content workflow at a systems level.
 
@@ -40,7 +41,7 @@ Primary output:
 
 Reference:
 
-- `research-lab-json-contract.md`
+- [[docs/reference/retool/research-lab-json-contract]]
 
 ### 2. Content Factory
 
@@ -59,7 +60,13 @@ Primary outputs:
 
 Reference:
 
-- `content-factory-contract.md`
+- [[docs/reference/retool/content-factory-contract]]
+
+## Related Docs
+
+- [[docs/reference/retool/README]]
+- [[docs/reference/retool/process]]
+- [[docs/reference/retool/integration-contract]]
 
 ## Model Strategy
 

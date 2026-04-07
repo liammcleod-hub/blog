@@ -1,4 +1,4 @@
-# Run Modes
+﻿# Run Modes
 
 These are the first operational run modes for `blog-seo-pipeline`.
 
@@ -10,7 +10,7 @@ The modes are not primarily distinguished by inputs.
 
 - research dossier
 - brief
-- article HTML
+- article markdown
 - selected products when available
 
 The real distinction is:
@@ -75,13 +75,13 @@ Default output:
 
 If the user does not specify a mode:
 
-- use `qa-article` when article HTML is present
+- use `qa-article` when article markdown is present
 - use `audit-brief` when only a brief is present
 - use `revise-article` only when the user clearly wants changes applied
 
-Do not infer `revise-article` from the presence of article HTML alone.
+Do not infer `revise-article` from the presence of article markdown alone.
 
-The deciding question is not "Do I have article HTML?"
+The deciding question is not "Do I have article markdown?"
 
 It is:
 
@@ -111,3 +111,4 @@ Before doing substantial work:
 3. state the mode in the working context
 
 If the mode is `qa-article`, do not drift into full article revision just because you see things you would improve.
+

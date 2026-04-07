@@ -39,7 +39,7 @@ Planned file map:
 - Create: `plugins/blog-seo-pipeline/scripts/render_outputs.py`
   Responsibility: render `qa-report.md` and `revision-plan.md` from templates.
 - Create: `plugins/blog-seo-pipeline/scripts/revision_writer.py`
-  Responsibility: write revised article HTML when the mode requires it.
+  Responsibility: write revised article markdown when the mode requires it.
 - Create: `plugins/blog-seo-pipeline/scripts/external_sources.py`
   Responsibility: define the read-only external fetch adapter boundary for Retool-backed artifact lookup.
 - Create: `plugins/blog-seo-pipeline/scripts/template_learning.py`
@@ -258,7 +258,7 @@ Include:
 - `brief.md`
 - `research-dossier.json`
 - `selected-products.json`
-- `article.html` or `article-revised.html`
+- `article.md` or `article-revised.md`
 
 - [ ] **Step 2: Write failing tests for the external source adapter boundary**
 
@@ -820,3 +820,4 @@ Expected:
 - Prefer deterministic logic over clever prompt behavior.
 
 Plan complete and saved to `docs/superpowers/plans/2026-03-27-blog-seo-pipeline-plugin-v1-implementation-plan.md`. Ready to execute?
+

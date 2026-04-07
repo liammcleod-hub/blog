@@ -177,3 +177,5 @@ Rate each factor 1-5:
 - **seo-audit**: For SEO-optimizing the tool
 - **analytics-tracking**: For measuring tool usage
 - **email-sequence**: For nurturing leads from the tool
+
+#skills

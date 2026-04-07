@@ -49,7 +49,7 @@ def test_run_revise_mode_writes_revised_article(tmp_path: Path):
     job_dir = tmp_path / FIXTURE_DIR.name
     job_dir.mkdir()
     for source in FIXTURE_DIR.iterdir():
-        if source.name == "article.html":
+        if source.name == "article.md":
             content = source.read_text(encoding="utf-8").replace("<h2>FAQ</h2>\n<p>Wie lange einweichen? Bis das Material biegsam ist.</p>", "")
             job_dir.joinpath(source.name).write_text(content, encoding="utf-8")
         else:
@@ -58,5 +58,5 @@ def test_run_revise_mode_writes_revised_article(tmp_path: Path):
     result = run(f"revise article {job_dir}")
 
     assert result["mode"] == "revise-article"
-    assert result["revised_path"].endswith("article-revised.plugin.html")
-    assert (job_dir / "article-revised.plugin.html").exists()
+    assert result["revised_path"].endswith("article-revised.plugin.md")
+    assert (job_dir / "article-revised.plugin.md").exists()

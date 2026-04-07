@@ -21,9 +21,9 @@ def discover_from_bundle(job_dir: Path) -> JobState:
     brief_path = job_dir / "brief.md"
     dossier_path = job_dir / "research-dossier.json"
     products_path = job_dir / "selected-products.json"
-    article_path = job_dir / "article-revised.html"
+    article_path = job_dir / "article-revised.md"
     if not article_path.exists():
-        article_path = job_dir / "article.html"
+        article_path = job_dir / "article.md"
 
     state = JobState(job_dir=str(job_dir))
 
@@ -97,7 +97,7 @@ def discover_job(seed_target: dict[str, str], adapter: ExternalSourceAdapter | N
     path = Path(target_value)
     if not path.exists():
         raise FileNotFoundError(f"Target not found: {target_value}")
-    if path.is_file() and path.suffix.lower() == ".html":
+    if path.is_file() and path.name in {"article.md", "article-revised.md"}:
         return discover_from_article(path)
     if path.is_dir():
         return discover_from_bundle(path)

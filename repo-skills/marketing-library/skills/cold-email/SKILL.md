@@ -156,3 +156,5 @@ Use this data to inform your writing — not as a checklist to satisfy.
 - **social-content**: For LinkedIn and social posts
 - **product-marketing-context**: For establishing foundational positioning
 - **revops**: For lead scoring, routing, and pipeline management
+
+#skills

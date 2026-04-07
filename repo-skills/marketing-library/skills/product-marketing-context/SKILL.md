@@ -239,3 +239,5 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 - **Ask for examples**: "Can you give me an example?" unlocks better answers
 - **Validate as you go**: Summarize each section and confirm before moving on
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
+
+#skills

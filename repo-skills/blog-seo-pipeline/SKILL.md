@@ -1,6 +1,6 @@
----
+﻿---
 name: blog-seo-pipeline
-description: Use when working on the Bastelschachtel blog pipeline, especially to ingest Retool research dossiers, briefs, and article HTML; validate SEO and logic quality; check product-link integrity; and refine content into a stronger publishable draft. Also use when the user wants Codex to operate alongside the Bastelschachtel Retool workflow rather than replace it.
+description: Use when working on the Bastelschachtel blog pipeline, especially to ingest Retool research dossiers, briefs, and article markdown; validate SEO and logic quality; check product-link integrity; and refine content into a stronger publishable draft. Also use when the user wants Codex to operate alongside the Bastelschachtel Retool workflow rather than replace it.
 ---
 
 # Blog SEO Pipeline
@@ -13,7 +13,7 @@ It complements Retool. It does not replace the current Retool workflow.
 
 - ingesting Retool research dossiers
 - reviewing Retool-generated briefs
-- auditing Retool-generated article HTML
+- auditing Retool-generated article markdown
 - validating SEO coverage, logic, and source grounding
 - checking product-link integrity against approved or selected products
 - improving article quality before publishing
@@ -34,8 +34,8 @@ Do not start QA or revision work until `references/run-modes.md` has been read a
 
 Also read these when useful:
 
-- `docs/reference/Bastelschachtel Email Brand Voice Guide.txt`
-- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.txt`
+- `docs/reference/Bastelschachtel Email Brand Voice Guide.md`
+- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.md`
 - `docs/seo/bastelschachtel_seo_audit.docx`
 - `brand_assets/brand_guidelines.md`
 - `brand_assets/tone_doc.md`
@@ -73,7 +73,7 @@ Inputs:
 
 - research dossier JSON
 - brief text or brief JSON
-- article HTML
+- article markdown
 - selected products, if available
 
 ### Mode 2: Hybrid with Retool-backed dossier
@@ -82,7 +82,7 @@ Inputs:
 
 - dossier identifier or dossier payload
 - brief text or brief JSON
-- article HTML
+- article markdown
 - selected products or approved product list
 
 In this mode, use the integration contract to determine what can be fetched and what still needs to be supplied manually.
@@ -93,11 +93,11 @@ Before doing any substantive work, select the active run mode from `references/r
 
 Default rule:
 
-- if article HTML is present and the user did not ask for edits, use `qa-article`
+- if article markdown is present and the user did not ask for edits, use `qa-article`
 - if only a brief is present, use `audit-brief`
 - use `revise-article` only when the user explicitly asks for changes to be applied
 
-Do not infer `revise-article` from the presence of article HTML alone.
+Do not infer `revise-article` from the presence of article markdown alone.
 
 State the chosen mode in the working context before proceeding.
 
@@ -108,7 +108,7 @@ State the chosen mode in the working context before proceeding.
 3. Identify which stage artifact(s) were provided:
    - dossier
    - brief
-   - article HTML
+   - article markdown
    - selected products
 4. Normalize the job context:
    - topic
@@ -194,7 +194,7 @@ At minimum, check:
 - primary and secondary keyword coverage is coherent
 - title, intro, and sections align with the brief
 - HTML markup is structurally sound, including balanced anchor boundaries and no runaway links
-- German output is free of mojibake such as `fÃ¼r`, `StÃ¤rke`, `groÃŸ`, or `AnfÃ¤nger`
+- German output is free of mojibake such as `fÃƒÂ¼r`, `StÃƒÂ¤rke`, `groÃƒÅ¸`, or `AnfÃƒÂ¤nger`
 - final publishable article output does not default to a visible `Quellen` section unless the user explicitly wants public-facing sources
 - when multiple product images appear, their presentation is intentionally normalized and does not crop essential product content
 - the article adds information gain beyond obvious competitor summaries
@@ -215,7 +215,7 @@ Prioritize issues in this order:
 ## Retool Compatibility Rules
 
 - Do not assume brief persistence exists unless confirmed for the current run.
-- Do not assume article HTML persistence exists unless confirmed for the current run.
+- Do not assume article markdown persistence exists unless confirmed for the current run.
 - Treat `research_dossiers` as the most reliable current persisted artifact.
 - Treat approved products and locked products as different concepts.
 - Prefer using the canonical docs under `docs/reference/retool/` rather than restating the process from memory.
@@ -238,3 +238,4 @@ For operational execution:
 - `references/seo-inference-rules.md`
 - `references/brand-voice-rules.md`
 - `references/craft-language-rules.md`
+

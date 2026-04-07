@@ -180,3 +180,5 @@ When recommending experiments, consider tests for:
 - **popup-cro**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete copy rewrite
 - **ab-test-setup**: To properly test recommended changes
+
+#skills

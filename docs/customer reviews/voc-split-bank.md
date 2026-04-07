@@ -1,7 +1,8 @@
 # VOC Split Bank
+#reviews #voc
 
 Source assets:
-- `docs/customer reviews/amazon reviews.txt`
+- `docs/customer reviews/amazon reviews.md`
 - `docs/customer reviews/bastelschachtel-all-published-reviews-in-judgeme-format-....`
 - `.agents/product-marketing-context.md`
 
@@ -349,3 +350,11 @@ Meaning:
 2. Build a shipping / support reassurance block based on the Amazon trust failures.
 3. Split reviews by product family next: Pentart, rice paper, molds, glass etching, weaving.
 4. Clean encoding in the raw files before doing frequency analysis or direct quote publishing.
+
+## Related Docs
+
+- [[docs/customer reviews/README]]
+- [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+- [[docs/customer reviews/voc-product-family-bank|voc-product-family-bank]]
+- `.agents/product-marketing-context.md`
+

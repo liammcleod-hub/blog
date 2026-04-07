@@ -445,3 +445,5 @@ This iterative process ensures each edit doesn't create new problems while respe
 | Reviewing and improving existing copy | copy-editing (this skill) |
 | Editing copy you just wrote | copy-editing (this skill) |
 | Structural or strategic page changes | page-cro |
+
+#skills

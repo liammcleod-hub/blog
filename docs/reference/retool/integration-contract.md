@@ -1,4 +1,5 @@
 # Retool and Codex Integration Contract
+#retool #content-pipeline
 
 This document defines the current bridge between the Bastelschachtel Retool app and the future `blog-seo-pipeline` skill or plugin.
 
@@ -50,7 +51,7 @@ Canonical for:
 - product catalog rows
 - optional intelligence-hub artifacts
 - future persisted briefs
-- future persisted article HTML
+- future persisted article markdown
 - future run snapshots
 
 ## Current Integration Target
@@ -61,7 +62,7 @@ The first useful integration is:
 
 1. retrieve a research dossier
 2. retrieve or receive a generated brief
-3. retrieve or receive generated article HTML
+3. retrieve or receive generated article markdown
 4. retrieve selected products
 5. run Codex QA and refinement
 
@@ -145,7 +146,7 @@ Current location:
 
 Current conclusion:
 
-- article HTML is currently an ephemeral artifact
+- article markdown is currently an ephemeral artifact
 - future integration should either persist it or expose it through a narrow API/workflow layer
 
 ### 4. Selected products
@@ -315,7 +316,7 @@ Known downstream routing targets:
 4. create and edit `lockedRelevantProducts`
 5. generate brief into Retool state
 6. optionally approve products into `product_keyword_approvals`
-7. generate full article HTML into Retool state
+7. generate full article markdown into Retool state
 
 Current limitation:
 
@@ -364,7 +365,7 @@ For Codex to QA one article end-to-end, the minimum useful retrieval set is:
 1. research dossier row from `research_dossiers`
 2. dossier JSON from `result_json`
 3. generated brief
-4. final article HTML
+4. final article markdown
 5. selected products used for the article
 
 Useful optional additions:
@@ -381,7 +382,7 @@ Today, this means:
 - selected keyword approvals can be fetched from DB
 - product catalog can be fetched from DB
 - brief may need to be passed manually unless we add persistence
-- article HTML may need to be passed manually unless we add persistence
+- article markdown may need to be passed manually unless we add persistence
 
 ## Recommended Integration Phases
 
@@ -396,7 +397,7 @@ Codex reads:
 The user provides:
 
 - brief text
-- final article HTML
+- final article markdown
 
 This is enough to build the first QA-oriented version of `blog-seo-pipeline`.
 
@@ -405,7 +406,7 @@ This is enough to build the first QA-oriented version of `blog-seo-pipeline`.
 Add stable storage for:
 
 - generated brief
-- final article HTML
+- final article markdown
 - article run snapshots
 
 At that point Codex can fetch a whole job with much less manual handoff.
@@ -464,3 +465,4 @@ That keeps the first version useful without waiting for full storage normalizati
 ## Status
 
 Initial integration contract created on `2026-03-27` from the current Retool implementation summary, without direct database access.
+

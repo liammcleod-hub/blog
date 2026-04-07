@@ -1,4 +1,5 @@
 # Retool Read-Only Access Plan
+#content-pipeline #blog
 
 This document defines the first safe integration path between Codex and Retool-backed data.
 
@@ -54,7 +55,7 @@ Useful later:
 Even after read-only access is added, these may remain manual until persisted:
 
 - generated brief
-- final article HTML
+- final article markdown
 
 ## Access Options
 
@@ -98,7 +99,7 @@ Cons:
 1. Keep the repo docs as canonical process references.
 2. Use the v1 ingest contract as the skill boundary.
 3. Add read-only access for dossier and product data.
-4. Keep brief and article HTML manual until stable persistence exists.
+4. Keep brief and article markdown manual until stable persistence exists.
 5. Only then consider broader automation.
 
 ## Recommended First Fetches
@@ -110,3 +111,4 @@ For one article QA task, the first connection should support:
 - fetch product catalog rows by `handle` or title match
 
 That is enough to make the skill materially useful without redesigning the current Retool workflow.
+

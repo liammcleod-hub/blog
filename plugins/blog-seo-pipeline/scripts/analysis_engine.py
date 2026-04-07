@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from dataclasses import dataclass, field
 
@@ -44,7 +44,7 @@ def analyze_job(job_state: JobState) -> AnalysisResult:
         result.passed_checks["article html"] = "article present"
     elif job_state.mode != "audit-brief":
         result.findings.append(
-            Finding("high", "Missing article", "No article HTML loaded", "Cannot run article QA", "Load or generate article HTML.")
+            Finding("high", "Missing article", "No article markdown loaded", "Cannot run article QA", "Load or generate article markdown.")
         )
 
     if job_state.selected_products:
@@ -62,3 +62,4 @@ def analyze_job(job_state: JobState) -> AnalysisResult:
     result.publishability = "publishable" if not any(f.severity == "high" for f in result.findings) else "not_publishable"
     result.revision_instructions = [f.fix for f in result.findings]
     return result
+

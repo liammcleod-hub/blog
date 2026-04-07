@@ -1,4 +1,5 @@
 # Content Jobs
+#output #blog
 
 This folder stores standardized job bundles for the `blog-seo-pipeline`.
 
@@ -19,7 +20,7 @@ Each job folder should contain:
 - `job.json`
 - `research-dossier.json`
 - `brief.md`
-- `article.html`
+- `article.md`
 - `selected-products.json`
 - `qa-report.md`
 - `revision-plan.md`
@@ -36,10 +37,18 @@ Use a short stable slug, for example:
 
 For v1:
 
-- `research-dossier.json`, `brief.md`, and `article.html` are the minimum useful files
+- `research-dossier.json`, `brief.md`, and `article.md` are the minimum useful files
 - `selected-products.json` is strongly recommended
 - `qa-report.md` and `revision-plan.md` are outputs created by Codex
 
 ## Template
 
 Use `_template/` as the starter structure for a new content job.
+
+## Related Docs
+
+- [[output/content-jobs/_template/brief]]
+- [[output/content-jobs/_template/qa-report]]
+- [[output/content-jobs/_template/revision-plan]]
+- [[docs/reference/skill-guides/blogs|Blogs]]
+

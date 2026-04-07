@@ -363,3 +363,5 @@ Visual or structured representation of how content interconnects.
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **email-sequence**: For email-based content
 - **social-content**: For social media content
+
+#skills

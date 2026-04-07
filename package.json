@@ -1,0 +1,12 @@
+{
+  "name": "bastelschachtel-tools",
+  "version": "1.0.0",
+  "description": "Content pipeline and automation tools for Bastelschachtel",
+  "scripts": {
+    "fetch-retool": "node .agents/scripts/fetch-retool-artifacts.js",
+    "create-blog-job": "node .agents/scripts/create-blog-job-from-retool.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}

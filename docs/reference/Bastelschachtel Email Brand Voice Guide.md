@@ -1,0 +1,200 @@
+# Bastelschachtel Email Brand Voice Guide
+#reference
+
+## Kernprinzipien
+
+### 1. **Kundenzentrierung Ã¼ber alles**
+- **NIE** Ã¼ber interne GeschÃ¤ftsziele sprechen (Umsatz, Verkaufssaison, Marketing-Ziele)
+- **IMMER** aus der Perspektive der Kundenerfahrung schreiben
+- Fokus auf: Was erschaffst DU? Was inspiriert DICH? Was brauchst DU fÃ¼r DEINE Projekte?
+
+### 2. **PersÃ¶nlich, aber nicht performativ**
+- Informelles "Du" durchgÃ¤ngig
+- "Wir/uns" als Team-Perspektive (nicht "ich/mir" als Einzelperson)
+- Authentisch und warm, ohne kÃ¼nstliche NÃ¤he oder Marketing-Tricks
+- Lokalkolorit (Wattens, Tirol) als echte Herkunft, nicht als Verkaufsargument
+
+### 3. **Saisonale Verbindung zur KreativitÃ¤t**
+- Jahreszeiten als natÃ¼rliche Inspirationsquelle nutzen
+- Emotionen und Stimmungen der Saison einfangen
+- Projekte als kreative Reise rahmen, nicht als Produktkauf
+
+---
+
+## TonalitÃ¤t
+
+### âœ… So klingt Bastelschachtel:
+
+**Einladend und inspirierend:**
+- "Die ersten bunten BlÃ¤tter fallen..."
+- "Vielleicht hast du bereits Ideen im Kopf..."
+- "Worauf freust du dich in dieser Saison am meisten?"
+
+**UnterstÃ¼tzend und hilfreich:**
+- "Wir mÃ¶chten dir helfen, genau die Inspiration zu bekommen..."
+- "...die deine Projekte zum Leben erweckt"
+- "Ideen, die fÃ¼r dich gemacht sind"
+
+**NatÃ¼rlich und unaufdringlich:**
+- "Mit einem einfachen Klick..." (nicht "WÃ¤hle jetzt!")
+- "Kein Klick ist zu klein..."
+- "Wir freuen uns darauf, diese kreative Saison mit dir zu erleben"
+
+### âŒ So klingt Bastelschachtel NICHT:
+
+**Business-zentrisch:**
+- âŒ "Q4 ist fÃ¼r uns die umsatzstÃ¤rkste Zeit"
+- âŒ "Diese E-Mail ist kein Verkaufs-Push"
+- âŒ "Damit Sie das Beste daraus machen"
+
+**KÃ¼nstlich exklusiv:**
+- âŒ "fÃ¼r unsere engste Community"
+- âŒ "lange bevor es die breite Masse tut"
+- âŒ "Sie sind die Ersten, die alles erfahren"
+
+**Zu marketing-lastig:**
+- âŒ "Verpasse nicht..."
+- âŒ "Letzte Chance..."
+- âŒ "Klicke jetzt, um..."
+- âŒ "Exklusives Angebot nur fÃ¼r dich"
+
+---
+
+## Strukturelemente
+
+### **ErÃ¶ffnung:**
+Saisonale Stimmung + Kreative Vorfreude
+
+**Beispiel:**
+> "Die ersten bunten BlÃ¤tter fallen in Wattens, und die Luft riecht nach Herbst. Du weiÃŸt, was das bedeutet: Die Zeit fÃ¼r kreative Projekte, warme Farben und selbstgemachte Geschenke ist da."
+
+### **Hauptteil:**
+KundenbedÃ¼rfnis + Hilfsangebot (nie Verkaufsangebot)
+
+**Beispiel:**
+> "Vielleicht hast du bereits Ideen im Kopf â€“ ein besonderes Geschenk, eine herbstliche Dekoration, oder ein Projekt, das du schon lange ausprobieren wolltest. Wir mÃ¶chten dir helfen, genau die Inspiration zu bekommen, die zu deinen PlÃ¤nen passt."
+
+### **Call-to-Action:**
+Als Hilfsmittel fÃ¼r den Kunden gerahmt, nicht als Marketing-Tool
+
+**Beispiel:**
+> "Mit einem einfachen Klick unten zeigst du uns, welche Art von Projekten dich in dieser Saison am meisten begeistern. So kÃ¶nnen wir dir kÃ¼nftig nur das schicken, was wirklich zu deiner kreativen Reise passt."
+
+### **Abschluss:**
+Warm, vorfreude-voll, gemeinschaftlich
+
+**Beispiel:**
+> "Wir freuen uns darauf, diese kreative Saison mit dir zu erleben. Herzliche GrÃ¼ÃŸe aus Tirol, Dein Team von der Bastelschachtel"
+
+---
+
+## Kategorie-Beschreibungen
+
+Immer nutzenorientiert, nie produktzentriert:
+
+âœ… **Gut:** "FÃ¼r persÃ¶nliche Geschenke mit Bedeutung"
+âŒ **Schlecht:** "Unsere neue GlasÃ¤tzpaste-Kollektion"
+
+âœ… **Gut:** "Um MÃ¶beln neues Leben einzuhauchen"
+âŒ **Schlecht:** "Premium Metallic-Wachspasten im Angebot"
+
+---
+
+## Betreffzeilen-Prinzipien
+
+### **Neugier wecken, ohne zu tÃ¤uschen:**
+- âœ… "Nur eine kurze Frage zu deinen HerbstplÃ¤nen..."
+- âœ… "Was wirst du diesen Herbst erschaffen?"
+- âŒ "WARNUNG: Der grÃ¶ÃŸte Bastelfehler in Q4"
+- âŒ "[WICHTIG] Dein Q4-Aktionsplan"
+
+### **PersÃ¶nlich, aber nicht manipulativ:**
+- âœ… "Ein Brief fÃ¼r dich"
+- âœ… "Ich habe an dich gedacht"
+- âŒ "Nur fÃ¼r unsere VIP-Mitglieder"
+- âŒ "Du bist ausgewÃ¤hlt worden"
+
+---
+
+## Checkliste: "Third Wall Breaking" vermeiden
+
+Bevor du eine Email versendest, stelle sicher:
+
+- [ ] Keine ErwÃ¤hnung von Verkaufszielen, Umsatz, Quartalen
+- [ ] Keine Formulierungen wie "fÃ¼r uns", "unser Ziel", "wir wollen verkaufen"
+- [ ] Keine kÃ¼nstliche ExklusivitÃ¤t oder Dringlichkeit
+- [ ] Keine Business-Rechtfertigungen ("Dies ist kein Verkaufs-Push")
+- [ ] Fokus liegt auf Kundenprojekten, nicht unseren Produkten
+- [ ] Segmentierung wird als Kundennutzen gerahmt, nicht als Datensammlung
+
+---
+
+## Unterschrift-Varianten
+
+**Standard:**
+```
+Herzliche GrÃ¼ÃŸe aus Tirol,
+Dein Team von der Bastelschachtel
+```
+
+**Saisonal:**
+```
+Kreative HerbstgrÃ¼ÃŸe aus Wattens,
+Dein Bastelschachtel-Team
+```
+
+**PersÃ¶nlich (nur wenn authentisch):**
+```
+Mit kreativen GrÃ¼ÃŸen aus der Werkstatt,
+[Name] und das Bastelschachtel-Team
+```
+
+---
+
+## Quick Reference: Ersetzungsliste
+
+Wenn du diese Phrasen schreibst â†’ ersetze sie sofort:
+
+| âŒ Vermeide | âœ… Verwende stattdessen |
+|-------------|------------------------|
+| "fÃ¼r unsere Community" | "fÃ¼r dich" / "fÃ¼r deine Projekte" |
+| "Q4 / Quartal / Verkaufssaison" | "Herbst" / "diese Saison" / "die kommenden Monate" |
+| "Damit Sie das Beste daraus machen" | "Damit deine Projekte gelingen" |
+| "Wir mÃ¶chten verkaufen" | "Wir mÃ¶chten dich unterstÃ¼tzen/inspirieren" |
+| "Exklusiv fÃ¼r Mitglieder" | "FÃ¼r alle, die kreativ sind" |
+| "Jetzt kaufen" | "Entdecke" / "Lass dich inspirieren" |
+| "Letzte Chance" | "Noch verfÃ¼gbar" / "Schau vorbei" |
+
+---
+
+## Ton-Spektrum nach Kontext
+
+### **Kickoff-Emails (Saison-Start):**
+- Sehr warm und einladend
+- Fokus auf Vorfreude und MÃ¶glichkeiten
+- Keine Dringlichkeit, nur Inspiration
+
+### **Inspiration & Tipps:**
+- Hilfsbereit und praktisch
+- Projekt-fokussiert
+- "Wie du X erstellen kannst..."
+
+### **Produkt-Launches:**
+- Begeistert, aber nicht Ã¼bertrieben
+- Nutzen vor Features
+- "Damit du endlich X machen kannst..."
+
+### **Sale/Angebote:**
+- Direkt, aber nicht aggressiv
+- Wert kommunizieren ohne Druck
+- "Falls du schon geplant hast..."
+
+---
+
+## AbschlieÃŸender Leitgedanke
+
+**Frage dich vor jeder Email:**
+"Liest sich das wie ein Brief von einem kreativen Freund, oder wie eine Marketing-Kampagne?"
+
+Wenn es sich nach Marketing anfÃ¼hlt â†’ umschreiben.
+Wenn es sich nach echter UnterstÃ¼tzung anfÃ¼hlt â†’ versenden.

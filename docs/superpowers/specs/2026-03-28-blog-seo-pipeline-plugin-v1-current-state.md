@@ -13,7 +13,7 @@ This file captures the current implemented state of the `blog-seo-pipeline` plug
 - `blog me this` entrypoint exists and runs locally
 - local discovery exists for:
   - job folders
-  - direct article HTML paths
+  - direct article markdown paths
 - external discovery boundary exists and is now HTTP-backed
 - mode selection exists for:
   - `qa-article`
@@ -93,3 +93,4 @@ The most likely canonical endpoints remain:
 - `docs/superpowers/plans/2026-03-27-blog-seo-pipeline-plugin-v1-implementation-plan.md`
 - `docs/reference/content-pipeline/2026-03-28-retool-api-reality-check.md`
 - `plugins/blog-seo-pipeline/README.md`
+

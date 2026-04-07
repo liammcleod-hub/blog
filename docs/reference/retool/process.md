@@ -1,4 +1,5 @@
 # Retool Operator Process
+#retool #content-pipeline
 
 This document records the current step-by-step Bastelschachtel Retool workflow exactly as it is being used now.
 
@@ -49,7 +50,7 @@ The output is a JSON dossier containing:
 
 Reference:
 
-- `research-lab-json-contract.md`
+- [[docs/reference/retool/research-lab-json-contract]]
 
 ## Content Factory
 
@@ -161,3 +162,10 @@ The generated article can include:
 This process is the real current production workflow.
 
 Future automation or Codex integration must preserve compatibility with this operator flow rather than inventing a disconnected process.
+
+## Related Docs
+
+- [[docs/reference/retool/README]]
+- [[docs/reference/retool/architecture]]
+- [[docs/reference/retool/content-factory-contract]]
+- [[docs/reference/retool/integration-contract]]

@@ -50,5 +50,5 @@ def test_write_revised_article_only_writes_in_revise_mode(tmp_path: Path):
 
     written = write_revised_article(tmp_path, "<h1>Article</h1>", "revise-article")
 
-    assert written == tmp_path / "article-revised.plugin.html"
+    assert written == tmp_path / "article-revised.plugin.md"
     assert written.exists()

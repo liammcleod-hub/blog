@@ -1,4 +1,5 @@
 # Blog SEO Pipeline Run Modes
+#content-pipeline #blog
 
 This document defines the first operational run modes for the `blog-seo-pipeline` skill.
 
@@ -19,7 +20,7 @@ Expected inputs:
 
 - research dossier
 - brief
-- article HTML
+- article markdown
 
 Expected outputs:
 
@@ -36,7 +37,7 @@ Expected inputs:
 
 - research dossier
 - brief
-- article HTML
+- article markdown
 
 Expected outputs:
 
@@ -59,3 +60,4 @@ Expected outputs:
 
 - brief findings
 - improved outline or correction plan
+

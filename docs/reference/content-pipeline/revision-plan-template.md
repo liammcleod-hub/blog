@@ -1,4 +1,5 @@
 # Blog SEO Pipeline Revision Plan Template
+#content-pipeline #blog
 
 Use this when moving from QA into direct article revision.
 

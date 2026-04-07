@@ -229,3 +229,5 @@ Identifies which features customers value most:
 - **ab-test-setup**: For testing pricing changes
 - **revops**: For deal desk processes and pipeline pricing
 - **sales-enablement**: For proposal templates and pricing presentations
+
+#skills

@@ -1,4 +1,5 @@
 # Bastelschachtel SEO Execution Checklist
+#seo
 
 *Based on: `docs/seo/live-seo-audit-2026-03-27.md`*
 *Date: 2026-03-27*
@@ -168,3 +169,10 @@ Use this queue when you want immediate copy work from the marketing skills.
 - [ ] Top collection metas are clean and keyword-directed
 - [ ] At least one specialist landing page is stronger than the collection equivalent
 - [ ] Blog content is clearly linked to revenue-driving categories
+
+## Related Docs
+
+- [[docs/seo/README]]
+- [[docs/seo/live-seo-audit-2026-03-27|live-seo-audit-2026-03-27]]
+- [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
+- [[docs/reference/skill-guides/blogs|Blogs]]

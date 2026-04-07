@@ -1,218 +1,41 @@
-# Repo Wikilink Knowledge Graph Design
+# Repo Wikilink Incorporation Design
 
 Date: 2026-03-29
-Status: Draft v1
+Status: Draft v3
 
 ## Purpose
 
-Define a repo-native markdown knowledge graph that works well for both:
+Define how targeted folders and files in this repo should gain simple Obsidian wikilinks so they reference each other clearly.
 
-- human navigation in Obsidian
-- deterministic plugin context discovery inside this repo
-
-This spec does not yet finalize Obsidian-specific style details. A follow-up research pass will refine link syntax and best practices using current Obsidian community guidance.
+This spec is only about adding and maintaining those wikilinks.
 
 ## Problem
 
-The repo is gaining more strategy docs, SEO docs, VOC docs, content-job artifacts, memory docs, and plugin-related specs.
+Important markdown docs exist across the repo, but many of the high-value files and folder entrypoints do not explicitly reference each other.
 
-Right now, plugin discovery depends too much on:
-
-- direct file references inside `SKILL.md`
-- remembered file names
-- manual repo navigation
-
-That creates drift. New high-value docs can be added to the repo without becoming visible to the workflows that should use them.
+That makes related material harder to navigate and easier to miss.
 
 ## Goal
 
-Create a lightweight, structured markdown graph so that:
+For the targeted folders and files:
 
-- humans can navigate the repo in Obsidian using wiki links
-- plugins can discover relevant newer docs without hardcoding every filename
-- canonical docs stay distinct from generated artifacts
-- `README.md` files remain the stable entrypoints
+- add explicit wikilinks between related notes
+- ensure folder entrypoints point to their important child docs
+- ensure important child docs point back to their folder entrypoints
+- add a small number of high-signal cross-links between adjacent notes
+- do all of this additively, without restructuring the repo around a larger system
 
 ## Non-Goals
 
-This phase does not aim to:
+This spec does not aim to:
 
-- convert every markdown file in the repo immediately
-- make generated outputs equal in authority to canonical docs
-- replace `SKILL.md` files with free-form graph traversal
-- make plugins depend on the Obsidian desktop app or Obsidian CLI
+- convert the whole repo at once
+- force every markdown file in the repo into this system immediately
+- rely on Obsidian-specific features beyond normal wikilinks
 
-## Core Decisions
+## Target Scope
 
-### 1. README-first remains the entry model
-
-Every important knowledge-bearing folder should have a `README.md`.
-
-Plugins should start there before traversing deeper into the graph.
-
-### 2. Wikilinks will be used in the knowledge-bearing markdown layers
-
-The primary target areas are:
-
-- `docs/`
-- `.codex/memories/`
-- selected `.agents/` markdown docs
-- `output/content-jobs/` as an artifact layer
-
-This is not a repo-wide mandate for all markdown files immediately.
-
-### 3. Canonical docs and artifacts are both in the graph, but not equal
-
-The repo needs two graph layers:
-
-- `truth zone`: canonical strategy, context, research, operating docs
-- `artifact zone`: generated outputs, content-job bundles, live execution artifacts
-
-Artifacts must be discoverable, but plugins should prefer canonical docs first unless the task is explicitly artifact-oriented.
-
-### 4. Plugins should use traversal rules, not filename memory
-
-The long-term plugin behavior should be:
-
-1. read the nearest relevant `README.md`
-2. read linked canonical docs first
-3. read related docs next
-4. enter artifact docs only when task-relevant
-5. stop at a bounded traversal depth
-
-### 5. Obsidian compatibility is a feature, not a runtime dependency
-
-This repo should be pleasant to use in Obsidian, but the plugin system must remain repo-native and markdown-native.
-
-No plugin should require:
-
-- Obsidian desktop to be running
-- Obsidian CLI
-- vault-only features that cannot be interpreted from plain markdown
-
-## Information Architecture Model
-
-### Truth Zone
-
-These are the main candidate truth-zone areas:
-
-- `docs/customer reviews/`
-- `docs/seo/`
-- `docs/reference/`
-- `docs/strategy/`
-- `docs/superpowers/`
-- `.codex/memories/bastelschachtel/`
-- `.agents/product-marketing-context.md`
-
-Truth-zone documents should be treated as the preferred source of current reasoning, strategy, and workflow context.
-
-### Artifact Zone
-
-These are the main candidate artifact-zone areas:
-
-- `output/content-jobs/`
-- other generated output directories that may later be added
-
-Artifact-zone documents are still valuable because they can feed:
-
-- blog QA and revision
-- repurposing into email and lead magnets
-- cluster expansion
-- future derivative workflows
-
-But artifact-zone docs should not silently override canonical strategy docs.
-
-## Folder README Contract
-
-Every important folder `README.md` should eventually standardize these sections:
-
-- `Purpose`
-- `Canonical Docs`
-- `Related Docs`
-- `Generated Artifacts`
-- `See Also`
-
-Not every folder needs every section immediately, but this is the target shape.
-
-### Section Intent
-
-#### Purpose
-
-Explains what the folder is for and what kind of material belongs there.
-
-#### Canonical Docs
-
-Links to the highest-trust documents in that folder or adjacent folders.
-
-These should be the first documents plugins read after the `README.md`.
-
-#### Related Docs
-
-Links to adjacent supporting docs that add nuance, detail, or neighboring context.
-
-#### Generated Artifacts
-
-Links to outputs, work products, or execution artifacts that may be useful later but are not the authoritative source of strategy.
-
-#### See Also
-
-Links outward to other folders or systems that often pair with this one.
-
-## Traversal Rules For Plugins
-
-This section defines the intended future behavior for plugin and skill discovery logic.
-
-### Default Priority Order
-
-1. directly user-referenced document or folder
-2. nearest folder `README.md`
-3. `Canonical Docs`
-4. `Related Docs`
-5. `Generated Artifacts`
-6. broader `See Also` links
-
-### Default Preference Rules
-
-- prefer truth-zone docs before artifact-zone docs
-- treat artifacts as first-class only for:
-  - QA
-  - revision
-  - repurposing
-  - publishing
-  - explicit job-specific tasks
-- do not traverse the graph indefinitely
-
-### Bounded Traversal
-
-The final traversal rules will be refined later, but the system should include:
-
-- a maximum hop depth
-- a maximum number of loaded docs
-- a preference for high-signal sections before free exploration
-
-This prevents plugins from over-reading low-value material.
-
-## Minimal Metadata Direction
-
-Wikilinks alone are not enough for deterministic plugin behavior.
-
-The repo should gradually adopt lightweight machine-readable metadata for important documents.
-
-Possible fields:
-
-- `title`
-- `type`
-- `status`
-- `priority`
-- `aliases`
-- `canonical_for`
-- `related`
-
-This will be refined after the Obsidian best-practices review.
-
-## Initial Scope
-
-The first implementation wave should target the highest-value folders:
+Initial target folders:
 
 - `docs/seo/`
 - `docs/customer reviews/`
@@ -220,86 +43,228 @@ The first implementation wave should target the highest-value folders:
 - `output/content-jobs/`
 - `.codex/memories/bastelschachtel/`
 
-Then selected files such as:
+Initial target standalone files:
 
 - `.agents/product-marketing-context.md`
 
-## Proposed Rollout
+More files can be included later, but this spec only requires link work inside the targeted set.
 
-### Phase 1: Convention Spec
+## Core Model
 
-- write and approve this design spec
-- research Obsidian-style wikilink best practices
-- refine naming, metadata, and linking conventions
+The model is simple:
 
-### Phase 2: README Standardization
+- targeted folder `README.md` files link to relevant docs in that folder and to closely related entrypoints outside the folder
+- targeted docs link back to their governing folder `README.md` when one exists
+- targeted docs also link to a few directly related sibling or adjacent docs when the relationship is real and useful
 
-- update folder `README.md` files to the target section model
-- ensure key folders expose canonical docs and artifact links clearly
+That is enough.
 
-### Phase 3: Link Conversion
+No extra abstraction should be added to the spec.
 
-- add wiki links to the highest-value docs first
-- avoid bulk converting low-value or generated material without a reason
+## Wikilink Format
 
-### Phase 4: Plugin Traversal Adoption
+Use Obsidian wikilinks as the default internal link format in the targeted markdown:
 
-- update relevant skills/plugins to use `README.md` plus graph traversal
-- keep traversal bounded and priority-driven
+- `[[target-note]]`
+- `[[path/to/target-note]]`
+- `[[path/to/target-note#Heading]]`
+- `[[path/to/target-note|Display Text]]`
 
-## Risks
+Markdown links remain fine for:
 
-### Graph Noise
+- external URLs
+- non-note file downloads where the literal extension matters
 
-If too many low-value files become equally linked, plugin context quality will get worse.
+## Link Shape Rules
 
-### Authority Drift
+### Path-Qualified By Default In Entrypoints
 
-If artifacts are treated the same as canonical docs, stale execution outputs may override current strategy.
+Use path-qualified wikilinks in:
 
-### Naming Drift
+- folder `README.md` files
+- shared entrypoint docs
+- any place where target ambiguity is possible
 
-If filenames and note names vary wildly, wiki links become brittle and aliases become harder to maintain.
+### Bare Links Only When Clearly Safe
 
-### Over-Implementation
+Bare wikilinks are acceptable only when the target is obviously unique and local.
 
-Trying to convert the entire repo in one pass will create low-quality linking and unnecessary churn.
+### Display Text Sparingly
 
-## Current Recommendation
+Use `[[target|display text]]` only when prose needs it.
 
-Proceed with:
+Do not hide the underlying target unnecessarily.
 
-- `README-first`
-- wiki links in the knowledge-bearing markdown layers
-- explicit truth-zone vs artifact-zone distinction
-- structured folder `README.md` sections
-- bounded plugin traversal
+### Heading Links Only When Stable
 
-Do not proceed with:
+Use heading links when they point to stable sections that are likely to remain valid.
 
-- repo-wide indiscriminate conversion
-- Obsidian-only assumptions
-- unbounded graph traversal
+## Additive Linking Logic
 
-## Open Items For The Next Research Pass
+This is the main rule set for implementation.
 
-The following still need to be refined using current Obsidian community guidance:
+### 1. Add, Do Not Re-Architect
 
-- exact wiki link syntax conventions
-- filename vs title conventions
-- alias usage rules
-- frontmatter field shape
-- whether headings and block references should be used routinely
-- how much backlink-style linking is worth standardizing
+The task is to add links to existing files and folder entrypoints.
+
+Do not introduce a new taxonomy or conceptual system just to justify the links.
+
+### 2. Prefer Existing Structure
+
+If a note already has a suitable section such as:
+
+- `Related Docs`
+- `See Also`
+- `Canonical Docs`
+- `Context`
+
+add the new wikilinks there instead of inventing a new structure.
+
+If no suitable section exists, add a small neutral section such as `Related Docs` or `See Also`.
+
+### 3. Folder README First
+
+For each targeted folder with a `README.md`:
+
+- add links to the most important docs inside that folder
+- add links to nearby related entrypoints outside that folder when that relationship is useful
+- keep the README readable and selective
+
+The folder `README.md` is the primary local hub, not an exhaustive directory dump.
+
+### 4. Child Docs Link Back Up
+
+For each targeted child doc under a targeted folder:
+
+- link back to the local folder `README.md`
+
+This creates obvious upward navigation and prevents isolated notes.
+
+### 5. Add Lateral Links Only When The Relationship Is Direct
+
+Add note-to-note links only when one of these is true:
+
+- one note depends on the other for context
+- one note is a direct continuation or refinement of the other
+- both notes are routinely used together
+- one note is the nearest relevant reference for the reader of the other
+
+Do not add lateral links just because two files live near each other.
+
+### 6. Keep Links Sparse And High-Signal
+
+Each targeted note should usually gain:
+
+- one upward link to its folder `README.md` when applicable
+- a small number of sideways links to directly related notes
+
+Avoid dense link dumps that make every note reference everything nearby.
+
+### 7. Add Links Reciprocally When It Helps
+
+If file A clearly points to file B, consider whether file B should also point back to file A.
+
+Reciprocal links are good when they improve navigation.
+
+They are not required when the reverse link would be noisy or redundant.
+
+### 8. Preserve Existing Meaning
+
+Do not rewrite a note's purpose just to make it fit a link structure.
+
+Add links around the existing meaning of the document.
+
+### 9. Do Not Promote Incidental Files
+
+Not every markdown file deserves new links.
+
+Only add links for the targeted folders and files, plus the directly related notes needed to connect them cleanly.
+
+### 10. Avoid Link Stuffing
+
+If a link does not help a real reader move to the next likely note, do not add it.
+
+## Minimum Linking Expectations
+
+For a targeted folder with a `README.md`:
+
+- the `README.md` should link to its key docs
+- key docs should link back to the `README.md`
+
+For a targeted standalone file:
+
+- it should link to the most relevant folder entrypoint or closely related note
+- at least one targeted note should link back to it when that relationship is meaningful
+
+The aim is not perfect symmetry.
+
+The aim is that targeted notes no longer sit alone.
+
+## Authoring Guidance
+
+### Folder READMEs
+
+Use them to expose:
+
+- what the folder is for
+- which docs matter most
+- which adjacent folders or entrypoints are most relevant
+
+Prefer path-qualified links here.
+
+### Canonical Or Important Docs
+
+Add:
+
+- a link back to the folder `README.md`
+- a few high-signal related note links
+
+Do not turn them into directories.
+
+### Artifact-Like Docs
+
+If a targeted artifact-style note is included, it should mainly link:
+
+- back to its local entrypoint
+- to the source context that explains why it exists
+
+It should not become a hub unless that is its actual role.
+
+## Rollout
+
+### Phase 1
+
+- approve this narrow wikilink-only spec
+
+### Phase 2
+
+- add or update wikilinks in the targeted folder `README.md` files
+
+### Phase 3
+
+- add reciprocal and lateral wikilinks in the targeted child docs
+
+### Phase 4
+
+- review for noise, ambiguity, and missing backlink paths
+
+## Review Checklist
+
+When editing a targeted note or folder entrypoint, check:
+
+- does this file now link to the most relevant related notes
+- does it link upward to its folder `README.md` when applicable
+- are the added links selective rather than exhaustive
+- are ambiguous links path-qualified
+- was the linking added without inventing extra machinery
 
 ## Bottom Line
 
-The repo should become an Obsidian-friendly, plugin-traversable markdown knowledge graph.
+This spec is only about adding simple Obsidian wikilinks between the targeted folders and files so they reference each other cleanly.
 
-The stable model is:
+The implementation work is additive linking, nothing more.
 
-- `README.md` first
-- canonical docs before artifacts
-- wiki links for navigation and discovery
-- lightweight metadata for determinism
-- bounded traversal for plugin quality
+## Related Docs
+
+- [[docs/superpowers/specs/README]]
+- [[docs/reference/skill-guides/blogs|Blogs]]

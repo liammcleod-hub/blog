@@ -422,3 +422,5 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **onboarding-cro**: For activation to prevent early churn
 - **analytics-tracking**: For setting up churn signal events
 - **ab-test-setup**: For testing cancel flow variations with statistical rigor
+
+#skills

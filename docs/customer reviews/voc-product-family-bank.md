@@ -1,7 +1,8 @@
 # VOC Product Family Bank
+#reviews #voc
 
 Source assets:
-- `docs/customer reviews/amazon reviews.txt`
+- `docs/customer reviews/amazon reviews.md`
 - `docs/customer reviews/bastelschachtel-all-published-reviews-in-judgeme-format-....`
 - `.agents/product-marketing-context.md`
 
@@ -217,3 +218,11 @@ This bank is organized by product family rather than channel.
    - Reispapier + decoupage supplies
    - Glasätzpaste + Schablonen + cleaning/prep items
    - Pentart family pages grouped by effect: metallic, vintage, texture, chalky, mixed media
+
+## Related Docs
+
+- [[docs/customer reviews/README]]
+- [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+- [[docs/customer reviews/voc-split-bank|voc-split-bank]]
+- `.agents/product-marketing-context.md`
+

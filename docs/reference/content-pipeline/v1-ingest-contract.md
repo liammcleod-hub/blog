@@ -1,4 +1,5 @@
 # Blog SEO Pipeline V1 Ingest Contract
+#content-pipeline #blog
 
 This document defines the first narrow contract for running the `blog-seo-pipeline` skill.
 
@@ -72,7 +73,7 @@ Preferred file set:
 - `job.json`
 - `research-dossier.json`
 - `brief.md`
-- `article.html`
+- `article.md`
 - `selected-products.json`
 - `qa-report.md`
 - `revision-plan.md`
@@ -158,3 +159,4 @@ It should also infer required content structure from:
 This matters when a topic is mixed-intent and the brief is narrower than the real search opportunity.
 
 For example, a listicle may still require definition, maintenance, FAQ, or comparison blocks if those are strongly implied by the audit and the search landscape.
+

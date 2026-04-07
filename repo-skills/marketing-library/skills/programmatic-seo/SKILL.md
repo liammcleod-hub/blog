@@ -236,3 +236,5 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 - **schema-markup**: For adding structured data
 - **site-architecture**: For page hierarchy, URL structure, and internal linking
 - **competitor-alternatives**: For comparison page frameworks
+
+#skills

@@ -1,4 +1,4 @@
-# Retool Read-Only Plan
+﻿# Retool Read-Only Plan
 
 This reference defines the intended read-only integration posture for the first Retool connection.
 
@@ -27,8 +27,9 @@ No write-back is required for v1.
 Until persistence is improved, these may still need to be passed in manually:
 
 - generated brief
-- final article HTML
+- final article markdown
 
 ## Integration Goal
 
 The first DB or API connection should make it possible to fetch enough context for article QA without changing the current Retool authoring workflow.
+

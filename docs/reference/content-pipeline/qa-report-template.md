@@ -1,4 +1,5 @@
 # Blog SEO Pipeline QA Report Template
+#content-pipeline #blog
 
 Use this when evaluating a Retool-generated article.
 

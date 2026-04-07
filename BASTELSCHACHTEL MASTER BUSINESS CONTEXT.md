@@ -1,0 +1,683 @@
+# BASTELSCHACHTEL: MASTER BUSINESS CONTEXT
+## Authoritative Document — December 1, 2025
+
+---
+
+## 1. COMPANY FOUNDATION
+
+### Identity
+- **Company Name:** Bastelschachtel
+- **Location:** Swarovskistraße 3, 6112 Wattens, Tirol, Austria
+- **Founded:** 2023 (acquired from Zita's Creative)
+- **Type:** Hybrid retail + e-commerce (physical store + Shopify shop + Amazon)
+- **Mission:** Sell creativity, community, and permission—not just products
+- **Tagline:** "Hand-gepackt. Erreichbar. Immer." (Hand-packed. Reachable. Always.)
+
+### Brand Philosophy
+- **Core Principle:** Sell the feeling and possibility, not the transaction
+- **Brand Voice:** Warm, personal, supportive, conversational—like a friend who understands creative journey
+- **Brand Values:** Warmth, authenticity, honest imperfection, small-team intimacy, customer-first, community over profit
+- **What the Brand is NOT:** Corporate, aggressive, fake-urgent, pushy, transaction-focused
+- **Brand Promise:** "We make your order ourselves, by hand, every day. We're small, we make mistakes sometimes, and we're happy when you call us directly if something's not right. Then we fix it immediately."
+
+---
+
+## 2. TEAM & OPERATIONS
+
+### Team Structure (5 People)
+1. **Owner** (1)
+   - Responsibilities: Order oversight, problem identification, solution implementation, Amazon budget management, strategic decisions
+
+2. **Pick-Packer #1 — Marketing/Ecommerce/Solutions Person** (1)
+   - Responsibilities: Meta ads, email marketing, Shopify optimization, in-store sales support, pick-packing, order management, email customer success
+   - This is x3 (contact: x3automationservices@gmail.com)
+   - Full-time, primary business operations
+
+3. **Pick-Packer #2** (1)
+   - Status: Every other day + in-store customer sales support
+   - Hybrid: fulfillment + retail customer service
+
+4. **Pick-Packer #3** (1)
+   - Status: 10 hours per week, student
+   - Part-time fulfillment support
+
+**Total Headcount:** 5 people (1 owner + 3 pick-packers including marketing/ecom person). Everyone wears multiple hats; no specialization possible.
+
+### Operational Capacity
+- **Daily Fulfillment Capacity:** 300+ orders without quality degradation
+- **Fulfillment Model:** Manual, hand-packed every day
+- **Key Constraint:** Ruthlessly simple systems (capacity-limited team requires simplicity)
+- **Email Management:** Manual (requires judgment, not fully automated)
+- **Scaling Limitation:** Cannot scale hand-packed fulfillment without hiring and capital investment
+
+### Physical Store Operations
+- **Location:** Wattens, Tirol
+- **Store Hours:**
+  - Monday-Friday: 09:00-12:00, 14:00-18:00
+  - Saturday: 09:00-12:00
+- **Purpose:** Local community + seasonal tourist traffic
+- **Integration:** Acts as fulfillment hub and brand touchpoint
+- **In-Store Customer Service:** Handled by rotating pick-packers + owner
+
+### Fulfillment & Logistics
+- **Shipping Partners:** GLS (primary), DPD (GB only)
+- **Packing Process:** Hand-packed daily (feature: warmth/care; constraint: capacity limit)
+- **Shipping Times:** 2-3 days typical GLS delivery
+- **Critical Q4 2025 Cutoff:**
+  - Date/Time: December 19, 2025, 10:00 AM
+  - Guarantee: Orders placed after this time are NOT guaranteed to arrive before December 24
+  - GLS Pickup Schedule: December 19, December 22
+  - Implication: Email deadline messaging must emphasize Dec 19 cutoff (factual, not fake urgency)
+
+---
+
+## 3. REVENUE & FINANCIAL PERFORMANCE
+
+### Historical Performance
+- **Q4 2024 Total Revenue:** €106,000
+  - Amazon: ~€95,400 (90% general statement applies)
+  - Owned Channels (Shopify + Direct): ~€10,600 (10%)
+    - Shopify: ~€8,500
+    - Direct/Other: ~€2,100
+
+### Current Channel Mix (Q4 2024 → Present)
+- **Amazon Dependency:** 90% of revenue (general ongoing pattern)
+- **Owned Channels:** 10% of revenue (target: increase to 30-40% by EOY 2025)
+- **Strategic Goal:** Shift to 60-70% Amazon, 30-40% owned channels by end of 2025
+
+### Revenue Drivers by Product Category (YTD 2025, Top Products)
+1. Pentart Glasätzungspaste 50ml: €11,737.01
+2. Glasätzungspaste + Alkoholspray Sets: €5,799.58
+3. Korbboden Sets (multiple variants): €4,000-4,200+
+4. Pentart Wachspaste metallic: €2,950.46
+5. Bastelsets aus Peddigrohr (multiple variants): €2,000+
+6. Finishing products (Patina, Antikpaste): €1,400-1,900+
+
+### Pricing Strategy
+- **Model:** Customer-set within bundle categories (no fixed SKU pricing)
+- **Free Gift Tiers:**
+  - €30+: 1 free item ("1 Gratisprodukt automatisch dazu")
+  - €70+: 2 free items ("2 Gratisfrodukte automatisch dazu")
+  - €100+: 3 free items ("3 Gratisfrodukte automatisch dazu")
+- **Discount Strategy:** BFCM-heavy (Q4 2024 relied heavily on discounting; goal is to reduce this dependency)
+
+### Cost Structure (Estimated)
+- **COGS:** 30-40% (typical craft supplies)
+- **Amazon Fees:** 15-25% (FBA + referral, if FBA)
+- **Shopify/Platform:** 2-3% (payment processing + subscription)
+- **Shipping (GLS):** Included in pricing; customer pain point for low-AOV items
+- **Labor:** 40-50% of revenue (fixed cost for 5-person team)
+- **Marketing:** 5-10% of revenue (Meta ads, Klaviyo, tools)
+- **Margin Pressure:** Heavy Q4 discounting reduces overall margin; goal is brand-driven demand by 2026
+
+---
+
+## 4. PRODUCTS & MERCHANDISING
+
+### Product Structure
+- **Hero Offering:** Build-your-own DIY bundles ("Schachteln")
+- **Philosophy:** Customer-controlled customization. They decide what goes in, how much to spend. Brand provides guidance through categorization, not limitation.
+- **Inventory Scale:** 3,000+ individual SKUs
+- **Inventory Management:** Shopify + Ready2Sync (with known automatic reset issues)
+
+### Five Bundle Categories (Permanent Shop Organization)
+1. **Für Weihnachten** — Holiday-focused projects and gift-making
+   - Q4 2025 Primary Focus
+2. **Für dich selbst** — Self-directed creative projects
+   - Q4 2025 Secondary (permission angle: making for yourself)
+3. **Zum Verschenken** — Curated gift ideas for makers
+   - Q4 2025 Primary Focus (gift-giving angle)
+4. **Für zu Hause** — Home decoration and beautification
+   - Q4 2025 Lower Priority
+5. **Mit Kindern** — Family-friendly craft activities
+   - Q4 2025 Lower Priority
+
+### Primary Product Categories
+- Glass etching materials (Glasätzungspaste) — TOP SELLER
+- Basket weaving kits (Korbflechten) — HIGH VOLUME
+- Metallic & patina finishing products — GROWING CATEGORY
+- Paper crafts & decorative materials — Secondary
+- Specialty items & personalization — Niche
+
+### Known Product/UX Issues
+- **DIY Bundle Builder (Appstle):** 
+  - High click-through rate, very low conversion
+  - Lacks step logic (what → base → materials → decoration → add-ons)
+  - Slow post-load performance
+  - Once-daily popup limitation
+  - Can't link directly to quiz results
+  - **Q1 2026 Plan:** Fix UX with step logic, improve loading, remove daily cap, enable direct linking
+  
+- **Quiz Funnel:**
+  - High CTR, low conversion
+  - Not showing on winter collections page (where Meta ads point)
+  - **Q4 2025 Decision:** Bypass quiz in emails; link directly to product pages
+  - **Q1 2026:** Fix loading speed, enable direct linking, remove daily cap
+
+- **Inventory Sync Issues:**
+  - Ready2Sync causing automatic inventory resets
+  - Causes stock discrepancies and manual intervention
+  - Status: Monitored, partially resolved
+
+---
+
+## 5. CUSTOMER BASE & SEGMENTATION
+
+### Email Database
+- **Klaviyo Total Database:** 8,000 subscribers
+- **Active Online Shop Subscribers:** 3,200 (approximate)
+- **High-Intent Subscribers:** 1,180
+- **Currently Suppressed:** 1,500
+- **Unidentified/Amazon-Origin in Database:** ~6,500 (mixed with suppressed; need cleaning)
+- **Action Needed:** More aggressive list hygiene (Q4 2025/Q1 2026) to identify and suppress Amazon-origin customers not converting to owned channel
+
+### Email List Health
+- **Baseline Open Rate:** 30%
+- **Active Engaged Openers:** ~1,000 (at 30% open rate)
+- **Dormant (90+ days no activity):** Should be identified and removed Q4 2025/Q1 2026
+- **List Quality Philosophy:** 800 people who want to hear from you > 3,000 who don't. Quality over quantity.
+
+### Target Customer Demographics
+- **Primary:** Women, 30-60, DACH region (Austria, Germany, Switzerland)
+- **Secondary Geographic:** Germany and Switzerland (with some UK via DPD)
+- **Psychographic:** DIY crafters, gift-givers, home decorators, people seeking creative breaks, desire for meaningful (not transactional) gifting
+
+### Customer Archetypes (3 Core Types)
+1. **The Woman Who Used to Make Things (40-60% of audience)**
+   - Used to sew/crochet/paint but adult life made it impossible
+   - **Pain Points:** Guilt for taking leisure time, lack of quiet space, missing a part of themselves
+   - **Needs:** Permission and space to reclaim creativity
+   - **Messaging Angle:** Permission, rest, reclamation
+
+2. **The One Who Makes for Others (30-40% of audience)**
+   - Spends time making gifts/items for family but rarely for herself
+   - **Pain Points:** Hidden sadness about postponed personal projects, lack of self-care
+   - **Needs:** Breaking the pattern of always serving others
+   - **Messaging Angle:** Self-investment, permission for self, breaking the pattern
+
+3. **The Gift-Giver Tired of Amazon (20-30% of audience)**
+   - Wants meaningful, handmade gifts instead of generic mass-produced items
+   - **Pain Points:** Frustration with transactional gifting, nostalgia for handmade, feeling that modern gifting is impersonal
+   - **Needs:** Flexibility to curate personalized gifts, meaningful alternatives
+   - **Messaging Angle:** Authenticity, control, meaning, connection
+
+### Customer Pain Points (From Amazon + Service Experience)
+- Stock availability not updated fast enough
+- Incomplete or wrong items received (fulfillment errors)
+- High shipping costs relative to product value
+- GLS delivery issues (missed attempts, package shop drop-offs)
+- Lack of personal connection (all transactions through Amazon, no direct relationship)
+
+### Customer Desires (Research-Identified)
+- Direct relationship with maker/brand
+- Personal, handmade feeling
+- Flexibility in what to buy
+- Quick, reliable shipping
+- Responsive customer service
+- Inspiration and project guidance
+- Permission to make something just for themselves
+- Escape from transactional gifting
+
+---
+
+## 6. MARKETING STRATEGY
+
+### Brand Voice Principles (Non-Negotiable)
+- **Authenticity:** Never say what you're not doing. Just don't do it.
+- **Permission over Pressure:** Make CTAs feel like invitation, not demand. ("Schau dich um" vs. "BESTELLE JETZT")
+- **Quality over Scale:** Better to engage 800 genuinely than 1,000 reluctantly
+- **Honesty:** Tell customers you're small, you make mistakes, call if something's wrong
+- **Community Focus:** Long-term relationship > short-term transaction
+- **No Fake Urgency:** Only real dates (shipping deadlines) when applicable
+- **Warmth:** Like a friend, not a brand
+- **Implicit Sales:** Sell the feeling, not the product
+
+### What to AVOID in All Communications
+- Corporate language or tone
+- Aggressive sales tactics
+- Fake urgency (except real shipping deadlines like Dec 19)
+- Pushy CTAs ("BUY NOW", "LIMITED TIME")
+- Transaction-focused messaging
+- Generic, templated copy
+- Apologies or defensiveness
+- Mention of internal struggles
+- Tracking language ("I noticed you", "you clicked")
+- Data-driven language ("we saw", "analytics show")
+
+---
+
+## 7. Q4 2025 CAMPAIGN STRATEGY
+
+### Campaign Overview
+- **Name:** Q4 2025 Email + Native Advertising Campaign
+- **Date Range:** November 24 - December 27, 2025
+- **Primary Goal:** Introduce new shop structure (5 DIY bundle sections) as permanent offering; shift Amazon customers to owned channel
+- **Secondary Goals:** Test email engagement, collect customer feedback, build UGC content, establish email as reliable sales channel
+- **Current Status (Dec 1, 2025, 11:00 AM):** 9 emails sent to date; campaign still being built out
+
+### Email Campaign Structure
+- **Total Planned Emails:** 16-18 (final count being determined; currently 9 sent)
+- **Phases:**
+  1. **Pre-BFCM (Nov 24-27):** 2 emails (education + invitation)
+  2. **BFCM Window (Nov 28-Dec 1):** 4-6 emails (normalization + access)
+  3. **Post-BFCM Transition (Dec 2-7):** 2 emails (gratitude + gentle reminder)
+  4. **Christmas Deadline (Dec 8-19):** 3 emails (helpful urgency, factual deadlines)
+  5. **Holidays (Dec 24-27):** 2 emails (warmth, no sales)
+
+### Email Strategy Principles
+- **Framework:** Emotion-first, CLTV-focused
+- **Segmentation:** Only when it improves clarity (not for scale)
+- **Frequency:** Light pre-season (1/week), intense during decision windows (up to 2/day BFCM), respectful holidays
+- **Subject Lines:** Conversational, feel like letters not broadcasts (odd send times: 10:30, 15:30 preferred)
+- **CTA Language:** Invitation tone ("if you..." not commands)
+- **Footer (Every Email):** "Hand-gepackt mit Liebe aus Wattens. Wir machen deine Bestellung jeden Tag selbst mit den Händen. Wir sind klein, wir machen manchmal Fehler, und wir freuen uns, wenn du uns direkt anrufst, wenn etwas nicht passt. Dann machen wir es sofort besser."
+- **List Health:** Unsubscribes are acceptable (quality > quantity)
+
+### Content Assets (Completed)
+1. **Listicle:** "5 Weihnachtsprojekte, die sich nicht wie Weihnachtseinkaufen anfühlen"
+   - Author: Jennifer Kesting (fictional Austrian persona)
+   - Format: Native journalism, 100-150 words per point
+   - 5 Points: Creativity, permission, rest, meaning, time
+   - CTA: Permission-based invitation to browse bundles
+   - Visuals: Authentic lifestyle images, one per section
+   - Mobile responsive with social share buttons
+
+2. **Native Ad Designs:** 9 newspaper-style static ads (1200×628px)
+   - A4-A6: Refuge/Quiet angle (permission focus) — "Ein bisschen Weihnachtszauber zum Selbermachen"
+   - B4-B6: Control/Intention angle (autonomy focus) — "Deine Weihnachtsprojekt beginnt hier"
+   - C4-C6: Timelessness/Meaning angle (authenticity focus) — "Zeitlose Gesten"
+   - All use newspaper aesthetic (not salesy)
+   - All link to listicle first, then to bundle builder
+
+3. **Meta Ad Copy:** Winning angles identified and implemented
+
+### Meta Ad Campaign
+- **Platform:** Facebook/Instagram
+- **Target Audience:** Women 30-60, DACH, craft-minded, gift-focused
+- **Winning Ad Angles:**
+  1. Control/Intention: "Deine Weihnachtsprojekt beginnt hier" (strong CTR)
+  2. Timelessness/Meaning: "Zeitlose Gesten" (high-converting newspaper aesthetic)
+  3. Refuge/Quiet: "Ein bisschen Weihnachtszauber zum Selbermachen" (strong emotional resonance)
+- **Current Approach:** Three ad angles feeding into listicle + bundle builder funnel
+- **Status:** Running with strong performance as of Dec 1, 2025
+
+### Christmas Cutoff Messaging
+- **Key Fact:** December 19, 2025, 10:00 AM is the absolute cutoff for guaranteed Dec 24 delivery
+- **Messaging Approach:** Helpful urgency (not fake), factual deadlines
+- **Implementation:** Dedicated emails Dec 8-19 emphasizing this deadline without pressure tactics
+
+---
+
+## 8. TECHNOLOGY STACK
+
+### Ecommerce Platform
+- **Primary:** Shopify
+- **Customizations:**
+  - Two-column mobile layouts for Appstle bundle products (CSS Grid solutions)
+  - Custom banners and landing pages
+  - Theme modifications (careful with updates to avoid breaking)
+
+### Email Marketing
+- **Platform:** Klaviyo
+- **Database Size:** 8,000 subscribers (need list hygiene)
+- **Active Subscribers:** ~3,200 (online shop origin)
+- **Capabilities:** Segmentation, automation flows, template design, deliverability
+- **Current Use:** Campaign-based (BFCM calendar); not yet fully automated (Q1 flows planned)
+- **Limitation:** No real-time revenue attribution (Hyros not yet implemented)
+
+### Advertising
+- **Meta Ads Manager:** Facebook/Instagram paid campaigns
+- **Native Advertising:** Created (listicle + advertorial designs)
+- **Google Ads:** Consideration but not confirmed active
+
+### Analytics & Attribution
+- **Current Data Available:**
+  - Shopify order data (customer, purchase, date)
+  - Klaviyo open/click rates
+  - Meta ad spend + estimated ROAS
+  - Historical monthly revenue
+- **Critical Gap:** No real-time email-to-revenue tracking
+  - Cannot see which email drives which sale in real-time
+  - Cannot calculate CAC/CLTV with precision
+  - Must infer from opens/clicks + order timing correlations
+- **Q1 2026 Priority:** Implement Hyros or GA4 UTM tracking for real-time attribution
+
+### Inventory Management
+- **System:** Ready2Sync integration with Shopify
+- **Known Issue:** Auto-resets causing manual inventory intervention
+- **Status:** Monitored, partially resolved
+
+### CRM & Customer Data
+- **Primary:** Klaviyo (customer list, behavior, email engagement)
+- **Secondary:** Shopify customer database
+- **Missing:** 360° customer view, RFM scoring automation, email-to-revenue attribution
+
+### Previous Tool Development
+- **Built:** Comprehensive Shopify product management tool (handles 3,000+ products)
+  - AI-powered color detection
+  - Skill level classification
+  - Metafield management
+  - Change tracking with granular undo functionality
+
+---
+
+## 9. SALES CHANNELS & CUSTOMER JOURNEY
+
+### Awareness Stage
+- **Primary:** Amazon (90% of current sales originate here)
+- **Secondary:** Meta ads (cold traffic to winter collections)
+- **Tertiary:** Instagram organic (@bastelschachtel)
+- **Strategic Shift:** Moving from Amazon-dependent to owned channel awareness
+
+### Consideration Stage
+- **Touchpoints:** Email engagement, quiz funnel (being optimized), social proof
+- **Current Issue:** Quiz has high CTR but low conversion → bypassing for direct email links in Q4
+- **Solution:** Email strategies with direct links + permission-based messaging
+
+### Conversion Stage
+- **Current Reality:** Amazon checkout handles 90% of sales
+- **Desired Path:** Direct shop purchase via email/owned channels
+- **Friction Points:**
+  - Bundle builder complexity (slow load, once-daily popup, can't link directly)
+  - High shipping costs relative to product value (€5+ shipping on €35 average order)
+  - Lack of personal connection (Amazon marketplace feels transactional)
+- **Q4 Solution:** Email → listicle → bundle builder (warm, educational path, no quiz friction)
+
+### Conversion (Current Q4 Path)
+- Meta Ad → Listicle → Bundle Builder → Shopify Checkout
+- Email → Bundle Builder (direct link) → Shopify Checkout
+- Email → Product Page (for specific items) → Shopify Checkout
+
+### Retention Stage
+- **Current:** Minimal post-purchase engagement
+- **Q1 2026 Plan:** Post-purchase flows for repeat buying, UGC collection
+- **Goal:** Build email-driven repeat purchase rate from near-zero to 20%+
+
+### Post-Purchase (Q4 2025)
+- **Feedback Collection:** Dec 4-19 customer calls for product insights
+- **UGC Requests:** Email asking for photos/videos of projects
+- **Community Building:** Emphasize hand-packed, personal service
+- **Emergency Contact:** "Ruf uns an. Das ist, wofür wir da sind." (if customer feels unheard)
+
+---
+
+## 10. COMPETITIVE POSITIONING & MARKET CONTEXT
+
+### Direct Competitors
+- Amazon (currently winning, 90% of revenue)
+- Generic craft supply retailers
+- Large European craft chains (Boesner, etc.)
+- Mass-produced gift suppliers
+
+### Competitive Advantages
+- Small-team authenticity (hand-packed, personal)
+- Direct customer relationship (customers can call owner/team)
+- Personal, warm communication (not corporate)
+- Flexible, customer-controlled bundles (vs. fixed kits)
+- Tirol heritage + local authenticity
+- No fake urgency (integrity as differentiator)
+- Community-first approach (long-term over transactional)
+
+### Market Position
+- **Category:** Premium DIY craft supplies (Austria/DACH region)
+- **Positioning:** Quality + meaning + handmade, not cheap or generic
+- **Geographic Focus:** DACH-specific (Austrian/German/Swiss cultural fit)
+- **Target:** Women 30-60, creativity-focused, gift-conscious
+- **Differentiation:** Authenticity, control, permission (not transaction)
+
+### Market Trends Leveraged
+- Post-COVID sustained interest in home crafts and DIY projects
+- Handmade renaissance (anti-Amazon sentiment growing)
+- Sustainable/authentic gifting preference
+- DIY/creativity as wellness and self-care
+- Time as luxury
+- Small business support (over corporate alternatives)
+- Seasonal peaks: BFCM (Nov-Dec) + Christmas gifting (Sep-Dec) = 50-60% of annual revenue
+- January dips: Natural sales decline (resolution fatigue, post-holiday slowdown)
+
+---
+
+## 11. STRATEGIC PRIORITIES & ROADMAP
+
+### Q4 2025 (Current Execution)
+- ✅ Listicle creation (complete)
+- ✅ 9 native ad designs (complete)
+- ✅ Meta ad copy (complete)
+- ✅ Email calendar framework (complete; emails still being sent through Dec 27)
+- ⏳ Email campaign execution (Nov 24-Dec 27; 9 sent as of Dec 1)
+- ⏳ Ad campaign optimization (continuous through Dec 1)
+- ⏳ BFCM window execution (Nov 28-Dec 1 completed; monitoring ongoing)
+- ⏳ Shipping deadline messaging (Dec 8-19)
+- ⏳ Post-holiday gratitude (Dec 24-27)
+- ⏳ Customer feedback collection (Dec 4-19 calls for product insights)
+- ⏳ UGC content collection (from post-purchase requests)
+
+### Q1 2026 Priorities
+1. **List Hygiene & Segmentation:** Identify and suppress Amazon-origin non-converters; clean database
+2. **Post-Purchase Flow Development:** Build v2 flow with micro-surveys, UGC requests, replenishment triggers
+3. **Attribution Implementation:** Hyros or GA4 UTM tracking for real-time email → revenue visibility
+4. **Quiz/Landing Page Optimization:** Fix Appstle loading speed, enable direct linking, A/B test post-holidays
+5. **Bundle Builder UX:** Add step logic (what → base → materials → decoration → add-ons)
+6. **Feedback Analysis:** Review Dec 4-19 customer calls; develop new products/bundles based on insights
+7. **Repeat Purchase Strategy:** Establish RFM scoring, identify repeat buyer segments, build retention flows
+8. **VIP Program:** Early access for high-value Q4 2025 buyers
+
+### 2025-2026 Long-Term Goals
+- **Channel Diversification:** Reduce Amazon from 90% to 60-70%; grow owned channels to 30-40%
+- **Email as Revenue Driver:** Establish email as reliable, attributed, measurable channel
+- **Repeat Customer Growth:** Build habitual buyers (quarterly purchases) vs. transactional (BFCM spikes)
+- **Community Building:** Increase UGC content, customer-generated marketing
+- **Attribution Clarity:** Full-funnel tracking (email → revenue, ad spend → revenue, customer lifetime value)
+- **Scale Without Losing Soul:** Grow revenue while maintaining small-team authenticity
+- **Brand Strength:** Reduce dependency on heavy discounting; build brand-driven demand
+- **Team Evolution:** Potentially hire second marketing person or customer service specialist (Q2 2026)
+
+---
+
+## 12. CONSTRAINTS & RISKS
+
+### Operational Constraints
+- **Team Size:** 5 people (no specialization possible; everyone multitasks)
+- **Fulfillment Capacity:** Manual, hand-packed (max ~300 orders/day before quality degrades)
+- **Email Management:** Manual (not fully automated; requires judgment)
+- **System Simplicity Requirement:** Must remain ruthlessly simple (team capacity constraint)
+- **Scaling Limitation:** Cannot scale hand-packed model without major hiring/capital investment
+
+### Technology Constraints
+- **Bundle Builder:** Appstle (slow, limited functionality, can't link directly)
+- **Attribution Gap:** No real-time email-to-revenue data (Hyros planned but not budgeted yet)
+- **Inventory Sync:** Ready2Sync causing automatic resets (partially resolved, monitoring)
+- **Analytics:** Limited to Shopify order tracking + Klaviyo opens/clicks
+
+### Market Constraints
+- **Amazon Dependency:** Difficult to reduce from 90% without cannibalizing other revenue
+- **Shipping Costs:** GLS/DPD expensive relative to product value (customer pain point)
+- **Delivery Reliability:** GLS issues (missed attempts, package shop forced drop-offs)
+- **Stock Updates:** Can't update inventory fast enough from Amazon feedback
+
+### Financial Constraints
+- **Budget:** Limited (estimated 5-10% of revenue for marketing)
+- **Team Cost:** 40-50% of revenue (fixed cost; hard to increase)
+- **Scaling Investment:** Need capital to hire more pick-packers if demand spikes
+- **Technology Spend:** Prioritizing attribution platform; limited budget for new tools
+
+### Database/Data Constraints
+- **Klaviyo Database Hygiene:** 8,000 total but only ~3,200 are active online shop customers
+  - 1,500 already suppressed
+  - 6,500 unidentified (mix of Amazon-origin + dormant + duplicates)
+  - Action needed: More aggressive cleaning Q4/Q1
+- **List Quality:** High percentage dormant or low-intent; need to identify and remove
+- **Attribution Blindness:** Can't see which list segments drive revenue; must infer from behavior
+
+---
+
+## 13. KEY PERFORMANCE INDICATORS (KPIs)
+
+### Email Metrics (Current Baselines)
+- **Open Rate:** 30% baseline on engaged subscribers
+- **Click-Through Rate:** Expecting 4-8% for conversion emails
+- **Conversion Rate:** Email → listicle → builder → purchase (to be measured)
+- **List Growth:** From quiz funnel (new subscribers)
+- **Segment Health:** Active openers vs. dormant vs. high-intent
+
+### Ad Metrics (Q4 2025)
+- **Click-Through Rate:** By angle (A/Control vs. B/Intention vs. C/Meaning)
+- **Cost Per Click:** By angle and audience segment
+- **Relevance Score:** Meta quality metric (target: 8+)
+- **Landing Page Performance:** Bounce rate, scroll depth, time on page (listicle)
+
+### Conversion Metrics (Q4 2025)
+- **Orders Generated:** By source (email, organic, paid, Amazon)
+- **Conversion Rate:** Email → article → builder → purchase
+- **Average Order Value:** By angle, by segment
+- **Free Gift Tier Selection:** % choosing €30, €70, €100+ tiers
+
+### Customer Metrics
+- **Email List Health:** Active, engaged, high-intent, dormant
+- **Customer Feedback Quality:** Output from Dec 4-19 calls
+- **UGC Content Collected:** Photos/videos from post-purchase requests
+- **Amazon-to-Owned Conversion:** % of Amazon customers converting to direct shop
+
+### Strategic Metrics (To Be Established Q1 2026)
+- **Email ROI:** Once Hyros/attribution implemented
+- **Repeat Purchase Rate:** % of customers making 2+ purchases
+- **Customer Acquisition Cost (CAC):** By channel
+- **Customer Lifetime Value (CLTV):** By segment, by channel
+- **Churn Rate:** Days to first repeat purchase, repeat purchase frequency
+- **Channel Mix Shift:** % revenue from owned vs. Amazon (tracking toward 30-40% goal)
+
+---
+
+## 14. FINANCIAL GOALS & TARGETS
+
+### Q4 2025 Targets
+- **Revenue Goal:** €120k+ (10-15% YoY growth from €106k Q4 2024)
+- **Owned Channel Mix:** Grow from 10% to 15-20% (or higher if campaign performs)
+- **Email Revenue Contribution:** Establish baseline (currently unknown due to attribution gap)
+- **List Engagement:** Maintain or improve 30% open rate; grow high-intent segment
+
+### End-of-2025 Targets
+- **Owned Channel Mix:** 30-40% of revenue (from current 10-18%)
+- **Amazon Reduction:** 60-70% of revenue (from current 90%)
+- **Email Growth:** Establish email as reliable acquisition + retention channel
+- **List Size:** 5,000+ active, cleaned subscribers (from current 3,200 active)
+- **Repeat Purchase Rate:** Establish baseline for repeat buying (currently near-zero except BFCM)
+
+### Q1 2026 Targets
+- **Attribution Platform:** Hyros or GA4 UTM implemented and tracking
+- **Email ROI:** Real-time visibility into email-driven revenue
+- **Repeat Rate:** Grow repeat purchase rate to 15-20%+ (from near-zero)
+- **Owned Channel Revenue:** Sustain 30-40% mix from Q4 entry point
+
+---
+
+## 15. BRAND TONE & VOICE REQUIREMENTS
+
+### Core Communication Principles
+- ✅ **Authenticity:** Do what you say; say what you do
+- ✅ **Permission over Pressure:** Invite, don't demand
+- ✅ **Quality over Scale:** 800 engaged > 3,000 reluctant
+- ✅ **Honesty about Limitations:** "We're small, we make mistakes, call us"
+- ✅ **Community First:** Long-term relationship > transaction
+- ✅ **No Fake Urgency:** Only real dates (Dec 19 deadline is real)
+- ✅ **Warmth:** Like a friend who understands creativity
+- ✅ **Implicit Sales:** Feel, not product
+
+### What to Absolutely Avoid
+- ❌ Corporate language
+- ❌ Aggressive sales tactics ("BUY NOW", "LIMITED TIME" except real deadlines)
+- ❌ Pushy CTAs
+- ❌ Transaction-focused messaging
+- ❌ Generic, templated copy
+- ❌ Tracking language ("I noticed you clicked")
+- ❌ Data-driven language ("we saw you opened")
+- ❌ Apologies or defensiveness
+- ❌ Mention of internal struggles
+
+### Tone Variations by Channel
+- **Email Headlines:** Like a letter from a friend (odd times: 10:30, 15:30)
+- **Email CTA:** "Schau dich um" vs. "BESTELLE JETZT" (invitation vs. demand)
+- **Native Ads:** Newspaper aesthetic, journalistic tone, not salesy
+- **Social Media:** Community-focused, UGC-forward
+- **Every Email Footer:** Hand-packing promise + call-us-directly message
+
+---
+
+## 16. CUSTOMER COMMUNICATION CHANNELS
+
+### Primary Channels
+- **Email:** Klaviyo (primary revenue driver, owned)
+- **Phone:** Direct access ("Ruf uns an" in every touchpoint) — Wattens-based team
+- **Website/Shop:** Shopify (secondary, shopping/browsing)
+- **Instagram:** @bastelschachtel (organic, community)
+
+### Secondary/Emerging
+- **Native Advertising:** Listicle + advertorial designs (DACH publications)
+- **SMS:** Planned (not yet active; Q2 2026 consideration)
+- **TikTok/Pinterest:** Visual, craft-focused platforms (Q1 2026 consideration)
+
+### Offline
+- **Physical Store:** Wattens location (local community + tourist traffic)
+- **Direct Customer Service:** Owner/team available for problem-solving
+
+---
+
+## 17. CRITICAL SUCCESS FACTORS FOR Q4 2025
+
+1. **Email Execution:** Complete and send 16-18 emails through Dec 27 with consistent brand voice
+2. **Shipping Deadline Management:** Communicate Dec 19, 10:00 AM cutoff clearly (factual, not fake)
+3. **List Segmentation:** Identify and separate Amazon-origin non-converters from engaged shop customers
+4. **UGC Collection:** Gather customer photos/videos for Q1 2026 content (community building)
+5. **Feedback Integration:** Dec 4-19 customer calls drive Q1 product/bundle development
+6. **Ad Performance:** Monitor winning angles (Refuge/Quiet, Control/Intention, Meaning/Timelessness); optimize spend
+7. **Conversion Tracking:** Establish baseline for email → revenue (even without attribution platform)
+8. **Customer Experience:** Hand-packed, fast, error-free fulfillment through peak season
+9. **Brand Consistency:** Warm, authentic tone across all touchpoints; no corporate or pushy language
+10. **Owned Channel Shift:** Drive measurable traffic from Amazon to Shopify/email
+
+---
+
+## 18. SUMMARY: BASTELSCHACHTEL OPERATING MODEL (December 2025)
+
+### What We Sell
+Premium DIY craft supplies + build-your-own bundles, positioned as tools for personal creativity and meaningful gift-giving (not transactions).
+
+### Who We Are
+5-person Austrian team in Wattens, Tirol. Hand-packed orders. Small, authentic, accessible (customers can call).
+
+### Who We Serve
+Women 30-60 in DACH who want to make things but feel guilty, or make for others but not themselves, or want meaningful gifts instead of Amazon boxes.
+
+### How We Sell
+90% Amazon today; shifting to owned channels (email + Shopify). Q4 2025 focus: introduce new bundle structure, test email engagement, collect feedback.
+
+### What We're Solving
+- Permission to invest in creativity (not guilt)
+- Escape from transactional mass-market gifting
+- Access to quality materials + personal, direct relationship
+- Quiet, purposeful time (vs. Amazon noise)
+
+### Financial Reality
+- Q4 2024: €106k (90% Amazon, 10% owned)
+- Q4 2025 Goal: €120k+ with shift toward owned channels
+- EOY 2025 Target: 30-40% from owned channels (60-70% Amazon)
+- Margin pressure: Heavy discounting in Q4; goal is brand-driven demand by 2026
+
+### Next Critical Dates
+- **Dec 1, 2025:** Campaign in-flight; 9 emails sent
+- **Dec 19, 10:00 AM:** Absolute cutoff for Dec 24 delivery (real deadline, not fake)
+- **Dec 4-19:** Customer feedback calls (input for Q1 product development)
+- **Dec 27, 2025:** Final campaign email
+- **Q1 2026:** Attribution platform, post-purchase flows, list hygiene, bundle builder UX fix
+
+---
+
+**Document Status:** Authoritative master document compiled from three source documents + clarifications as of December 1, 2025, 11:00 AM CET.
+
+**Clarifications Incorporated (per x3):**
+- Amazon revenue: 90% general ongoing pattern (Q4 2024 was 81%, likely higher currently)
+- Team size: 5 people (3 pick-packers including marketing/ecom person; 1 owner; 1 student 10hrs/week)
+- Emails sent: 9 of planned 16-18 as of Dec 1
+- Cutoff date: Dec 19, 2025, 10:00 AM (orders after guaranteed not to arrive Dec 24)
+- Klaviyo database: 8,000 total; 3,200 active shop origin; 1,500 suppressed; 6,500 unidentified (need cleaning)
+- Q4 2024 revenue: €106k across all channels

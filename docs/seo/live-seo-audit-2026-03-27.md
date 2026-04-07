@@ -1,4 +1,5 @@
 # Bastelschachtel Live SEO Audit
+#seo
 
 *Date: 2026-03-27*
 *Domain audited: `https://www.bastelschachtel.at/`*
@@ -388,3 +389,10 @@ This is no longer a site with "no SEO foundation." It is a site with:
 The gap is now operational, not conceptual.
 
 If you fix homepage targeting, collection H1/meta consistency, and the broken Korbflechten/Peddigrohr search path, Bastelschachtel should be materially better positioned for its most realistic commercial keywords.
+
+## Related Docs
+
+- [[docs/seo/README]]
+- [[docs/seo/seo-execution-checklist-2026-03-27|seo-execution-checklist-2026-03-27]]
+- [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
+- [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]

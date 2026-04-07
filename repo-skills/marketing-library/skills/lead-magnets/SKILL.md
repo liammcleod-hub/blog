@@ -308,3 +308,5 @@ When creating a lead magnet strategy, provide:
 - **analytics-tracking**: For measuring lead magnet performance
 - **paid-ads**: For paid promotion of lead magnets
 - **social-content**: For social media promotion
+
+#skills

@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Bastelschachtel Architecture Gap Analysis",
+    "subtitle": "What's Missing from Your Behavioral Economics & Marketing Foundation",
+    "date": "December 2025",
+    "source_synthesis": [
+      "Jeremy Bullmore - Advertising and its Audience (1998)",
+      "Carl Weische - Cold Friendly Offers",
+      "Sebastian Szalinski - IRON's 3 Money Printing Phases",
+      "Great Leads - Sales Message Architecture",
+      "Rory Sutherland - Transport for Humans (implied values)"
+    ],
+    "finding": "Your architecture is strong on PSYCHOLOGY but weak on ARCHITECTURE. You have the emotional truth but lack the mechanical systems and demand-creation frameworks."
+  },
+
+  "GAP_1_ADVERTISING_PHILOSOPHY": {
+    "title": "Missing: The Bullmore Insight on Who Really Makes the First Move",
+    "current_state": "Your architecture assumes Bastelschachtel is doing 'display advertising' - going looking for people with warm, inviting messaging.",
+    "what_bullmore_reveals": {
+      "core_insight": "There are two kinds of advertising: advertising people GO LOOKING FOR (classified) vs. advertising that GOES LOOKING FOR THEM (display).",
+      "criticism": "Most brands treat all advertising as one activity. It's not. They work completely differently.",
+      "relevance_to_bastelschachtel": "Your emails are DISPLAY advertising (going looking for people). But your bundle strategy and product positioning need to answer: 'Why would someone voluntarily search for this exact solution?'",
+      "bastelschachtel_blind_spot": "You're not creating enough demand-pull. People aren't searching for 'DIY Christmas ornament bundles' - you're creating the desire. This is correct positioning, but your messaging doesn't reflect the MECHANICAL DIFFERENCE between pursuing people (display) vs. being found (classified).",
+      "what_to_add": {
+        "principle": "DUAL-MODE ADVERTISING FRAMEWORK",
+        "dimension_1": "Pull Mechanics - How to make people actively WANT to see more (Zeigarnik effect, curiosity gaps, unresolved questions)",
+        "dimension_2": "Push Mechanics - How to position yourself as THE solution when someone is ready to buy (salience, mental availability, top-of-mind awareness)",
+        "implication": "Your Sunday evening email works as DISPLAY (going looking for them). But it needs a secondary hook that converts it to PULL (making them search/return/crave more)."
+      }
+    }
+  },
+
+  "GAP_2_SALIENCE_NOT_PERSUASION": {
+    "title": "Missing: Ehrenberg's Salience Model vs. Your Persuasion Architecture",
+    "current_state": "Your behavioral economics focuses heavily on persuasion (Life Force 8, Hormozi's Value Equation, Schwartz Awareness). This assumes people need convincing.",
+    "what_bullmore_reveals": {
+      "core_insight": "For established, frequently-purchased products in mature markets, advertising's job is NOT persuasion. It's PUBLICITY. It's about maintaining SALIENCE and CELEBRITY.",
+      "what_salience_means": "Standing out on the mental choice-list. Being thought about. Being remembered when the moment comes.",
+      "bastelschachtel_blind_spot": "You're trying to persuade people to become 'creators' (value equation). But you're not designing for SALIENCE. People already KNOW they want to make gifts. They just don't think of Bastelschachtel when the idea strikes.",
+      "the_math": "Ehrenberg proved: Exclusive users (people who ONLY buy your brand) are extremely rare. Most people buy within a repertoire of 3-5 similar solutions. The goal isn't conversion of Brand X to Brand Y. It's staying IN their repertoire and being chosen MORE OFTEN.",
+      "what_to_add": {
+        "principle": "SALIENCE ARCHITECTURE (not persuasion architecture)",
+        "element_1": "Brand Density - How often Bastelschachtel appears in decision moments (not how persuasive each touch is)",
+        "element_2": "Mental Availability - What's the moment of truth? (Sunday evening overwhelm? 'What to get Mom?' thought? Scrolling for gift ideas?) Be there then.",
+        "element_3": "Choice-List Positioning - You're competing against: DIY ideas (Pinterest), gift shops, Etsy, craft stores. You need to be SALIENT in all of them.",
+        "element_4": "Fame vs. Persuasion - Build 'fame' (recognition, recall, being thought of) rather than argument-based persuasion.",
+        "implication": "Stop trying to CONVINCE people that crafting gives them identity. Start ensuring people THINK OF YOU when the gift-giving moment comes."
+      }
+    }
+  },
+
+  "GAP_3_TRANSACTION_VS_DIRECT_RESPONSE": {
+    "title": "Missing: The IRON Framework - Transaction vs. Direct Response Architecture",
+    "current_state": "Your strategy is transaction-focused: Show product → Hope they buy. Your emails showcase bundles and hope people respond.",
+    "what_iron_reveals": {
+      "core_binary": "Transaction Marketing (show and hope) vs. Direct Response Architecture (trigger, steer, extract).",
+      "transaction": "Scale existing demand. Works only on warm, high-intent audiences. Breaks when you reach market saturation (TAM wall).",
+      "direct_response": "CREATE demand that didn't exist. Convert cold audiences into warm ones through educational content. Then extract at scale.",
+      "bastelschachtel_blind_spot": "Your 3,000 email list is WARM. You're doing transaction marketing to them (showing bundles → hoping for conversions). This is correct for retention. BUT: You're not building the pipeline of COLD people who don't yet know Bastelschachtel exists.",
+      "the_tamarking_problem": "Once you've exhausted warm traffic (which Bastelschachtel is doing - low NCPA on known audiences), the ONLY way to scale is to go COLDER. Cold traffic doesn't convert to bundles. It needs EDUCATION first.",
+      "what_to_add": {
+        "principle": "DEMAND CREATION FUNNEL (not just transaction funnel)",
+        "layer_1": "COLD AWARENESS - Advertorial-style content that educates (What makes a 'good' gift? Why DIY > store-bought? The psychology of creating for loved ones?)",
+        "layer_2": "PROBLEM FRAMING - Position the actual problem people don't realize they have: 'I want a meaningful gift but don't know how to make it' OR 'I want to create but I don't know where to start'",
+        "layer_3": "TRANSACTION MOMENT - THEN show the bundle as the obvious solution (not the entry point)",
+        "implication": "Your email calendar is 100% transaction. Your paid ads need to be 60% education/problem-framing, 40% transaction.",
+        "example_cold_flow": "Meta Ad (advertorial about 'Why handmade gifts mean more') → Blog/Landing (educational content with embedded Bastelschachtel solution) → Email (transaction: Here's the bundle) → Win"
+      }
+    }
+  },
+
+  "GAP_4_NARRATIVE_VS_RATIONAL_CLAIMS": {
+    "title": "Missing: Bullmore's Critique of USP-Based Messaging",
+    "current_state": "Your messaging uses rational claims: 'All-in-one solution,' 'removes friction,' 'increases perceived value.' These are USP-style arguments.",
+    "what_bullmore_criticizes": {
+      "the_usp_problem": "Advertising spent 45+ years on Rosser Reeves' USP model: clear rational propositions that convert Brand X users to Brand Y. Problem: People don't buy based on rational propositions. They buy based on brand image, character, personality.",
+      "the_evidence": "Gardner & Levy (1955): 'The net result is a public image, a character or personality that may be more important for the overall status (and sales) of the brand than many technical facts about the product.'",
+      "what_people_actually_do": "People choose washing powder because it 'gets clothes clean' (surface rationality). But they actually choose based on what using that brand MEANS about them. Same for beer: men claim they choose rationally. But they choose based on identity.",
+      "bastelschachtel_blind_spot": "Your copy explains WHAT the bundle does (removes decision fatigue, provides everything). But it doesn't explain WHO uses Bastelschachtel and what that means about them.",
+      "the_vs_the_identity_gap": "You position as 'support for makers.' But you don't position as 'for people who care enough to make something.'\nSub-question: Am I the kind of person who makes gifts? Or am I becoming that person by using Bastelschachtel?",
+      "what_to_add": {
+        "principle": "BRAND CHARACTER ARCHITECTURE (not just value propositions)",
+        "element_1": "Who is the Bastelschachtel customer? Not demographically. But characterologically. What's their self-image?",
+        "element_2": "What does using Bastelschachtel SIGNAL about them? (Care, creativity, thoughtfulness, rebellion against mass production?)",
+        "element_3": "Brand Personality - Is Bastelschachtel warm and nurturing? Exclusive and rare? Rebellious? Maternal?",
+        "element_4": "Long-term brand investment - Not 'why buy this bundle' but 'what kind of person am I becoming by choosing Bastelschachtel over Amazon?'",
+        "implication": "Your emails should feel like joining a community of people who MAKE THINGS, not like buying a solution to a problem."
+      }
+    }
+  },
+
+  "GAP_5_COLD_FRIENDLY_OFFER_MECHANICS": {
+    "title": "Missing: The Weische Framework - Why Your Bundles Don't Scale to Cold Traffic",
+    "current_state": "Your DIY bundles are built for warm traffic (known audience, email list). They have weak cold-traffic mechanics.",
+    "what_weische_reveals": {
+      "cold_friendly_offer_definition": "An offer that works with UNAWARE (cold) audiences, not just aware ones.",
+      "why_bundling_alone_fails": "Bundling works for warm audiences (they already understand value). Cold audiences don't yet see why the components go together.",
+      "the_four_pillars": {
+        "1_mass_market_desire": "Does the offer appeal to at least ONE of: Attractiveness, Social Comparison, Belonging, Safety/Health, Reproduction?",
+        "2_perceived_value": "Do they see it as THE ONLY OPTION, not just another choice?",
+        "3_resourcefulness_over_resources": "Can you bundle to CREATE holistic value, not just combine products?",
+        "4_persuasion_elements": "Does it have social proof, authority, certainty, scarcity, urgency, exclusivity?"
+      },
+      "bastelschachtel_analysis": {
+        "mass_market_desire": "✓ Attractiveness (beautiful gift), ✓ Belonging (being the thoughtful person), ✗ Reproduction/Safety (weak)",
+        "perceived_value": "✗ Customers see DIY bundles as 'one of many options' not 'the obvious choice'",
+        "resourcefulness": "⚠ Bundling is loose (products that happen to go together, not a holistic system)",
+        "persuasion_elements": "⚠ Weak social proof (limited UGC), ⚠ Weak scarcity (no real limit), ✗ Weak urgency (Dec 18 deadline exists but feels artificial)"
+      },
+      "why_cold_traffic_fails": "Cold audiences see: 'Craft bundle for gifts.' Warm audiences see: 'Everything I need to finally make that gift I've been thinking about.' Different perception of the same offer.",
+      "what_to_add": {
+        "principle": "BUNDLE ARCHITECTURE FOR COLD TRAFFIC",
+        "step_1": "Reframe the bundle as solution to a REAL problem (not products)",
+        "step_2": "Position as THE ONLY OPTION in that category (not 'one option')",
+        "example_cold_reframe": "Instead of 'Glass Etching Bundle,' position as 'The 3-Hour Gift System for People Who Care.' The bundle isn't the offer; the RESULT is the offer.",
+        "step_3": "Add real scarcity (limited materials per tier, not arbitrary caps)",
+        "step_4": "Integrate social proof (transformations, before/afters, testimonials from people who 'never thought they could do this')",
+        "step_5": "Create narrative arc in the copy (problem → solution journey, not feature listing)",
+        "implication": "Your current bundles are 7/10 for warm traffic. They're 3/10 for cold traffic. To scale, you need a different bundle structure entirely."
+      }
+    }
+  },
+
+  "GAP_6_DEMAND_CREATION_CREATIVES": {
+    "title": "Missing: IRON's Advertorial/Problem-Image-Ad Framework",
+    "current_state": "Your Meta ads are likely product-focused or lifestyle-focused. You're showing, not explaining.",
+    "what_iron_reveals": {
+      "the_creative_hierarchy": {
+        "level_1": "Entertainment creatives (short-form, trend-based, viral-focused) - Scale only warm traffic",
+        "level_2": "Problem-image ads (shows the problem, not the solution) - Starts warming cold traffic",
+        "level_3": "Advertorials (journalistic, educational, frames the problem) - Converts cold to warm",
+        "level_4": "Long-form VSLs (video sales letters, full education + close) - Highest ROAS on cold traffic"
+      },
+      "what_most_brands_do": "Stay at level_1. Show product. Hope for conversions. Breaks at TAM wall.",
+      "what_1%_brands_do": "Invest in level_3. Educate before selling. Convert cold audiences into warm ones. Scale infinitely.",
+      "bastelschachtel_blind_spot": "You're probably at level_1 or level_2. Your ads show beautiful finished crafts or emotional lifestyle moments. You're not EDUCATING about the problem.",
+      "the_problem_to_frame": "Not 'make a gift.' But 'I want to give something meaningful but I don't know where to start' OR 'I'm tired of giving the same impersonal gifts everyone gives.'",
+      "what_to_add": {
+        "principle": "PROBLEM-FIRST CREATIVE ARCHITECTURE",
+        "advertorial_template": {
+          "format": "Looks like a blog post or magazine article",
+          "hook": "'Why Handmade Gifts Are Worth Your Time (And Why You're Not Making Them)' or 'The Guilt of Impersonal Gifts: Why Your Recipients Deserve Better'",
+          "body": "Educational content about the PROBLEM (not the product yet). Why do people feel uncomfortable giving mass-produced gifts? What does a 'meaningful' gift actually mean? What's the psychology?",
+          "transition": "Reveal that the reason people don't make gifts is lack of SYSTEM, not lack of care",
+          "solution": "Position Bastelschachtel as the system (not the product)",
+          "cta": "Free guide, landing page, or low-commitment entry"
+        },
+        "problem_image_ad": {
+          "format": "Static image or short video",
+          "content": "Shows the FEELING of the problem, not the solution. Woman holding a generic gift, looking disappointed. OR stack of store-bought items feeling empty.",
+          "text": "Frame the problem in their language: 'Tired of giving gifts that scream 'I forgot to shop'?'",
+          "cta": "Swipe to see what thoughtful people are doing instead"
+        },
+        "implication": "Your ad spend should be: 10% product ads, 30% problem-image ads, 40% advertorials, 20% VSLs (if video available). Currently it's probably 50% product, 50% lifestyle."
+      }
+    }
+  },
+
+  "GAP_7_THE_TAM_WALL": {
+    "title": "Missing: IRON's TAM (Total Addressable Market) Wall Framework",
+    "current_state": "Your strategy assumes infinite scaling within 'women aged 30-60 interested in crafts.' This is false.",
+    "what_iron_reveals": {
+      "the_tam_principle": "Your market is concentric circles. The innermost circle = people actively ready to buy (hot). Each ring outward = progressively colder audiences.",
+      "innermost_circle": "1% of market. 'I'm literally shopping for a gift RIGHT NOW and willing to DIY'",
+      "circle_2": "5% of market. 'I occasionally think about making gifts and might be convinced'",
+      "circle_3": "20% of market. 'I like the idea of DIY but never actually do it'",
+      "circle_4": "40% of market. 'I like gifts but don't think about HOW they're made'",
+      "outer_circle": "34% of market. 'Completely unaware this is even an option'",
+      "the_wall": "Most brands exhaust circles 1+2, then hit a wall. They push harder on the same message. CPMs rise, conversions fall. They conclude 'market saturation' when really they just need a different message for colder audiences.",
+      "bastelschachtel_current_state": "You've likely exhausted or near-exhausted circles 1+2 (warm email list, repeat customers). Your DIY bundles are optimized for these warm people. You're now hitting diminishing returns.",
+      "why_it_feels_frustrating": "More spend = worse ROAS. More email frequency = lower opens. This isn't a product problem or a marketing problem. It's a TAM architecture problem.",
+      "what_to_add": {
+        "principle": "MULTI-MESSAGE ARCHITECTURE FOR DIFFERENT TAM CIRCLES",
+        "for_circle_1": "(Already buying) Transaction message: 'New bundle: everything you need for X'",
+        "for_circle_2": "(Occasionally interested) Conversion message: 'Why handmade gifts mean more + how to finally start'",
+        "for_circle_3": "(Idea-liking) Aspiration message: 'These people are making incredible gifts. You can too.'",
+        "for_circle_4": "(Unaware it exists) Awareness message: 'Did you know you could make [specific beautiful thing]? Here's how.'",
+        "for_outer_circle": "(Completely cold) Entertainment/education: 'Why we're obsessed with making things + the science behind it'",
+        "implication": "Your current strategy has one message for ALL audiences. You need 5 different messages. This is why cold traffic performs so poorly. They're getting a warm-audience message."
+      }
+    }
+  },
+
+  "GAP_8_AUDIENCE_UNDERSTANDING_NOT_PERSUASION": {
+    "title": "Missing: Bullmore's Most Radical Insight - People Understand Their Own Needs Better Than You Do",
+    "current_state": "You're trying to PERSUADE people to become 'creators' and 'makers.' This assumes they don't already know what they want.",
+    "what_bullmore_emphasizes": {
+      "the_thesis": "'People have always understood marketing better than marketing people.' This is even MORE true for advertising.",
+      "what_this_means": "Your job isn't to convince people of something they don't believe. It's to help them articulate and act on what they ALREADY want but haven't expressed.",
+      "the_peasant_argument": "Given freedom from poverty and access to choice, people generally get things right. Don't underestimate your audience's intelligence.",
+      "bastelschachtel_blind_spot": "You're positioning as if people don't realize they want to make gifts. They DO. You're trying to convince them it's POSSIBLE. Wrong target.",
+      "what_people_actually_need": "Not persuasion that they should make gifts. Confidence that THEY CAN. Permission to try. Proof that it's not too hard. Systems that make it effortless.",
+      "the_listening_requirement": "Listen to what people are actually saying (in DMs, reviews, community). Then reflect it back to them. Don't invent desires.",
+      "what_to_add": {
+        "principle": "PERMISSION ARCHITECTURE (not persuasion)",
+        "shift_1": "Stop: 'Making gifts is an identity shift.' Start: 'You already want to make gifts. Here's why you haven't + how to finally do it.'",
+        "shift_2": "Stop: 'DIY bundles solve decision fatigue.' Start: 'Here's the easiest way to do what you already want to do.'",
+        "shift_3": "Stop: 'Crafting gives you status.' Start: 'The people who matter to you will feel how much you care.'",
+        "shift_4": "Stop: 'You're creative enough.' Start: 'You already know what a great gift looks like. You just needed the system to make it.'",
+        "implication": "Rewrite your email copy. Listen to your customers. What do THEY say they want? Say that back to them. Don't invent new desires."
+      }
+    }
+  },
+
+  "GAP_9_POSITIONING_VS_SALIENCE_SPENDING": {
+    "title": "Missing: The Spend-to-Salience Framework (Not Spend-to-Awareness)",
+    "current_state": "You spend on Meta ads and email assuming it builds brand. It doesn't, if you're doing it wrong.",
+    "what_ehrenberg_proves": {
+      "the_misconception": "More advertising = more awareness = more sales.",
+      "the_reality": "Advertising that maintains salience (top-of-mind awareness) yields disproportionate returns. Advertising that only chases awareness yields diminishing returns.",
+      "how_to_measure_salience": "Not 'do they know Bastelschachtel exists?' (awareness). But 'do they think of Bastelschachtel when they want to make a gift?' (salience).",
+      "the_investment_question": "Are you spending to build salience (being top-of-mind when decisions happen) or just to reach eyeballs (awareness)?",
+      "bastelschachtel_misalignment": "You're spending like you're building awareness. You should be spending to build SALIENCE at specific moments.",
+      "what_to_add": {
+        "principle": "MOMENT-BASED SALIENCE INVESTMENT",
+        "moment_1": "When: Holidays approach (September-October). Who: People thinking about gifts. What: High-frequency, consistent presence (not one-off ads). Budget: Concentrate here.",
+        "moment_2": "When: Birthday season (all year). Who: People buying gifts randomly. What: Consistent small reminders. Budget: Lower, steady.",
+        "moment_3": "When: Sunday evenings (if insight is real). Who: Reflective mood, craft interest. What: Deep, meaningful messaging. Budget: High-engagement, lower-frequency.",
+        "moment_4": "When: Post-purchase (customer lifecycle). Who: Recent buyers who might refer. What: Community-building, showcase others' creations. Budget: Moderate.",
+        "implication": "Stop spreading budget evenly across the year. Concentrate in moments when people are most likely to think of gift-giving. Be SALIENT then."
+      }
+    }
+  },
+
+  "GAP_10_BRAND_MAINTENANCE_NOT_BRAND_BUILDING": {
+    "title": "Missing: The Ehrenberg Realism - You're In Maintenance Mode, Not Building Mode",
+    "current_state": "Your strategy assumes you're trying to GROW dramatically. Ehrenberg suggests you should focus on MAINTAINING and DEEPENING.",
+    "what_ehrenberg_proves": {
+      "the_paradox": "Brands in mature markets don't grow through persuasion (converting X to Y). They grow through maintenance + slight increases in frequency.",
+      "the_math": "If you have 1,000 customers buying 2x/year, growing to 1,100 customers buying 2x/year is 10% growth (180 new transactions). Growing existing customers to 2.2x/year is also 10% growth (200 transactions from 1,000 customers). The latter is easier.",
+      "bastelschachtel_position": "You're in a warm, established market (craft supplies, DIY, gift-giving). You're not in early-stage growth mode. You're in MAINTENANCE mode.",
+      "what_maintenance_requires": "Salience (staying top-of-mind), frequency (being purchased slightly more often), and quality (staying in the repertoire).",
+      "what_bastelschachtel_is_doing_wrong": "Treating maintenance spending like growth spending. Pushing for conversion on cold traffic. Expecting dramatic revenue jumps from email optimization.",
+      "realistic_goal": "If current repeat-customer frequency is 2x/year, grow to 2.3x/year. If new customer acquisition is 500/year, grow to 600/year. This is healthy, realistic, and sustainable.",
+      "what_to_add": {
+        "principle": "MAINTENANCE ARCHITECTURE (not growth-obsessed)",
+        "element_1": "Customer Lifetime Value focus, not Customer Acquisition Cost focus",
+        "element_2": "Repeat-purchase cadence optimization (how often do current customers buy?)",
+        "element_3": "Frequency-to-frequency growth (get each customer to buy one more time per year)",
+        "element_4": "Retention rings (who at risk of churning? Bring them back with different messaging)",
+        "element_5": "Referral systems (easiest growth = existing customers bringing friends)",
+        "implication": "Your success metrics should be: repeat purchase rate, frequency increase, NPS/referral rate. NOT: 'how many cold prospects convert to buyers.'"
+      }
+    }
+  },
+
+  "SYNTHESIS_AND_IMPLEMENTATION_PRIORITY": {
+    "what_you_have": {
+      "strength_1": "Excellent emotional/psychological architecture (Life Force 8, Hormozi, Schwartz, Girard, Derren Brown)",
+      "strength_2": "Strong brand voice and positioning ('aus Wattens, mit Liebe gepackt')",
+      "strength_3": "Real customer insight (Sunday evenings, gift-giving psychology, overwhelm relief)",
+      "strength_4": "Warm audience (3,000 email list, 30% open rate, loyal community)"
+    },
+    "what_you_lack": {
+      "gap_1": "Mechanical systems for demand creation (not just persuasion)",
+      "gap_2": "TAM wall framework (how to go deeper into colder audiences)",
+      "gap_3": "Salience investment strategy (not just awareness)",
+      "gap_4": "Problem-framing creatives (not just product showcase)",
+      "gap_5": "Multi-message architecture for different audience circles",
+      "gap_6": "Direct response funnel (not just transaction funnel)",
+      "gap_7": "Brand character positioning (not just value propositions)",
+      "gap_8": "Maintenance-mode metrics (not growth-obsessed metrics)"
+    },
+    "implementation_priority_order": {
+      "phase_1_immediate": [
+        "Gap 7: Rewrite email copy from 'solution' to 'permission' language. This is free and high-impact.",
+        "Gap 8: Shift metrics from 'cold traffic conversion' to 'repeat purchase rate' and 'frequency increase.' You're not failing; you're succeeding in the wrong metric.",
+        "Gap 9: Map your year to gift-giving moments. Concentrate salience spending there, not evenly."
+      ],
+      "phase_2_short_term": [
+        "Gap 6: Build a secondary funnel: advertorials (educational) before bundles (transactional). Test with cold traffic.",
+        "Gap 5: Create 3-5 different messaging angles for different TAM circles. Start testing which resonates beyond your current warm list.",
+        "Gap 4: Develop problem-framing creatives (not product showcase) for Meta ads. 'Why people don't make gifts' before 'here's a bundle.'"
+      ],
+      "phase_3_medium_term": [
+        "Gap 3: Build salience investment model. Concentrate budget in September-November, customer appreciation in December-January.",
+        "Gap 1: Implement IRON's Direct Response structure. Problem awareness → education → solution (bundle).",
+        "Gap 2: Map your entire market. Who's in circle 1 (hot buyers)? Circle 2 (warm)? Circle 3-5 (cold)? Different strategy for each."
+      ]
+    },
+    "one_year_vision": "You'll still be 'aus Wattens, mit Liebe gepackt.' But you'll have: (1) Cold traffic that converts through education, not persuasion. (2) Customers buying 2.5x/year instead of 2x/year. (3) Salience spending concentrated in key moments. (4) A brand character that attracts makers, not just offer-followers. (5) Realistic metrics that reflect your true success (maintenance + incremental growth). This isn't hypergrowth. But it's sustainable, profitable, and aligned with how people actually buy in mature markets."
+  }
+}

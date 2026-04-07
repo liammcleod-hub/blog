@@ -1,4 +1,5 @@
 # Blog SEO Pipeline SEO Inference Rules
+#content-pipeline #blog
 
 This document defines how the pipeline should infer required page structure beyond the explicit brief.
 

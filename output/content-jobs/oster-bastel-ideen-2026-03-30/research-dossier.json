@@ -1,0 +1,150 @@
+{
+  "locale": "de-AT",
+  "topic": "oster bastel ideen",
+  "research_type": "general_dossier",
+  "competitor_url": null,
+  "max_sources": 10,
+  "summary": "Competitor articles focus on simple, family-friendly Oster bastelideen with listicles of DIY tutorials using everyday materials like paper, wool, and upcycling items.",
+  "citations": [
+    {
+      "url": "https://cricut.com/blog/de/osterdeko-selber-machen-aus-papier/",
+      "title": "15 Bastel-Ideen zu Ostern aus Papier und Cardstock - Cricut blog",
+      "publisher": "Cricut",
+      "published_date": null,
+      "quote": "15 Bastel-Ideen zu Ostern aus Papier und Cardstock"
+    },
+    {
+      "url": "https://www.tischleindeckdich-blog.de/die-10-schoensten-diy-fuer-ostern-und-den-nahenden-fruehling/",
+      "title": "Die 10 schönsten DIY für Ostern und den nahenden Frühling",
+      "publisher": "Tischlein deck dich Blog",
+      "published_date": null,
+      "quote": "DIY für Ostern, 10 meiner schönsten DIY's für das Osterfest, schnell und einfach zu basteln"
+    },
+    {
+      "url": "https://chalet8.org/diy-10-einfache-oster-ideen-zum-selbermachen/",
+      "title": "DIY: 10 einfache Oster-Ideen zum Selbermachen - Chalet8",
+      "publisher": "Chalet8",
+      "published_date": null,
+      "quote": "DIY: 10 einfache Oster-Ideen zum Selbermachen. Süße Osterhasen, coole Ostereier"
+    },
+    {
+      "url": "https://www.peta.de/themen/einfache-bastelideen-ostern/",
+      "title": "Basteln zu Ostern: 7 einfache und tierleidfreie Bastelideen - PETA",
+      "publisher": "PETA",
+      "published_date": null,
+      "quote": "Basteln zu Ostern: 7 einfache und tierleidfreie Bastelideen"
+    }
+  ],
+  "competitor_blueprints": [
+    {
+      "url": "https://cricut.com/blog/de/osterdeko-selber-machen-aus-papier/",
+      "title": "15 Bastel-Ideen zu Ostern aus Papier und Cardstock - Cricut blog",
+      "framework": "Listicle",
+      "hook": "15 Ideen, die selbst Meister Lampe staunen machen!",
+      "gap": "Schnelle Papier-Deko für Osterhasen und Blumen",
+      "evidence": {
+        "quote": "Ein einfacher Lolli wird zum Hingucker im Osterhasen-Mäntelchen.",
+        "source_url": "https://cricut.com/blog/de/osterdeko-selber-machen-aus-papier/"
+      }
+    },
+    {
+      "url": "https://www.tischleindeckdich-blog.de/die-10-schoensten-diy-fuer-ostern-und-den-nahenden-fruehling/",
+      "title": "Die 10 schönsten DIY für Ostern und den nahenden Frühling",
+      "framework": "Listicle",
+      "hook": "10 meiner schönsten DIY's für das Osterfest",
+      "gap": "Vintage Ostereier und Frühling-Deko mit wenigen Mitteln",
+      "evidence": {
+        "quote": "Ostereier im Anzuchtbecher – sehr vintage und meine Idee Nr. 1",
+        "source_url": "https://www.tischleindeckdich-blog.de/die-10-schoensten-diy-fuer-ostern-und-den-nahenden-fruehling/"
+      }
+    },
+    {
+      "url": "https://chalet8.org/diy-10-einfache-oster-ideen-zum-selbermachen/",
+      "title": "DIY: 10 einfache Oster-Ideen zum Selbermachen - Chalet8",
+      "framework": "Listicle",
+      "hook": "Süße Osterhasen, coole Ostereier, tolle Hasengirlande",
+      "gap": "Einfache Ideen mit Filz, Holz, Beton für verschiedene Stile",
+      "evidence": {
+        "quote": "Falls ihr noch ein paar schnelle und einfache DIY Oster-Ideen sucht",
+        "source_url": "https://chalet8.org/diy-10-einfache-oster-ideen-zum-selbermachen/"
+      }
+    },
+    {
+      "url": "https://www.peta.de/themen/einfache-bastelideen-ostern/",
+      "title": "Basteln zu Ostern: 7 einfache und tierleidfreie Bastelideen - PETA",
+      "framework": "Listicle",
+      "hook": "Perfekt zum Basteln mit der Familie",
+      "gap": "Tierleidfreie Upcycling-Ideen wie Girlanden und Osterkörbe",
+      "evidence": {
+        "quote": "Einfache Ostergirlande sind schnell und einfach mit wenigen Materialien",
+        "source_url": "https://www.peta.de/themen/einfache-bastelideen-ostern/"
+      }
+    }
+  ],
+  "competitor_findings": [
+    {
+      "url": "https://cricut.com/blog/de/osterdeko-selber-machen-aus-papier/",
+      "notes": "Papier-basierte Osterideen mit Cricut-Tutorials",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 600,
+      "target_keyword_guess": "Osterdeko aus Papier"
+    },
+    {
+      "url": "https://www.tischleindeckdich-blog.de/die-10-schoensten-diy-fuer-ostern-und-den-nahenden-fruehling/",
+      "notes": "Top 10 DIY mit Materiallisten",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 500,
+      "target_keyword_guess": "DIY Ostern"
+    },
+    {
+      "url": "https://chalet8.org/diy-10-einfache-oster-ideen-zum-selbermachen/",
+      "notes": "Vielfältige Materialien und Stile",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 700,
+      "target_keyword_guess": "einfache Oster Ideen"
+    },
+    {
+      "url": "https://www.peta.de/themen/einfache-bastelideen-ostern/",
+      "notes": "Vegane, einfache Bastelideen",
+      "structure": {
+        "has_faq": false,
+        "has_tables": false,
+        "has_video": false
+      },
+      "word_count_estimate": 400,
+      "target_keyword_guess": "Bastelideen Ostern"
+    }
+  ],
+  "search_intents": [
+    {
+      "intent": "einfache Oster Bastelideen",
+      "type": "informational",
+      "why": "Articles provide lists of quick DIY tutorials",
+      "evidence_url": "https://cricut.com/blog/de/osterdeko-selber-machen-aus-papier/"
+    },
+    {
+      "intent": "Osterdeko selber machen mit Kindern",
+      "type": "informational",
+      "why": "Family-friendly, simple ideas highlighted",
+      "evidence_url": "https://www.peta.de/themen/einfache-bastelideen-ostern/"
+    },
+    {
+      "intent": "Last Minute Oster DIY",
+      "type": "informational",
+      "why": "Focus on quick, material-light projects",
+      "evidence_url": "https://chalet8.org/diy-10-einfache-oster-ideen-zum-selbermachen/"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # Retool Content Factory Contract
+#retool #content-pipeline
 
 This document captures the current Content Factory workflow and artifact structure in the Bastelschachtel Retool app.
 

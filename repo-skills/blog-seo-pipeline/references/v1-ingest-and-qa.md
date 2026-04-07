@@ -1,4 +1,4 @@
-# V1 Ingest and QA
+﻿# V1 Ingest and QA
 
 This reference defines the first practical scope of `blog-seo-pipeline`.
 
@@ -12,7 +12,7 @@ Required minimum:
 
 - research dossier
 - brief
-- article HTML
+- article markdown
 
 Useful addition:
 
@@ -27,7 +27,7 @@ Preferred files:
 - `job.json`
 - `research-dossier.json`
 - `brief.md`
-- `article.html`
+- `article.md`
 - `selected-products.json`
 - `qa-report.md`
 - `revision-plan.md`
@@ -53,7 +53,7 @@ The skill should normalize incoming work into this conceptual shape:
 
 - read the dossier for grounding
 - read the brief for intent and structure
-- read the HTML for actual output
+- read the markdown article for actual output
 - read the Bastelschachtel SEO audit and relevant SEO skill references when the topic depends on content-structure inference
 - compare output against the brief and dossier
 - compare output against the site's known content gaps and the query-type expectations implied by the SEO skills
@@ -64,7 +64,7 @@ The skill should normalize incoming work into this conceptual shape:
 
 For tutorial-heavy topics, explicitly verify that the article teaches the reader how to start, not just what to buy.
 
-For article HTML, also verify layout rhythm at the markup level:
+For article markdown, also verify layout rhythm at the markup level:
 
 - the first major heading after a special block like `.ai-summary` should not rely on naked theme defaults
 - special sections should use explicit classes instead of bare `<section>` tags when spacing consistency matters
@@ -96,7 +96,7 @@ If repeated key phrases remain unlinked while a matching selected product exists
 
 ## What V1 Should Not Depend On
 
-- persisted article HTML in Retool DB
+- persisted article markdown in Retool DB
 - guaranteed persisted brief storage
 - write access to Retool DB
 
@@ -108,3 +108,4 @@ V1 is successful if Codex can review one article run and reliably answer:
 - Does it follow the brief?
 - Are the product links coherent?
 - Is it structurally strong enough to publish after revision?
+

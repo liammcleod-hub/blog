@@ -278,7 +278,7 @@
 | Easier path to making | Bundle model and curated categories reduce sourcing friction |
 | Authentic small-business trust | Direct contact, honest imperfection, and warm communication are recurring brand assets |
 | Austrian specialist authority | SEO audit positions Bastelschachtel as the only/last Austrian specialist in key categories such as Pentart, Decoupage rice paper, and basket-weaving kits |
-| Live-store trust signals | Homepage shows 4.88 stars from 764 reviews, 60,000+ happy customers, 250,000+ ideas realized, free shipping over EUR70, and direct phone/WhatsApp support |
+| Live-store trust signals | Homepage shows 4.88 stars from 764 reviews, 60,000+ happy customers, 250,000+ ideas realized, free shipping over EUR70, and direct phone/WhatsApp support at 0664 4564271 |
 | Search upside from better positioning | The live audit found that the site's category authority is stronger than its current homepage/title/H1 execution, creating a clear SEO growth opportunity |
 | Product performance trust | Reviews repeatedly use language like `funktioniert wunderbar`, `leicht zu verarbeiten`, `gute Deckkraft`, and `toller Effekt` |
 | Specialist assortment depth | Reviews mention `Riesige Auswahl` and category-specific discovery value, especially in Reispapier and Pentart |
@@ -290,3 +290,10 @@
 **Conversion action:** Get customers into the owned ecosystem, primarily through email sign-up, Shopify browsing/building, and direct-store purchases rather than Amazon-only behavior.
 
 **Current metrics:** Owned channels are still underweight versus Amazon. Email engagement is healthy relative to list quality, but attribution, repeat purchase behavior, and owned-channel conversion need stronger measurement and systemization.
+
+## Related Docs
+
+- [[docs/seo/README]]
+- [[docs/customer reviews/README]]
+- [[docs/reference/skill-guides/blogs|Blogs]]
+- [[.codex/memories/bastelschachtel/README|Bastelschachtel Memory]]

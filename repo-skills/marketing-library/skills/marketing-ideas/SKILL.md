@@ -165,3 +165,5 @@ When recommending ideas, provide for each:
 - **email-sequence**: For email marketing tactics
 - **free-tool-strategy**: For engineering as marketing (#15)
 - **referral-program**: For viral growth (#93)
+
+#skills

@@ -1,4 +1,5 @@
 # Session Notes: Homepage And Blog Updates
+#reference
 
 *Date: 2026-03-27*
 

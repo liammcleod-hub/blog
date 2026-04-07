@@ -1,6 +1,6 @@
 ---
 name: blog-seo-pipeline
-description: Use when working on the Bastelschachtel blog pipeline, especially to ingest Retool research dossiers, briefs, and article HTML; validate SEO and logic quality; check product-link integrity; and refine content into a stronger publishable draft. Also use when the user wants Codex to operate alongside the Bastelschachtel Retool workflow rather than replace it.
+description: Use when working on the Bastelschachtel blog pipeline, especially to ingest Retool research dossiers, briefs, and article markdown; validate SEO and logic quality; check product-link integrity; and refine content into a stronger publishable draft. Also use when the user wants Codex to operate alongside the Bastelschachtel Retool workflow rather than replace it.
 ---
 
 # Blog SEO Pipeline
@@ -13,7 +13,7 @@ It complements Retool. It does not replace the current Retool workflow.
 
 - ingesting Retool research dossiers
 - reviewing Retool-generated briefs
-- auditing Retool-generated article HTML
+- auditing Retool-generated article markdown
 - validating SEO coverage, logic, and source grounding
 - checking product-link integrity against approved or selected products
 - improving article quality before publishing
@@ -28,11 +28,14 @@ Read these repo references before doing pipeline work:
 - `docs/reference/retool/research-lab-json-contract.md`
 - `docs/reference/retool/content-factory-contract.md`
 - `docs/reference/retool/integration-contract.md`
+- `references/run-modes.md`
+
+Do not start QA or revision work until `references/run-modes.md` has been read and the active mode has been selected.
 
 Also read these when useful:
 
-- `docs/reference/Bastelschachtel Email Brand Voice Guide.txt`
-- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.txt`
+- `docs/reference/Bastelschachtel Email Brand Voice Guide.md`
+- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.md`
 - `docs/seo/bastelschachtel_seo_audit.docx`
 - `brand_assets/brand_guidelines.md`
 - `brand_assets/tone_doc.md`
@@ -60,6 +63,20 @@ Codex currently handles:
 
 Assume a hybrid workflow unless the user explicitly says otherwise.
 
+## Mode Selection
+
+Before doing any substantive work, select the active run mode from `references/run-modes.md`.
+
+Default rule:
+
+- if article markdown is present and the user did not ask for edits, use `qa-article`
+- if only a brief is present, use `audit-brief`
+- use `revise-article` only when the user explicitly asks for changes to be applied
+
+Do not infer `revise-article` from the presence of article markdown alone.
+
+State the chosen mode in the working context before proceeding.
+
 ## V1 Intake Modes
 
 Support these input combinations:
@@ -70,7 +87,7 @@ Inputs:
 
 - research dossier JSON
 - brief text or brief JSON
-- article HTML
+- article markdown
 - selected products, if available
 
 ### Mode 2: Hybrid with Retool-backed dossier
@@ -79,7 +96,7 @@ Inputs:
 
 - dossier identifier or dossier payload
 - brief text or brief JSON
-- article HTML
+- article markdown
 - selected products or approved product list
 
 In this mode, use the integration contract to determine what can be fetched and what still needs to be supplied manually.
@@ -87,24 +104,26 @@ In this mode, use the integration contract to determine what can be fetched and 
 ## V1 Workflow
 
 1. Load the Retool process and contract docs.
-2. Identify which stage artifact(s) were provided:
+2. Load `references/run-modes.md` and select the active mode.
+3. Identify which stage artifact(s) are present in the job folder:
    - dossier
    - brief
-   - article HTML
+   - article markdown
    - selected products
-3. Normalize the job context:
+4. Normalize the job context:
    - topic
    - locale
    - format
    - archetype
    - primary keyword
    - approved product set
-4. Validate the article against the dossier and brief.
-5. Produce one of:
-   - QA report
-   - revision plan
-   - improved draft
+5. Execute according to mode:
+   - `qa-article`: produce findings first, then a short revision plan
+   - `revise-article`: identify issues, then revise the article directly
+   - `audit-brief`: inspect the brief and propose outline or brief fixes
 6. Keep recommendations compatible with the current Retool process unless the user asks to redesign it.
+
+Do not produce an improved draft unless the active mode is `revise-article` or the user explicitly asks for applied changes.
 
 ## Required Inference Layer
 
@@ -150,6 +169,7 @@ The article should feel:
 - helpful
 - unhurried
 - product-present but not product-dominated
+- small-shop helpful rather than system-generated
 
 Reject wording that exposes the pipeline or sounds machine-written, for example:
 
@@ -157,6 +177,7 @@ Reject wording that exposes the pipeline or sounds machine-written, for example:
 - `in deinem aktuellen Produktkontext`
 - tool-facing or system-facing phrasing
 - overly optimized or catalog-like transitions
+- research-exhaust sections that read like leftover dossier comparisons rather than real customer help
 
 When SEO and brand voice are in tension, keep the search-intent coverage but rewrite the language so it still sounds like Bastelschachtel.
 
@@ -168,10 +189,17 @@ At minimum, check:
 - article structure matches the chosen format
 - product mentions match selected or approved products
 - internal product links are valid and consistent
+- internal links are placed naturally in the body where relevant key phrases appear, not only dumped at the end
+- linked anchor text matches the destination product truthfully and does not overclaim missing variants or specs
 - primary and secondary keyword coverage is coherent
 - title, intro, and sections align with the brief
-- source section exists and is consistent with citations used
+- HTML markup is structurally sound, including balanced anchor boundaries and no runaway links
+- German output is free of mojibake such as `fÃƒÂ¼r`, `StÃƒÂ¤rke`, `groÃƒÅ¸`, or `AnfÃƒÂ¤nger`
+- final publishable article output does not default to a visible `Quellen` section unless the user explicitly wants public-facing sources
+- when multiple product images appear, their presentation is intentionally normalized and does not crop essential product content
 - the article adds information gain beyond obvious competitor summaries
+
+Treat `selected-products.json` as the hard ceiling for product specificity. If the exact linked destination does not support a stronger claim, soften the language instead of inventing a more precise product variant.
 
 ## Review Priorities
 
@@ -187,7 +215,7 @@ Prioritize issues in this order:
 ## Retool Compatibility Rules
 
 - Do not assume brief persistence exists unless confirmed for the current run.
-- Do not assume article HTML persistence exists unless confirmed for the current run.
+- Do not assume article markdown persistence exists unless confirmed for the current run.
 - Treat `research_dossiers` as the most reliable current persisted artifact.
 - Treat approved products and locked products as different concepts.
 - Prefer using the canonical docs under `docs/reference/retool/` rather than restating the process from memory.

@@ -1,7 +1,8 @@
 # Category VOC Priority Map
+#reviews #voc #seo
 
 Source inputs:
-- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.txt`
+- `docs/strategy/BASTELSCHACHTEL MASTER BUSINESS CONTEXT.md`
 - `docs/seo/seo-copy-deck-2026-03-27.md`
 - `docs/seo/live-seo-audit-2026-03-27.md`
 - `docs/customer reviews/voc-split-bank.md`
@@ -250,3 +251,11 @@ The right approach is:
 - use VOC where it is strongest
 - do not delay strategically important categories like `Korbflechten / Peddigrohr` or `Bastelsets` just because the review set is thinner there
 - treat VOC as a force multiplier, not as the sole source of truth
+
+## Related Docs
+
+- [[docs/customer reviews/README]]
+- [[docs/customer reviews/voc-product-family-bank|voc-product-family-bank]]
+- [[docs/customer reviews/voc-split-bank|voc-split-bank]]
+- [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
+

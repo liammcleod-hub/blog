@@ -1,4 +1,5 @@
 # Retool Read-Only API Spec
+#content-pipeline #blog
 
 This document proposes a thin read-only API surface for the future `blog-seo-pipeline`.
 
@@ -114,7 +115,7 @@ This future endpoint would ideally return:
 
 - dossier
 - brief
-- article HTML
+- article markdown
 - selected products
 - run metadata
 
@@ -144,3 +145,4 @@ If you build a thin read-only wrapper, keep it boring:
 - explicit endpoint shapes
 - no transformation beyond normalization
 - no write-back side effects
+

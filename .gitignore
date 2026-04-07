@@ -2,3 +2,6 @@
 .ghpat
 .git-credentials
 *.secrets
+node_modules/
+.obsidian/
+nul

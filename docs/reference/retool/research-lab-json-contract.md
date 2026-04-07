@@ -1,4 +1,5 @@
 # Retool Research Lab JSON Contract
+#retool #content-pipeline
 
 This document defines the Research Lab output from the Bastelschachtel Retool content pipeline.
 

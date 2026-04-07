@@ -1,4 +1,5 @@
 # Bastelschachtel Memory
+#memory
 
 Read this folder first when starting a new Bastelschachtel session.
 
@@ -16,3 +17,7 @@ This memory folder stores cross-session facts and working rules that should pers
 At the start of a future session, say:
 
 `Start by reading C:\Users\Hp\Documents\bastelschachtel\.codex\memories\bastelschachtel\START-HERE.md`
+
+## Related Docs
+
+- [[.codex/memories/bastelschachtel/README]]

@@ -1,4 +1,5 @@
 # Bastelschachtel SEO Copy Deck
+#seo
 
 *Date: 2026-03-27*
 *Purpose: Full copy for the priority SEO changes identified in the live audit, aligned to the current site architecture and menu*

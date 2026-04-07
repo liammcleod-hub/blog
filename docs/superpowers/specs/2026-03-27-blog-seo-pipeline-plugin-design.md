@@ -80,7 +80,7 @@ The request can begin from:
 - topic keyword
 - job slug
 - local job folder
-- local article HTML path
+- local article markdown path
 - partial artifact bundle
 
 ### External data policy
@@ -137,7 +137,7 @@ Minimum fields:
 
 The plugin must be discovery-first, then mode-aware.
 
-Mode is not selected just from the presence of article HTML.
+Mode is not selected just from the presence of article markdown.
 
 The plugin should:
 
@@ -154,7 +154,7 @@ The plugin should:
 
 ### Default mode rules
 
-- if article HTML is present and the user did not ask for edits, default to `qa-article`
+- if article markdown is present and the user did not ask for edits, default to `qa-article`
 - if only a brief is present, default to `audit-brief`
 - use `revise-article` only when the user explicitly asks for changes to be applied
 
@@ -295,7 +295,7 @@ Primary outputs:
 
 - `qa-report.md`
 - `revision-plan.md`
-- revised article HTML when appropriate
+- revised article markdown when appropriate
 - updated job metadata when needed
 
 ### Template-driven requirement
@@ -437,7 +437,7 @@ The plugin must stay compatible with the current Retool operating model.
 Rules:
 
 - do not assume brief persistence exists unless confirmed
-- do not assume article HTML persistence exists unless confirmed
+- do not assume article markdown persistence exists unless confirmed
 - treat `research_dossiers` as the most reliable persisted artifact
 - treat approved products and selected products as different concepts
 - prefer canonical docs under `docs/reference/retool/`
@@ -466,12 +466,12 @@ That foundation is more important than prematurely scaling to large article clus
 
 The following external research files informed the family and template decisions:
 
-- `SERP Pattern Research.txt`
-- `Competitor Format Mapping.txt`
-- `CTR  Clickability Research.txt`
-- `Bastelschachtel Fit Assessment.txt`
-- `Template Family Design Research.txt`
-- `Future Playbook Expansion Research.txt`
+- `SERP Pattern Research.md`
+- `Competitor Format Mapping.md`
+- `CTR  Clickability Research.md`
+- `Bastelschachtel Fit Assessment.md`
+- `Template Family Design Research.md`
+- `Future Playbook Expansion Research.md`
 
 Key synthesis:
 
@@ -503,7 +503,7 @@ These are intentionally deferred, not unresolved:
 - exact plugin manifest and local plugin folder location
 - exact family overlay file naming
 - exact structured finding schema
-- whether revised article HTML should also be strictly template-rendered or partly rule-driven
+- whether revised article markdown should also be strictly template-rendered or partly rule-driven
 
 They should be resolved in the implementation plan, not by changing the core design direction.
 
@@ -515,3 +515,4 @@ Its most important long-term output is not just better articles.
 It is better template law.
 
 That template law is what enables the future cluster system to scale content without losing quality, alignment, or brand voice.
+

@@ -137,7 +137,7 @@ Supported modes:
 
 ### V1 default rules
 
-- if article HTML is present and the user did not ask for edits, default to `qa-article`
+- if article markdown is present and the user did not ask for edits, default to `qa-article`
 - if only a brief is present, default to `audit-brief`
 - use `revise-article` only when the user explicitly asks for applied changes
 
@@ -202,7 +202,7 @@ Primary local outputs:
 
 - `qa-report.md`
 - `revision-plan.md`
-- revised article HTML when the mode requires it
+- revised article markdown when the mode requires it
 
 These must always be template-driven.
 
@@ -328,3 +328,4 @@ V1 should do one thing very well:
 take one Bastelschachtel content job from messy partial context to a correct, structured, high-quality local output.
 
 Its most important durable output is the first stable base-and-family template system.
+

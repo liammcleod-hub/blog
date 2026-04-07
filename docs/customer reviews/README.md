@@ -1,6 +1,7 @@
 # Customer Reviews
+#reviews #voc
 
-Read this file first when using `docs/customer reviews/`.
+Use [[docs/customer reviews/README]] as the entrypoint for this folder.
 
 ## Purpose
 
@@ -26,10 +27,10 @@ Start here when you need:
 
 ## Recommended Reading Order
 
-1. This `README.md`
-2. the most current category-level VOC map
-3. the most current product-family VOC bank
-4. the most current split/channel VOC bank
+1. This [[docs/customer reviews/README]]
+2. [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+3. [[docs/customer reviews/voc-product-family-bank|voc-product-family-bank]]
+4. [[docs/customer reviews/voc-split-bank|voc-split-bank]]
 5. raw review files only when you need to verify or mine new language
 
 ## Working Rule
@@ -45,3 +46,9 @@ Start here when you need:
 - blog posts
 - SEO support content
 - proof points for ads, email, and homepage work
+
+## Related Docs
+
+- [[docs/seo/README|SEO]]
+- [[docs/reference/skill-guides/blogs|Blogs]]
+- `.agents/product-marketing-context.md`

@@ -253,3 +253,5 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **email-sequence**: For referral nurture campaigns
 - **marketing-psychology**: For understanding referral motivation
 - **analytics-tracking**: For tracking referral attribution
+
+#skills

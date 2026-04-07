@@ -225,3 +225,5 @@ What you've accomplished:
 - **page-cro**: For public pricing page optimization
 - **onboarding-cro**: For driving to aha moment before upgrade
 - **ab-test-setup**: For testing paywall variations
+
+#skills

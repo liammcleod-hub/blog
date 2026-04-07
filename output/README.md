@@ -1,6 +1,7 @@
 # Output
+#output
 
-Read this file first when using `output/`.
+Use [[output/README]] as the entrypoint for this folder.
 
 ## Purpose
 
@@ -10,7 +11,7 @@ It is not one single system. Treat it as an output area with subfolders that eac
 
 ## Main Subfolders
 
-- `content-jobs/`
+- [[output/content-jobs/README|content-jobs]]
   Bastelschachtel blog/content workflow bundles for the `blog-seo-pipeline`
 - `playwright/`
   browser captures and verification artifacts
@@ -19,17 +20,17 @@ It is not one single system. Treat it as an output area with subfolders that eac
 
 When working in `output/`:
 
-1. Read this `README.md`
+1. Read [[output/README]]
 2. Go to the relevant subfolder
-3. Read that subfolder's `README.md` first when it exists
+3. Read that subfolder's README first when it exists
 
 ## Important Note
 
 For Bastelschachtel blog workflow work, the most important subfolder here is:
 
-- `output/content-jobs/`
+- [[output/content-jobs/README|output/content-jobs/README]]
 
-Its own `README.md` is the source of truth for job-bundle structure and expected files.
+Its own [[output/content-jobs/README]] is the source of truth for job-bundle structure and expected files.
 
 ## Working Rule
 

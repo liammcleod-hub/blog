@@ -28,12 +28,12 @@ def test_discover_from_bundle_loads_expected_artifacts():
 def test_discover_from_article_path_sets_job_dir():
     from scripts.discovery import discover_from_article
 
-    article_path = FIXTURE_DIR / "article.html"
+    article_path = FIXTURE_DIR / "article.md"
     job_state = discover_from_article(article_path)
 
     assert "Peddigrohr" in job_state.article_html
     assert Path(job_state.job_dir) == FIXTURE_DIR.resolve()
-    assert job_state.artifact_provenance["article.html"] == "local"
+    assert job_state.artifact_provenance["article.md"] == "local"
 
 
 def test_discover_job_accepts_local_directory():
@@ -47,7 +47,7 @@ def test_discover_job_accepts_local_directory():
 def test_discover_job_accepts_local_article():
     from scripts.discovery import discover_job
 
-    job_state = discover_job({"type": "local_path", "value": str(FIXTURE_DIR / "article.html")})
+    job_state = discover_job({"type": "local_path", "value": str(FIXTURE_DIR / "article.md")})
 
     assert "Korbflechten" in job_state.article_html
 
@@ -75,4 +75,4 @@ def test_discover_job_raises_for_missing_target():
     from scripts.discovery import discover_job
 
     with pytest.raises(FileNotFoundError):
-        discover_job({"type": "local_path", "value": str(FIXTURE_DIR / "missing.html")})
+        discover_job({"type": "local_path", "value": str(FIXTURE_DIR / "missing.md")})

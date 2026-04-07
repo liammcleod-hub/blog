@@ -1,6 +1,7 @@
 # SEO
+#seo
 
-Read this file first when using `docs/seo/`.
+Use [[docs/seo/README]] as the entrypoint for this folder.
 
 ## Purpose
 
@@ -27,10 +28,10 @@ Start here when you need:
 
 ## Recommended Reading Order
 
-1. This `README.md`
-2. the most current master-article planning doc
-3. the most current category-intro or category-support docs
-4. the most current SEO audit or execution checklist
+1. This [[docs/seo/README]]
+2. [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
+3. [[docs/seo/priority-category-intros-2026-03-29|priority-category-intros-2026-03-29]]
+4. [[docs/seo/live-seo-audit-2026-03-27|live-seo-audit-2026-03-27]] or [[docs/seo/seo-execution-checklist-2026-03-27|seo-execution-checklist-2026-03-27]]
 5. older SEO files only when you need additional context
 
 ## Working Rule
@@ -46,3 +47,9 @@ Start here when you need:
 - aligning blog posts to category pages
 - rewriting collection intros
 - prioritizing SEO fixes
+
+## Related Docs
+
+- [[docs/customer reviews/README|Customer Reviews]]
+- [[docs/reference/skill-guides/blogs|Blogs]]
+- `.agents/product-marketing-context.md`

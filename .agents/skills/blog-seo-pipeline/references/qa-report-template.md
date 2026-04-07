@@ -23,7 +23,7 @@ Summarize pass/fail or strong/weak judgment for:
 - product-link integrity
 - SEO coverage
 - structure and format match
-- source integrity
+- source or provenance integrity
 - information gain
 
 ## Priority Fixes

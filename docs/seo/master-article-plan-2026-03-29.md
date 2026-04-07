@@ -1,4 +1,5 @@
 # Master Article Plan
+#seo #blog
 
 Date: 2026-03-29
 
@@ -48,6 +49,13 @@ Each one should help answer:
 - needs a strong informational hub to support the category/landing page
 
 **Main search intents:**
+
+## Related Docs
+
+- [[docs/seo/README]]
+- [[docs/seo/priority-category-intros-2026-03-29|priority-category-intros-2026-03-29]]
+- [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+- [[docs/reference/skill-guides/blogs|Blogs]]
 - `peddigrohr kaufen`
 - `korbflechten anfaenger`
 - `korbflechten material`

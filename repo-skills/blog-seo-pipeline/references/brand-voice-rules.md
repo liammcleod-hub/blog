@@ -1,4 +1,4 @@
-# Brand Voice Rules
+﻿# Brand Voice Rules
 
 This reference tells `blog-seo-pipeline` how to apply Bastelschachtel brand voice during article QA and revision.
 
@@ -10,7 +10,7 @@ Read:
 - `brand_assets/tone_doc.md`
 - `brand_assets/voice_guidelines.md`
 - `brand_assets/forbidden_phrases.md`
-- `docs/reference/Bastelschachtel Email Brand Voice Guide.txt`
+- `docs/reference/Bastelschachtel Email Brand Voice Guide.md`
 
 ## Core Rule
 
@@ -85,3 +85,4 @@ Prefer:
 - practical next steps
 - small-shop helpfulness
 - concrete project guidance over abstract authority language
+

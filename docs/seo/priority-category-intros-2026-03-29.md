@@ -1,4 +1,5 @@
 # Priority Category Intros
+#seo #blog
 
 Date: 2026-03-29
 
@@ -126,3 +127,10 @@ Die Stärke dieser Kategorie kommt weniger aus klassischer VOC-Sprache und mehr 
 - Use the longer intros on landing pages, SEO pages, and category hero sections.
 - For `Pentart`, `Reispapier`, `Glasätzung`, and `Silikonformen`, the copy can later be tightened further with direct review quotes.
 - For `Korbflechten` and `Bastelsets`, the next improvement layer should come from customer calls, support themes, and merchandising data rather than review mining alone.
+
+## Related Docs
+
+- [[docs/seo/README]]
+- [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
+- [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+- [[docs/customer reviews/voc-product-family-bank|voc-product-family-bank]]
