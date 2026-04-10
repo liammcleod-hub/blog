@@ -1,0 +1,45 @@
+{
+  "article_id": "korbflechten-material-anfanger",
+  "title": "Was braucht man zum Korbflechten? Der komplette Anfängerleitfaden",
+  "seo_title": "Was braucht man zum Korbflechten? Anfänger-Guide",
+  "meta_description": "Was braucht man zum Korbflechten? Komplette Material-Liste für Anfänger. Peddigrohr, Werkzeuge, FAQ & erste Projekte. Stöbern bei Bastelschachtel.",
+  "canonical_url": "https://bastelschachtel.at/blog/korbflechten-material-anfanger",
+  "primary_keyword": "Was braucht man zum Korbflechten",
+  "secondary_keywords": [
+    "Korbflechten für Anfänger",
+    "Korbflechten Material",
+    "Peddigrohr kaufen",
+    "Flechtmaterial",
+    "Bastelset"
+  ],
+  "language": "de",
+  "locale": "de_AT",
+  "word_count": 2234,
+  "created_date": "2026-04-08",
+  "last_modified": "2026-04-09",
+  "status": "ready_to_publish",
+  "content_type": "beginner-guide",
+  "target_audience": "craft enthusiasts, basket weaving beginners, DIY hobbyists",
+  "estimated_reading_time_minutes": 8,
+  "product_links_count": 13,
+  "internal_links_count": 0,
+  "publishing": {
+    "wordpress_post_id": null,
+    "publish_date": null,
+    "scheduled_date": null,
+    "published_url": null
+  },
+  "qa_status": "passed",
+  "qa_date": "2026-04-08",
+  "qa_reviewer": "claude-code",
+  "optimization_status": "completed",
+  "optimization_date": "2026-04-09",
+  "product_linkage_status": "verified",
+  "product_linkage_date": "2026-04-09",
+  "all_links_tested": true,
+  "source_files": {
+    "article": "korbflechten-material-anfanger.html",
+    "research": "research-brief.md",
+    "product_map": "product-linkage.md"
+  }
+}
