@@ -1,0 +1,40 @@
+{%- comment -%}
+================================================================================
+Schema: WebSite - Search Action (AEO Identity Spine)
+================================================================================
+Purpose:   Declares the Bastelschachtel website with internal search capability.
+           Connected to Organization Master Node via publisher.
+Type:      WebSite with SearchAction
+Scope:     Homepage only - via theme.liquid conditional render
+Created:   2026-04-13
+Reference: Bastelschachtel AEO/GEO Framework
+
+@id Anchor: {{ shop.url }}#website
+Links to:  Organization (#organization) via publisher
+Target:    Internal search at {{ shop.url }}/search?q={search_term_string}
+
+Performance: Bottom of body placement (not head) for LCP optimization
+================================================================================
+{%- endcomment -%}
+
+{%- assign shop_url = shop.url -%}
+{%- assign shop_name = shop.name | json -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ shop_url }}#website",
+  "publisher": { "@id": "{{ shop_url }}#organization" },
+  "name": {{ shop_name }},
+  "url": "{{ shop_url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ shop_url }}/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>

@@ -53,3 +53,8 @@ Start here when you need:
 - [[docs/customer reviews/README|Customer Reviews]]
 - [[docs/reference/skill-guides/blogs|Blogs]]
 - `.agents/product-marketing-context.md`
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]

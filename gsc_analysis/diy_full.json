@@ -1,0 +1,82 @@
+{
+  "handykette": {
+    "title": "Handykette / Handyarmband DIY",
+    "difficulty": "Einfach bis mittel",
+    "intro_text": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Diese handgemachte Handykette ist ein stylisches und praktisches DIY-Accessoire: Ein Perlenband wird mit Karabiner, Oesen und transparenter Fadenfuehrung sicher an einer Schutzhülle befestigt. So traegst du dein Smart",
+    "steps": [
+      {
+        "title": "Schritt 1: Vorbereitung der Basis",
+        "description": "Führe die Aufreihseide durch einen Ring und ziehe ihn in die Mitte.\n\nLege anschließend beide Fadenenden in die Aufreihnadel und fädle eine Quetschperle auf."
+      },
+      {
+        "title": "Schritt 2: Erste Fixierung",
+        "description": "Positioniere die Quetschperle direkt unter dem Ring.\n\nFixiere sie mit einem kleinen Tropfen Schmuckkleber und drücke sie anschließend mit der Zange vorsichtig zusammen, sodass sie sicher sitzt."
+      },
+      {
+        "title": "Schritt 3: Kette gestalten",
+        "description": "\nJetzt entsteht deine Kette.\n\nFädle die Perlen und Buchstaben in deiner gewünschten Reihenfolge auf – passend zu deiner geplanten Länge.\n\nTipp: Lege die Perlen vorher kurz aus. So sitzt dein Name später mittig und die Länge passt genau."
+      },
+      {
+        "title": "Schritt 4: Zweite Verbindung vorbereiten",
+        "description": "Fädle nun eine zweite Quetschperle auf.\n\nFühre die Nadel durch den zweiten Ring und anschließend wieder zurück durch die Quetschperle."
+      },
+      {
+        "title": "Schritt 5: Zweite Fixierung",
+        "description": "Fixiere auch diese Quetschperle mit etwas Schmuckkleber und drücke sie mit der Zange vorsichtig zusammen."
+      },
+      {
+        "title": "Schritt 6: Faden sichern",
+        "description": "Führe die Aufreihseide durch zwei bis drei Perlen zurück.\n\nSo wird der Faden sauber vernäht und hält zuverlässig.\n\nSchneide anschließend das überstehende Ende ab."
+      },
+      {
+        "title": "Schritt 7: Verschlüsse anbringen",
+        "description": "Öffne beide Ringe vorsichtig mit der Zange, hänge jeweils einen Karabiner ein und schließe die Ringe wieder sorgfältig.\n\n"
+      },
+      {
+        "title": "Schritt 8: Mit dem Handy verbinden",
+        "description": "Lege zum Schluss das Handy-Inlay zwischen Smartphone und Hülle, sodass die kleine Schlaufe unten sichtbar bleibt.\n\nDaran befestigst du deine Kette – und sie ist bereit für den Alltag."
+      }
+    ],
+    "step_count": 8
+  },
+  "batik-tshirt": {
+    "title": "Batik T‑Shirt DIY",
+    "difficulty": "Einfach",
+    "intro_text": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Bring frischen Style in deinen Kleiderschrank – mit einem selbstgemachten Batik‑T‑Shirt! Dieses DIY ist perfekt für alle, die individuelle Mode lieben und alte Shirts kreativ aufwerten möchten. Jede Farbspirale wird z",
+    "steps": [
+      {
+        "title": "Utensilien vorbereiten",
+        "description": "Lege alle benötigten Materialien wie T‑Shirt, Batikfarbe, Gummibänder, Handschuhe und Unterlage bereit, damit du beim Färben alles griffbereit hast."
+      },
+      {
+        "title": "T‑Shirt anfeuchten",
+        "description": "Sprühe das Shirt mit Wasser leicht ein, sodass der Stoff feucht, aber nicht tropfnass ist – das sorgt für schönere Farbübergänge.\n\n"
+      },
+      {
+        "title": "Form und Faltung gestalten",
+        "description": "Knäule oder drehe das T‑Shirt nach Wunsch zusammen und fixiere es mit Gummibändern – je nach Musteridee spiralförmig, gefaltet oder punktuell.\n\n"
+      },
+      {
+        "title": "Farbe auftragen",
+        "description": "Träufle die Batikfarbe vorsichtig auf das gefaltete Shirt. Spiele mit Farben und Übergängen, um spannende Muster zu erzielen.\n\n"
+      },
+      {
+        "title": "Farbe einarbeiten",
+        "description": "Knete das Shirt sanft durch, damit die Farbe gleichmäßig in die Fasern eindringen kann, ohne die Faltung komplett zu lösen.\n\n"
+      },
+      {
+        "title": "Gummis entfernen",
+        "description": "Nimm die Gummibänder vorsichtig ab, sobald du mit der Farbverteilung zufrieden bist."
+      },
+      {
+        "title": "Muster enthüllen",
+        "description": "Falte das Shirt auseinander und bestaune dein persönliches Batik‑Design – kein Stück gleicht dem anderen!\n\n"
+      },
+      {
+        "title": "Farbe fixieren",
+        "description": "Nach dem Trocknen das Shirt mit einem Baumwolltuch zwischen Stoff und Bügeleisen bügeln, um die Farbe zu fixieren und leuchtend zu halten.\n\n"
+      }
+    ],
+    "step_count": 8
+  }
+}

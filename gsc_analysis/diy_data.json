@@ -1,0 +1,66 @@
+{
+  "handykette": {
+    "title": "Handykette / Handyarmband DIY",
+    "difficulty": "Einfach bis mittel",
+    "intro": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Diese handgemachte Handykette ist ein stylisches und praktisches DIY-Accessoire: Ein Perlenband wird mit Karabiner, Oesen und transparenter Fadenfuehrung sicher an einer Schutzhülle befestigt. So traegst du dein Smart",
+    "steps_count": 7,
+    "steps_sample": [
+      {
+        "id": "363056005458",
+        "step_number": "",
+        "step_title": "",
+        "step_content": ""
+      },
+      {
+        "id": "363056038226",
+        "step_number": "",
+        "step_title": "",
+        "step_content": ""
+      }
+    ],
+    "products_sample": [
+      {
+        "id": "10575735161170",
+        "title": "Buchstabenperlen"
+      },
+      {
+        "id": "10582321889618",
+        "title": "Karabinerverschluss gold 2er Set"
+      },
+      {
+        "id": "10140877685074",
+        "title": "Elastikfaden 0,8 transparent"
+      }
+    ]
+  },
+  "batik-tshirt": {
+    "title": "Batik T‑Shirt DIY",
+    "difficulty": "Einfach",
+    "intro": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Bring frischen Style in deinen Kleiderschrank – mit einem selbstgemachten Batik‑T‑Shirt! Dieses DIY ist perfekt für alle, die individuelle Mode lieben und alte Shirts kreativ aufwerten möchten. Jede Farbspirale wird z",
+    "steps_count": 7,
+    "steps_sample": [
+      {
+        "id": "365331743058",
+        "step_number": "",
+        "step_title": "",
+        "step_content": ""
+      },
+      {
+        "id": "365331841362",
+        "step_number": "",
+        "step_title": "",
+        "step_content": ""
+      }
+    ],
+    "products_sample": [
+      {
+        "id": "10435998712146",
+        "title": "Pentart Batik Farbe - speziell für Textilien"
+      },
+      {
+        "id": "10359713562962",
+        "title": "Gummiringe 50g bunt verschiedene Größen"
+      }
+    ]
+  }
+}

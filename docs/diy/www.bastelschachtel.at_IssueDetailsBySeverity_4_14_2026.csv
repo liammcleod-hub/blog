@@ -1,0 +1,7 @@
+"Issue","Type","Pages affected"
+"Http 400-499 errors ","Error","60"
+"Alt attribute for images is missing ","Warning","40"
+"Html size is too long ","Warning","40"
+"More than one canonical tag ","Warning","40"
+"Title too long ","Warning","1"
+"H1 tag missing ","Notice","37"

@@ -1,0 +1,188 @@
+{%- comment -%}
+================================================================================
+Schema: Main Graph - AEO Identity Spine (@graph Golden Version)
+================================================================================
+Purpose:   Single @graph block containing all identity entities.
+            Organization + LocalBusiness + WebSite with Austrian legal identifiers.
+Type:      @graph container with ArtSupplyStore entities
+Scope:     Global - via theme.liquid
+Created:   2026-04-13
+Version:   GOLDEN (2026-04-13 final)
+
+Architecture:
+- Organization: Always (Master Node, global)
+- LocalBusiness: Homepage only (Location Node)
+- WebSite: Homepage only (Search Action)
+
+ID Spine:
+- #organization = Organization (@id anchor)
+- #localbusiness = LocalBusiness (parentOrganization)
+- #founder = Person (linked from Organization)
+
+Key Features:
+- Always outputs @graph (even on non-index pages for consistent AI structure)
+- High-res logo from CDN
+- TikTok in sameAs
+- "Österreich" with umlaut
+- €€ priceRange
+- No Monday/Sunday in hours
+================================================================================
+{%- endcomment -%}
+
+{%- assign shop_url = shop.url -%}
+{%- assign shop_name = shop.name | json -%}
+
+{%- comment %} Organization - Master Node (Golden Version) {%- endcomment -%}
+{%- capture org_node -%}
+{
+  "@type": "ArtSupplyStore",
+  "@id": "{{ shop_url }}#organization",
+  "name": {{ shop_name }},
+  "url": "{{ shop_url }}",
+  "logo": "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/Logo_RGB_da10333d-960f-47eb-b812-40e6eb98ebd1.png?v=1776104155",
+  "legalName": "Bastel-Kreativ GmbH",
+  "vatID": "ATU80189369",
+  "taxID": "FN 618806 i",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bastelschachtel"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Bernhard-Stefan Muller",
+    "@id": "{{ shop_url }}#founder"
+  },
+  "knowsAbout": [
+    "Bastelbedarf",
+    "Korbflechten",
+    "Pentart Produkte",
+    "Basteln mit Kindern",
+    "DIY Handarbeit",
+    "Bastelzubehor Österreich"
+  ],
+  "sameAs": [
+    "https://shop.app/m/hd7u6tg4c2",
+    "https://www.youtube.com/channel/UCv8kayedKQE_SwS9wVFnASg",
+    "https://www.instagram.com/bastelschachtel_onlineshop/",
+    "https://www.facebook.com/bastelschachtel",
+    "https://at.pinterest.com/bastelschachtel/",
+    "https://www.tiktok.com/@bastelschachtel_shop",
+    "https://firmen.wko.at/bastel-kreativ-gmbh/tirol/",
+    "https://www.firmen.at/bastelschachtel"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+43 664 4564271",
+    "contactType": "customer service",
+    "availableLanguage": ["German"],
+    "areaServed": "AT"
+  },
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "name": "Bastel-Kreativ GmbH",
+    "streetAddress": "Swarovskistrasse 3",
+    "addressLocality": "Wattens",
+    "addressRegion": "Tirol",
+    "postalCode": "6112",
+    "addressCountry": "AT"
+  }
+}
+{%- endcapture -%}
+
+{%- comment %} LocalBusiness - Location Node (Golden Version) {%- endcomment -%}
+{%- capture local_node -%}
+{
+  "@type": "ArtSupplyStore",
+  "@id": "{{ shop_url }}#localbusiness",
+  "name": "Bastelschachtel",
+  "url": "{{ shop_url }}",
+  "parentOrganization": { "@id": "{{ shop_url }}#organization" },
+  "image": "https://cdn.shopify.com/s/files/1/0422/5397/5709/files/Logo_RGB_da10333d-960f-47eb-b812-40e6eb98ebd1.png?v=1776104155",
+  "telephone": "+43 664 4564271",
+  "email": "info@bastelschachtel.at",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Swarovskistrasse 3",
+    "addressLocality": "Wattens",
+    "addressRegion": "Tirol",
+    "postalCode": "6112",
+    "addressCountry": "AT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.2946067,
+    "longitude": 11.5928755
+  },
+  "servesLocation": {
+    "@type": "AdministrativeArea",
+    "name": "Österreich"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "12:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "14:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "12:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.google.com/maps/place/Swarovskistrasse+3+6112+Wattens"
+  ],
+  "priceRange": "€€"
+}
+{%- endcapture -%}
+
+{%- comment %} WebSite - Search Action (Golden Version) {%- endcomment -%}
+{%- capture website_node -%}
+{
+  "@type": "WebSite",
+  "@id": "{{ shop_url }}#website",
+  "publisher": { "@id": "{{ shop_url }}#organization" },
+  "name": {{ shop_name }},
+  "url": "{{ shop_url }}",
+  "inLanguage": "de-AT",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ shop_url }}/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+{%- endcapture -%}
+
+{%- comment %} Assemble @graph - ALWAYS output @graph for consistent AI structure {%- endcomment -%}
+{%- if template.name == 'index' -%}
+  {%- capture graph_entities -%}
+    {{ org_node }},
+    {{ local_node }},
+    {{ website_node }}
+  {%- endcapture -%}
+{%- else -%}
+  {%- capture graph_entities -%}
+    {{ org_node }}
+  {%- endcapture -%}
+{%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{ graph_entities | strip }}
+  ]
+}
+</script>

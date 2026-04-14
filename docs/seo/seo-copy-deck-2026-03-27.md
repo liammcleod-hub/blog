@@ -717,3 +717,8 @@ sondern die kreative Weiterarbeit mitzudenken.`
 ### Reispapier
 - `Reispapier für Decoupage, Deko und kreative Lieblingsstücke`
 - `Reispapier kaufen - Motive, Formate und Ideen für dein Projekt`
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]

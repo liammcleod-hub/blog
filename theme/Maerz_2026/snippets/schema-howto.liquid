@@ -1,0 +1,61 @@
+{%- comment %}
+  HowTo Schema for DIY Tutorial Pages
+  - Maps diy_experience metaobject fields to Google HowTo schema
+  - Outputs JSON-LD for Google rich results (HowTo rich snippet)
+  - Entity-linked to main Organization via @id
+{%- endcomment -%}
+
+{%- if page.metaobjects.diy_experience -%}
+  {%- assign diy = page.metaobjects.diy_experience -%}
+
+  {%- capture howto_schema -%}
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": "{{ canonical_url }}#howto",
+    "name": {{ diy.title.value | json }},
+    "description": {{ diy.subtitle.value | json }},
+    "image": {{ diy.hero_image.value | json }},
+    "totalTime": "PT30M",
+    "supply": [
+      {%- for product_ref in diy.materials_products.value -%}
+        {%- assign product = product_ref.object -%}
+        {%- unless forloop.first -%},{%- endunless -%}
+        {
+          "@type": "HowToSupply",
+          "name": {{ product.title | json }}
+        }
+      {%- endfor -%}
+    ],
+    "tool": [
+      {%- for product_ref in diy.primary_product.value -%}
+        {%- assign product = product_ref.object -%}
+        {%- unless forloop.first -%},{%- endunless -%}
+        {
+          "@type": "HowToTool",
+          "name": {{ product.title | json }}
+        }
+      {%- endfor -%}
+    ],
+    "step": [
+      {%- for step_ref in diy.steps.value -%}
+        {%- assign step_obj = step_ref.object -%}
+        {%- unless forloop.first -%},{%- endunless -%}
+        {
+          "@type": "HowToStep",
+          "name": {{ step_obj.title | json }},
+          "text": {{ step_obj.description | json }},
+          "image": {{ step_obj.image.value | json }}
+        }
+      {%- endfor -%}
+    ],
+    "provider": {
+      "@id": "https://www.bastelschachtel.at/#organization"
+    }
+  }
+  {%- endcapture -%}
+
+  <script type="application/ld+json">
+    {{- howto_schema -}}
+  </script>
+{%- endif -%}

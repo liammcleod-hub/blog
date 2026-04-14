@@ -176,3 +176,8 @@ Use this queue when you want immediate copy work from the marketing skills.
 - [[docs/seo/live-seo-audit-2026-03-27|live-seo-audit-2026-03-27]]
 - [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
 - [[docs/reference/skill-guides/blogs|Blogs]]
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bastelschachtel Analytics</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <h1>Bastelschachtel Analytics Dashboard</h1>
+    </header>
+    
+    <div class="kpi-container">
+        <div class="kpi-card" id="rev-card">
+            <h3>Total Revenue</h3>
+            <p class="value" id="total-revenue">â‚¬0.00</p>
+        </div>
+        <div class="kpi-card" id="orders-card">
+            <h3>Total Orders</h3>
+            <p class="value" id="total-orders">0</p>
+        </div>
+        <div class="kpi-card" id="aov-card">
+            <h3>Avg Order Value</h3>
+            <p class="value" id="aov">â‚¬0.00</p>
+        </div>
+    </div>
+
+    <main class="dashboard-grid">
+        <div class="chart-container">
+            <h3>Category Performance</h3>
+            <div id="category-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+        <div class="chart-container">
+            <h3>Order Trends</h3>
+            <div id="trends-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

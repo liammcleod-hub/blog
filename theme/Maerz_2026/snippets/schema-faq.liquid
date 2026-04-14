@@ -1,0 +1,92 @@
+{%- comment %}
+================================================================================
+Schema: FAQPage - Business FAQs (AEO Transactional Bridge)
+================================================================================
+Purpose:   Declares the Bastelschachtel FAQ page with structured Q&A.
+            The HIGHEST impact schema for AI citations per 2026 research.
+            FAQ schema pages earn significantly more AI Overview citations.
+Type:      FAQPage with Question + Answer entities
+Scope:     /pages/faq-haufig-fragen only - via theme.liquid conditional
+Created:   2026-04-13
+Version:   TRANSACTIONAL BRIDGE (2026-04-13)
+
+Key Features:
+- HTML <a> links INSIDE acceptedAnswer.text (Transactional Bridge)
+- Links point to actual product and info pages
+- acceptedAnswer.text matches visible FAQ page HTML exactly
+- SpamBrain defense: verbatim reconciliation between schema and visible text
+- Uses &uuml; etc. HTML entities (valid in JSON-LD text fields)
+
+Transactional Bridge Links:
+- Versandkosten        → /pages/versandkosten
+- Widerrufsrecht       → /pages/widerrufsrecht
+- Lagerverfügbarkeit   → /products/pentart-glasatzungspaste-50ml
+- Zahlungsmethoden     → /pages/zahlungsmethoden
+- Kundenservice        → /pages/kontakt
+================================================================================
+{%- endcomment -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hoch sind die Versandkosten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genauere Informationen \u00fcber die Versandkosten finden Sie hier <a href=\"https://www.bastelschachtel.at/pages/versandkosten\">Versandkosten</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kann ich die Ware zur\u00fccksenden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei Bastelschachtel bestellen Sie ganz ohne Risiko. Unsere Ware kann, im Rahmen unserer Vorschriften, problemlos zur\u00fcckgesandt werden. Weitere Informationen erhalten Sie hier <a href=\"https://www.bastelschachtel.at/pages/widerrufsrecht\">Widerrufsrecht</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist der Artikel sofort ab Lager lieferbar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, die Lagerverf\u00fcgbarkeit wird direkt in der Produktbeschreibung unterhalb des Preises angezeigt. Beliebte Artikel wie <a href=\"https://www.bastelschachtel.at/products/pentart-glasatzungspaste-50ml\">Pentart Glas\u00e4tzungspaste</a> sind in der Regel sofort lieferbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kann ich bezahlen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alles Rund ums Bezahlen finden Sie unter folgendem Link <a href=\"https://www.bastelschachtel.at/pages/zahlungsmethoden\">Zahlungsmethoden</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sind meine Kreditkarten- und Bankdaten sicher?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei Bastelschachtel.at werden alle pers\u00f6nlichen Daten und Kreditkarteninformationen verschl\u00fcsselt \u00fcbertragen. Wir verwenden eine sichere SSL-Verschl\u00fcsselung \u2013 Unbefugte haben keinen Zugriff auf Ihre Daten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bieten Sie auch Expressversand an?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bestellungen, die bis 12 Uhr bei uns eingehen, werden noch am selben Tag versendet \u2013 eine Expresslieferung ist daher in der Regel nicht n\u00f6tig. Sollten Sie dennoch Bedenken haben, wenden Sie sich bitte an unseren <a href=\"https://www.bastelschachtel.at/pages/kontakt\">Kundenservice</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kommt der Kaufvertrag zustande?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Lieferung der Ware entsteht der Kaufvertrag. Dieser wird zwischen Ihnen und Bastelschachtel.at geschlossen. Unsere Bestellungen werden ausschlie\u00dflich in deutscher Sprache abgewickelt."
+      }
+    }
+  ]
+}
+</script>

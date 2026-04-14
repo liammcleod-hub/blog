@@ -1,12 +1,16 @@
 {
-  "name": "bastelschachtel-tools",
+  "name": "bastelschachtel-analytics",
   "version": "1.0.0",
-  "description": "Content pipeline and automation tools for Bastelschachtel",
+  "description": "Analytics dashboard for Bastelschachtel",
+  "main": "server/index.js",
   "scripts": {
-    "fetch-retool": "node .agents/scripts/fetch-retool-artifacts.js",
-    "create-blog-job": "node .agents/scripts/create-blog-job-from-retool.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "dependencies": {
-    "pg": "^8.11.3"
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
   }
 }

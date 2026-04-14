@@ -134,3 +134,8 @@ Die Stärke dieser Kategorie kommt weniger aus klassischer VOC-Sprache und mehr 
 - [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
 - [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
 - [[docs/customer reviews/voc-product-family-bank|voc-product-family-bank]]
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]

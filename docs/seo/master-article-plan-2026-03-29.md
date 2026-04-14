@@ -279,3 +279,8 @@ Reason:
 - `Korbflechten` is the most strategically important structural gap
 
 Together they balance speed and leverage.
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]

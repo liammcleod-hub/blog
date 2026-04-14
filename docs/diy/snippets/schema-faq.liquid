@@ -1,0 +1,83 @@
+{%- comment -%}
+================================================================================
+Schema: FAQPage - Business FAQs (AEO Citation Powerhouse)
+================================================================================
+Purpose:   Declares the Bastelschachtel FAQ page with structured Q&A.
+            The HIGHEST impact schema for AI citations per 2026 research.
+            FAQ schema pages earn significantly more AI Overview citations.
+Type:      FAQPage with Question + Answer entities
+Scope:     /pages/faq-haufig-fragen only - via theme.liquid conditional
+Created:   2026-04-13
+Reference: Bastelschachtel AEO/GEO Framework
+
+Verbatim Reconciliation: All answers must match visible HTML exactly.
+SpamBrain Defense: Mismatch between JSON and visible text = flag.
+
+Performance: Bottom of body placement (not head) for LCP optimization
+================================================================================
+{%- endcomment -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hoch sind die Versandkosten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genauere Informationen uber die Versandkosten finden Sie hier Versandkosten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kann ich die Ware zurucksenden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei Bastelschachtel bestellen Sie ganz ohne Risiko. Unsere Ware kann, im Rahmen unserer Vorschriften, problemlos zuruckgesandt werden. Weitere Informationen erhalten Sie hier Widerrufsrecht."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist der Artikel sofort ab Lager lieferbar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei der Produktbeschreibung sehen Sie unterhalb des Preises sofort, ob dieser Artikel lagernd ist oder ob Sie mit einer langeren Wartezeit rechnen mussen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kann ich bezahlen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alles Rund ums Bezahlen finden Sie unter folgenden Link Zahlungsmethoden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sind meine Kreditkarten- und Bankdaten sicher?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei Bastelschachtel.at werden alle personlichen Daten und Kreditkarteninformationen verschlusselt ubertragen. Wir verwenden eine spezielle Verschlusselung, mit der es Unbefugten nicht moglich ist, auf Ihre Daten zuzugreifen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bieten Sie auch Expressversand an?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bestellungen, die bis 12 Uhr bei uns eingehen, werden noch am selben Tag versendet, daher ist eine Expresslieferung nicht notig. Sollten Sie dennoch Bedenken haben, wenden Sie sich bitte an unseren Kundenservice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie kommt der Kaufvertrag zustande?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Lieferung der Ware entsteht der Kaufvertrag. Dieser wird zwischen Ihnen und Bastelschachtel.at geschlossen. Unsere Bestellungen werden ausschliesslich in deutscher Sprache abgewickelt."
+      }
+    }
+  ]
+}
+</script>

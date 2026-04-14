@@ -1,0 +1,1323 @@
+{
+  "summary": {
+    "total_queries": 1000,
+    "total_pages": 1000,
+    "date_range": "2025-10-01 to 2026-04-13"
+  },
+  "top_pages": [
+    {
+      "url": "https://www.bastelschachtel.at/",
+      "clicks": 2324,
+      "impressions": 29689,
+      "ctr": "7.83%",
+      "position": "9.89"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/grundmaterial_zum_korb_flechten",
+      "clicks": 382,
+      "impressions": 23708,
+      "ctr": "1.61%",
+      "position": "9.05"
+    },
+    {
+      "url": "http://bastelschachtel.at/",
+      "clicks": 367,
+      "impressions": 7143,
+      "ctr": "5.14%",
+      "position": "4.59"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/sets-aus-peddigrohr-83",
+      "clicks": 223,
+      "impressions": 13709,
+      "ctr": "1.63%",
+      "position": "8.18"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-glasatzungspaste-50ml",
+      "clicks": 199,
+      "impressions": 6609,
+      "ctr": "3.01%",
+      "position": "8.12"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/scrapbooking",
+      "clicks": 172,
+      "impressions": 9433,
+      "ctr": "1.82%",
+      "position": "12.48"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/reispapier",
+      "clicks": 167,
+      "impressions": 5922,
+      "ctr": "2.82%",
+      "position": "5.45"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/ihr-pentart-lieferant",
+      "clicks": 150,
+      "impressions": 3788,
+      "ctr": "3.96%",
+      "position": "4.41"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/pages/kontakt",
+      "clicks": 143,
+      "impressions": 8090,
+      "ctr": "1.77%",
+      "position": "4.99"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/reispapier-a4-weiss-unbedruckt-20-stuck",
+      "clicks": 133,
+      "impressions": 4518,
+      "ctr": "2.94%",
+      "position": "6.96"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/silikonformen",
+      "clicks": 109,
+      "impressions": 9509,
+      "ctr": "1.15%",
+      "position": "7.42"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/pages/verkaeuferin-bastelschachtel",
+      "clicks": 98,
+      "impressions": 2078,
+      "ctr": "4.72%",
+      "position": "3.92"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/shadowbox",
+      "clicks": 78,
+      "impressions": 1667,
+      "ctr": "4.68%",
+      "position": "8.72"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/glasatzungspaste-richtig-anwenden-mit-diesen-tipps-gelingen-dir-filigrane-designs-garantiert",
+      "clicks": 75,
+      "impressions": 1893,
+      "ctr": "3.96%",
+      "position": "6.09"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/lackieren-im-modellbau-so-geht-s-richtig",
+      "clicks": 71,
+      "impressions": 3859,
+      "ctr": "1.84%",
+      "position": "6.05"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/all",
+      "clicks": 67,
+      "impressions": 3826,
+      "ctr": "1.75%",
+      "position": "1.71"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/reispapier-motivseide",
+      "clicks": 62,
+      "impressions": 3389,
+      "ctr": "1.83%",
+      "position": "9.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/uhrwerk-mit-zeiger-modern-3899",
+      "clicks": 51,
+      "impressions": 2781,
+      "ctr": "1.83%",
+      "position": "8.06"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-tauchfarbe",
+      "clicks": 46,
+      "impressions": 1821,
+      "ctr": "2.53%",
+      "position": "6.36"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/pages/impressum",
+      "clicks": 45,
+      "impressions": 2772,
+      "ctr": "1.62%",
+      "position": "4.44"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glasaetzungspaste-50ml",
+      "clicks": 45,
+      "impressions": 2292,
+      "ctr": "1.96%",
+      "position": "8.97"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/spiegelfarbe-auf-glas-4959",
+      "clicks": 42,
+      "impressions": 5234,
+      "ctr": "0.8%",
+      "position": "7.9"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glasfarbe-30ml-transparent-6909",
+      "clicks": 42,
+      "impressions": 4103,
+      "ctr": "1.02%",
+      "position": "8.85"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-wachspaste-metallic-20ml-gold-3812",
+      "clicks": 42,
+      "impressions": 2158,
+      "ctr": "1.95%",
+      "position": "5.29"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/antikpaste-20ml-umbra-5826",
+      "clicks": 38,
+      "impressions": 3363,
+      "ctr": "1.13%",
+      "position": "7.9"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-papierkleber-80ml-matt-7480",
+      "clicks": 36,
+      "impressions": 2936,
+      "ctr": "1.23%",
+      "position": "7.67"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/edla-weihrauch",
+      "clicks": 34,
+      "impressions": 518,
+      "ctr": "6.56%",
+      "position": "5.09"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/styrofoam-styropor-figuren",
+      "clicks": 31,
+      "impressions": 2086,
+      "ctr": "1.49%",
+      "position": "10.55"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/decoupage",
+      "clicks": 30,
+      "impressions": 1606,
+      "ctr": "1.87%",
+      "position": "2.11"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/trollfactory-tfc-pu-giessharz-resin-4min-1-1-2kg",
+      "clicks": 30,
+      "impressions": 1524,
+      "ctr": "1.97%",
+      "position": "10.95"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-uv-resin-20ml-hart",
+      "clicks": 29,
+      "impressions": 2177,
+      "ctr": "1.33%",
+      "position": "10.62"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glanz-glasur-pouring-glaze-100ml-6105",
+      "clicks": 29,
+      "impressions": 1559,
+      "ctr": "1.86%",
+      "position": "6.73"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-wachspaste-metallic-20ml-silber-3805",
+      "clicks": 27,
+      "impressions": 791,
+      "ctr": "3.41%",
+      "position": "7.37"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/stempel-546",
+      "clicks": 24,
+      "impressions": 847,
+      "ctr": "2.83%",
+      "position": "10.06"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/alle-produkte",
+      "clicks": 23,
+      "impressions": 1365,
+      "ctr": "1.68%",
+      "position": "1.92"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-papierkleber-30ml-klar-6943",
+      "clicks": 23,
+      "impressions": 1262,
+      "ctr": "1.82%",
+      "position": "9.7"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/satinband-40mm",
+      "clicks": 23,
+      "impressions": 1054,
+      "ctr": "2.18%",
+      "position": "9.07"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/wachspaste-metallic-20ml-silber-3806",
+      "clicks": 23,
+      "impressions": 865,
+      "ctr": "2.66%",
+      "position": "5.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/glasatzpasten",
+      "clicks": 23,
+      "impressions": 755,
+      "ctr": "3.05%",
+      "position": "5.89"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glocke-298",
+      "clicks": 23,
+      "impressions": 351,
+      "ctr": "6.55%",
+      "position": "6.67"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/acrylfarbe-perlmutt-50ml-wei-6901",
+      "clicks": 22,
+      "impressions": 3984,
+      "ctr": "0.55%",
+      "position": "8.1"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/bastelsets",
+      "clicks": 22,
+      "impressions": 2456,
+      "ctr": "0.9%",
+      "position": "4.47"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/grundierfarbe-100ml-6840",
+      "clicks": 22,
+      "impressions": 995,
+      "ctr": "2.21%",
+      "position": "9.11"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/holz-ziffer-set-fur-uhr-45cm-7182",
+      "clicks": 22,
+      "impressions": 727,
+      "ctr": "3.03%",
+      "position": "7.87"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/samtpulver",
+      "clicks": 22,
+      "impressions": 561,
+      "ctr": "3.92%",
+      "position": "6.78"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-perlenpaste-50ml-5292?variant=39736557306013&country=PL&currency=PLN&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+      "clicks": 22,
+      "impressions": 44,
+      "ctr": "50%",
+      "position": "1.86"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/bastelset-aus-peddigrohr-glocke-5665",
+      "clicks": 21,
+      "impressions": 829,
+      "ctr": "2.53%",
+      "position": "6.38"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/zweiphasen-feinriss-krakelierlack-set-2x50ml-4944",
+      "clicks": 21,
+      "impressions": 711,
+      "ctr": "2.95%",
+      "position": "7.03"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/korbboden-flechtarbeiten",
+      "clicks": 21,
+      "impressions": 675,
+      "ctr": "3.11%",
+      "position": "9.05"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-glasatzungspaste-50ml-mit-verdunner",
+      "clicks": 20,
+      "impressions": 946,
+      "ctr": "2.11%",
+      "position": "7.08"
+    }
+  ],
+  "product_pages": [
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-glasatzungspaste-50ml",
+      "clicks": 199,
+      "impressions": 6609,
+      "ctr": "3.01%",
+      "position": "8.12"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/reispapier-a4-weiss-unbedruckt-20-stuck",
+      "clicks": 133,
+      "impressions": 4518,
+      "ctr": "2.94%",
+      "position": "6.96"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/uhrwerk-mit-zeiger-modern-3899",
+      "clicks": 51,
+      "impressions": 2781,
+      "ctr": "1.83%",
+      "position": "8.06"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-tauchfarbe",
+      "clicks": 46,
+      "impressions": 1821,
+      "ctr": "2.53%",
+      "position": "6.36"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glasaetzungspaste-50ml",
+      "clicks": 45,
+      "impressions": 2292,
+      "ctr": "1.96%",
+      "position": "8.97"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/spiegelfarbe-auf-glas-4959",
+      "clicks": 42,
+      "impressions": 5234,
+      "ctr": "0.8%",
+      "position": "7.9"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glasfarbe-30ml-transparent-6909",
+      "clicks": 42,
+      "impressions": 4103,
+      "ctr": "1.02%",
+      "position": "8.85"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-wachspaste-metallic-20ml-gold-3812",
+      "clicks": 42,
+      "impressions": 2158,
+      "ctr": "1.95%",
+      "position": "5.29"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/antikpaste-20ml-umbra-5826",
+      "clicks": 38,
+      "impressions": 3363,
+      "ctr": "1.13%",
+      "position": "7.9"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-papierkleber-80ml-matt-7480",
+      "clicks": 36,
+      "impressions": 2936,
+      "ctr": "1.23%",
+      "position": "7.67"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/edla-weihrauch",
+      "clicks": 34,
+      "impressions": 518,
+      "ctr": "6.56%",
+      "position": "5.09"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/trollfactory-tfc-pu-giessharz-resin-4min-1-1-2kg",
+      "clicks": 30,
+      "impressions": 1524,
+      "ctr": "1.97%",
+      "position": "10.95"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-uv-resin-20ml-hart",
+      "clicks": 29,
+      "impressions": 2177,
+      "ctr": "1.33%",
+      "position": "10.62"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glanz-glasur-pouring-glaze-100ml-6105",
+      "clicks": 29,
+      "impressions": 1559,
+      "ctr": "1.86%",
+      "position": "6.73"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-wachspaste-metallic-20ml-silber-3805",
+      "clicks": 27,
+      "impressions": 791,
+      "ctr": "3.41%",
+      "position": "7.37"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-papierkleber-30ml-klar-6943",
+      "clicks": 23,
+      "impressions": 1262,
+      "ctr": "1.82%",
+      "position": "9.7"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/satinband-40mm",
+      "clicks": 23,
+      "impressions": 1054,
+      "ctr": "2.18%",
+      "position": "9.07"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/wachspaste-metallic-20ml-silber-3806",
+      "clicks": 23,
+      "impressions": 865,
+      "ctr": "2.66%",
+      "position": "5.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/glocke-298",
+      "clicks": 23,
+      "impressions": 351,
+      "ctr": "6.55%",
+      "position": "6.67"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/acrylfarbe-perlmutt-50ml-wei-6901",
+      "clicks": 22,
+      "impressions": 3984,
+      "ctr": "0.55%",
+      "position": "8.1"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/grundierfarbe-100ml-6840",
+      "clicks": 22,
+      "impressions": 995,
+      "ctr": "2.21%",
+      "position": "9.11"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/holz-ziffer-set-fur-uhr-45cm-7182",
+      "clicks": 22,
+      "impressions": 727,
+      "ctr": "3.03%",
+      "position": "7.87"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-perlenpaste-50ml-5292?variant=39736557306013&country=PL&currency=PLN&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+      "clicks": 22,
+      "impressions": 44,
+      "ctr": "50%",
+      "position": "1.86"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/bastelset-aus-peddigrohr-glocke-5665",
+      "clicks": 21,
+      "impressions": 829,
+      "ctr": "2.53%",
+      "position": "6.38"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/zweiphasen-feinriss-krakelierlack-set-2x50ml-4944",
+      "clicks": 21,
+      "impressions": 711,
+      "ctr": "2.95%",
+      "position": "7.03"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-glasatzungspaste-50ml-mit-verdunner",
+      "clicks": 20,
+      "impressions": 946,
+      "ctr": "2.11%",
+      "position": "7.08"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-kerzenkleber-100ml",
+      "clicks": 20,
+      "impressions": 883,
+      "ctr": "2.27%",
+      "position": "8.4"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/samtpulver-30ml-grun-6542",
+      "clicks": 20,
+      "impressions": 689,
+      "ctr": "2.9%",
+      "position": "3.86"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/tontopfuntersetzer-8cm-1830",
+      "clicks": 18,
+      "impressions": 2161,
+      "ctr": "0.83%",
+      "position": "7.61"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/spiegelfarbe-auf-glas-3819",
+      "clicks": 17,
+      "impressions": 1649,
+      "ctr": "1.03%",
+      "position": "9.12"
+    }
+  ],
+  "collection_pages": [
+    {
+      "url": "https://www.bastelschachtel.at/collections/grundmaterial_zum_korb_flechten",
+      "clicks": 382,
+      "impressions": 23708,
+      "ctr": "1.61%",
+      "position": "9.05"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/sets-aus-peddigrohr-83",
+      "clicks": 223,
+      "impressions": 13709,
+      "ctr": "1.63%",
+      "position": "8.18"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/scrapbooking",
+      "clicks": 172,
+      "impressions": 9433,
+      "ctr": "1.82%",
+      "position": "12.48"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/reispapier",
+      "clicks": 167,
+      "impressions": 5922,
+      "ctr": "2.82%",
+      "position": "5.45"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/ihr-pentart-lieferant",
+      "clicks": 150,
+      "impressions": 3788,
+      "ctr": "3.96%",
+      "position": "4.41"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/silikonformen",
+      "clicks": 109,
+      "impressions": 9509,
+      "ctr": "1.15%",
+      "position": "7.42"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/all",
+      "clicks": 67,
+      "impressions": 3826,
+      "ctr": "1.75%",
+      "position": "1.71"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/reispapier-motivseide",
+      "clicks": 62,
+      "impressions": 3389,
+      "ctr": "1.83%",
+      "position": "9.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/styrofoam-styropor-figuren",
+      "clicks": 31,
+      "impressions": 2086,
+      "ctr": "1.49%",
+      "position": "10.55"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/decoupage",
+      "clicks": 30,
+      "impressions": 1606,
+      "ctr": "1.87%",
+      "position": "2.11"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/stempel-546",
+      "clicks": 24,
+      "impressions": 847,
+      "ctr": "2.83%",
+      "position": "10.06"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/alle-produkte",
+      "clicks": 23,
+      "impressions": 1365,
+      "ctr": "1.68%",
+      "position": "1.92"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/glasatzpasten",
+      "clicks": 23,
+      "impressions": 755,
+      "ctr": "3.05%",
+      "position": "5.89"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/bastelsets",
+      "clicks": 22,
+      "impressions": 2456,
+      "ctr": "0.9%",
+      "position": "4.47"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/samtpulver",
+      "clicks": 22,
+      "impressions": 561,
+      "ctr": "3.92%",
+      "position": "6.78"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/korbboden-flechtarbeiten",
+      "clicks": 21,
+      "impressions": 675,
+      "ctr": "3.11%",
+      "position": "9.05"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/glasfarben",
+      "clicks": 16,
+      "impressions": 4741,
+      "ctr": "0.34%",
+      "position": "8.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/antikfarben-und-antikpasten",
+      "clicks": 16,
+      "impressions": 576,
+      "ctr": "2.78%",
+      "position": "9.43"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/sonstige-bnder-253",
+      "clicks": 15,
+      "impressions": 1566,
+      "ctr": "0.96%",
+      "position": "10.8"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/schablonen",
+      "clicks": 14,
+      "impressions": 1643,
+      "ctr": "0.85%",
+      "position": "12.75"
+    }
+  ],
+  "blog_pages": [
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/shadowbox",
+      "clicks": 78,
+      "impressions": 1667,
+      "ctr": "4.68%",
+      "position": "8.72"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/glasatzungspaste-richtig-anwenden-mit-diesen-tipps-gelingen-dir-filigrane-designs-garantiert",
+      "clicks": 75,
+      "impressions": 1893,
+      "ctr": "3.96%",
+      "position": "6.09"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/lackieren-im-modellbau-so-geht-s-richtig",
+      "clicks": 71,
+      "impressions": 3859,
+      "ctr": "1.84%",
+      "position": "6.05"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/antike-ostereier",
+      "clicks": 16,
+      "impressions": 733,
+      "ctr": "2.18%",
+      "position": "7.07"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/richtiges-arbeiten-mit-dem-brandmalkolben-35",
+      "clicks": 16,
+      "impressions": 513,
+      "ctr": "3.12%",
+      "position": "5.38"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/rosteffekt-wie-gehtss-richtig-63",
+      "clicks": 8,
+      "impressions": 257,
+      "ctr": "3.11%",
+      "position": "9.56"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/glasrecycling-mit-glasfarbe-126",
+      "clicks": 6,
+      "impressions": 635,
+      "ctr": "0.94%",
+      "position": "12.49"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/gutscheine-richtig-verpacken-39",
+      "clicks": 5,
+      "impressions": 1361,
+      "ctr": "0.37%",
+      "position": "23.41"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/aludosen-recycelt-im-vintage-stil-148",
+      "clicks": 5,
+      "impressions": 405,
+      "ctr": "1.23%",
+      "position": "9.61"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/scrapbookalbum-selbstgemacht-119",
+      "clicks": 5,
+      "impressions": 210,
+      "ctr": "2.38%",
+      "position": "23.8"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/relaxbild-mit-steinpaste-98",
+      "clicks": 5,
+      "impressions": 134,
+      "ctr": "3.73%",
+      "position": "7.11"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/blumentopf-upcycling-150",
+      "clicks": 4,
+      "impressions": 241,
+      "ctr": "1.66%",
+      "position": "18.01"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht",
+      "clicks": 4,
+      "impressions": 126,
+      "ctr": "3.17%",
+      "position": "29.04"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/christbaumkugeln-und-weihnachtsornamente",
+      "clicks": 3,
+      "impressions": 352,
+      "ctr": "0.85%",
+      "position": "19.96"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/mediterranes-tablett-und-untersetzer",
+      "clicks": 3,
+      "impressions": 109,
+      "ctr": "2.75%",
+      "position": "13.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/glitterpaste-glow-in-the-dark-74",
+      "clicks": 3,
+      "impressions": 74,
+      "ctr": "4.05%",
+      "position": "9.01"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/kreativbeton-trifft-plottern",
+      "clicks": 3,
+      "impressions": 20,
+      "ctr": "15%",
+      "position": "6.2"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/my-little-teddy-kugeln",
+      "clicks": 2,
+      "impressions": 221,
+      "ctr": "0.9%",
+      "position": "8.74"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/weihnachtliche-likorflasche",
+      "clicks": 2,
+      "impressions": 80,
+      "ctr": "2.5%",
+      "position": "10.35"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/blogs/uebersicht/rost-und-patina-farbsets-120",
+      "clicks": 2,
+      "impressions": 53,
+      "ctr": "3.77%",
+      "position": "15.06"
+    }
+  ],
+  "howto_queries": [
+    {
+      "query": "reispapier basteln",
+      "clicks": 32,
+      "impressions": 1039,
+      "ctr": "3.08%",
+      "position": "6.36"
+    },
+    {
+      "query": "bastelschachtel der online kreativshop",
+      "clicks": 21,
+      "impressions": 44,
+      "ctr": "47.73%",
+      "position": "1"
+    },
+    {
+      "query": "reispapier zum basteln",
+      "clicks": 18,
+      "impressions": 572,
+      "ctr": "3.15%",
+      "position": "4.72"
+    },
+    {
+      "query": "silikonformen zum basteln",
+      "clicks": 16,
+      "impressions": 1470,
+      "ctr": "1.09%",
+      "position": "8.78"
+    },
+    {
+      "query": "schattenbox selber machen",
+      "clicks": 16,
+      "impressions": 300,
+      "ctr": "5.33%",
+      "position": "5"
+    },
+    {
+      "query": "korb selber flechten material",
+      "clicks": 13,
+      "impressions": 952,
+      "ctr": "1.37%",
+      "position": "7.67"
+    },
+    {
+      "query": "peddigrohr ideen zum selbermachen",
+      "clicks": 11,
+      "impressions": 167,
+      "ctr": "6.59%",
+      "position": "5.63"
+    },
+    {
+      "query": "korb selber flechten set",
+      "clicks": 10,
+      "impressions": 689,
+      "ctr": "1.45%",
+      "position": "8.36"
+    },
+    {
+      "query": "samtpulver basteln",
+      "clicks": 9,
+      "impressions": 129,
+      "ctr": "6.98%",
+      "position": "2.06"
+    },
+    {
+      "query": "uhrwerk mit zeiger zum basteln",
+      "clicks": 8,
+      "impressions": 182,
+      "ctr": "4.4%",
+      "position": "5.1"
+    },
+    {
+      "query": "peddigrohr flechten ideen",
+      "clicks": 7,
+      "impressions": 399,
+      "ctr": "1.75%",
+      "position": "7.8"
+    },
+    {
+      "query": "reispapier zum basteln kaufen",
+      "clicks": 7,
+      "impressions": 146,
+      "ctr": "4.79%",
+      "position": "4.64"
+    },
+    {
+      "query": "schattenbox anleitung",
+      "clicks": 7,
+      "impressions": 75,
+      "ctr": "9.33%",
+      "position": "6.37"
+    },
+    {
+      "query": "silikonformen basteln",
+      "clicks": 5,
+      "impressions": 196,
+      "ctr": "2.55%",
+      "position": "6.83"
+    },
+    {
+      "query": "kreativ shop",
+      "clicks": 4,
+      "impressions": 482,
+      "ctr": "0.83%",
+      "position": "7.96"
+    },
+    {
+      "query": "basteln mit peddigrohr",
+      "clicks": 4,
+      "impressions": 129,
+      "ctr": "3.1%",
+      "position": "7.18"
+    },
+    {
+      "query": "peddigrohr stern anleitung",
+      "clicks": 3,
+      "impressions": 178,
+      "ctr": "1.69%",
+      "position": "5.19"
+    },
+    {
+      "query": "silikonform basteln",
+      "clicks": 3,
+      "impressions": 144,
+      "ctr": "2.08%",
+      "position": "7.94"
+    },
+    {
+      "query": "schattenbox basteln",
+      "clicks": 3,
+      "impressions": 138,
+      "ctr": "2.17%",
+      "position": "7.64"
+    },
+    {
+      "query": "was ist reispapier zum basteln",
+      "clicks": 3,
+      "impressions": 107,
+      "ctr": "2.8%",
+      "position": "4.6"
+    },
+    {
+      "query": "strohseide basteln",
+      "clicks": 3,
+      "impressions": 97,
+      "ctr": "3.09%",
+      "position": "7.62"
+    },
+    {
+      "query": "steinkleber basteln",
+      "clicks": 3,
+      "impressions": 28,
+      "ctr": "10.71%",
+      "position": "7.75"
+    },
+    {
+      "query": "basteln mit strohseide",
+      "clicks": 2,
+      "impressions": 320,
+      "ctr": "0.62%",
+      "position": "9.2"
+    },
+    {
+      "query": "wellpappe zum basteln",
+      "clicks": 2,
+      "impressions": 170,
+      "ctr": "1.18%",
+      "position": "4.92"
+    },
+    {
+      "query": "peddigrohr basteln",
+      "clicks": 2,
+      "impressions": 126,
+      "ctr": "1.59%",
+      "position": "6.3"
+    },
+    {
+      "query": "kreativshop online",
+      "clicks": 2,
+      "impressions": 115,
+      "ctr": "1.74%",
+      "position": "5"
+    },
+    {
+      "query": "holzbaum basteln",
+      "clicks": 2,
+      "impressions": 103,
+      "ctr": "1.94%",
+      "position": "3.2"
+    },
+    {
+      "query": "uhrwerk zum basteln",
+      "clicks": 2,
+      "impressions": 92,
+      "ctr": "2.17%",
+      "position": "6.71"
+    },
+    {
+      "query": "tauchlack zum basteln kaufen",
+      "clicks": 2,
+      "impressions": 88,
+      "ctr": "2.27%",
+      "position": "6.97"
+    },
+    {
+      "query": "tauchfarbe basteln",
+      "clicks": 2,
+      "impressions": 54,
+      "ctr": "3.7%",
+      "position": "5.31"
+    }
+  ],
+  "brand_queries": [
+    {
+      "query": "bastelschachtel",
+      "clicks": 1155,
+      "impressions": 1778,
+      "ctr": "64.96%",
+      "position": "1.14"
+    },
+    {
+      "query": "bastelschachtel wattens",
+      "clicks": 365,
+      "impressions": 1414,
+      "ctr": "25.81%",
+      "position": "1"
+    },
+    {
+      "query": "bastelschachtel online shop",
+      "clicks": 91,
+      "impressions": 116,
+      "ctr": "78.45%",
+      "position": "1"
+    },
+    {
+      "query": "bastelschachtel der online kreativshop",
+      "clicks": 21,
+      "impressions": 44,
+      "ctr": "47.73%",
+      "position": "1"
+    },
+    {
+      "query": "bastelschachtel at",
+      "clicks": 9,
+      "impressions": 9,
+      "ctr": "100%",
+      "position": "1"
+    },
+    {
+      "query": "bastelschachtel schule",
+      "clicks": 2,
+      "impressions": 5,
+      "ctr": "40%",
+      "position": "3.6"
+    }
+  ],
+  "opportunity_pages": [
+    {
+      "url": "https://www.bastelschachtel.at/collections/scrapbooking",
+      "clicks": 172,
+      "impressions": 9433,
+      "ctr": "1.82%",
+      "position": "12.48"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/styrofoam-styropor-figuren",
+      "clicks": 31,
+      "impressions": 2086,
+      "ctr": "1.49%",
+      "position": "10.55"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/trollfactory-tfc-pu-giessharz-resin-4min-1-1-2kg",
+      "clicks": 30,
+      "impressions": 1524,
+      "ctr": "1.97%",
+      "position": "10.95"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pentart-uv-resin-20ml-hart",
+      "clicks": 29,
+      "impressions": 2177,
+      "ctr": "1.33%",
+      "position": "10.62"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/stempel-546",
+      "clicks": 24,
+      "impressions": 847,
+      "ctr": "2.83%",
+      "position": "10.06"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/pages/zahlungsmethoden",
+      "clicks": 19,
+      "impressions": 320,
+      "ctr": "5.94%",
+      "position": "16.4"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/silikonform-nussknacker",
+      "clicks": 15,
+      "impressions": 1775,
+      "ctr": "0.85%",
+      "position": "11.16"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/sonstige-bnder-253",
+      "clicks": 15,
+      "impressions": 1566,
+      "ctr": "0.96%",
+      "position": "10.8"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/handgeschopftes-papier",
+      "clicks": 15,
+      "impressions": 920,
+      "ctr": "1.63%",
+      "position": "13.37"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/schablonen",
+      "clicks": 14,
+      "impressions": 1643,
+      "ctr": "0.85%",
+      "position": "12.75"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/uv-led-lampe",
+      "clicks": 13,
+      "impressions": 2007,
+      "ctr": "0.65%",
+      "position": "14.38"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/acryl-kugel-mit-offnung-8cm-5-stuck-pro-packung-7522",
+      "clicks": 13,
+      "impressions": 1460,
+      "ctr": "0.89%",
+      "position": "10.32"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/schilf-2mm-50dkg-512",
+      "clicks": 11,
+      "impressions": 2766,
+      "ctr": "0.4%",
+      "position": "11.32"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/embossing-stift-set",
+      "clicks": 11,
+      "impressions": 1012,
+      "ctr": "1.09%",
+      "position": "11.9"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/pappschachtel-buch-mit-klappdeckel-18c14x5cm",
+      "clicks": 11,
+      "impressions": 937,
+      "ctr": "1.17%",
+      "position": "10.89"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/leuchtfarbe-glow-in-the-dark-361",
+      "clicks": 10,
+      "impressions": 5112,
+      "ctr": "0.2%",
+      "position": "10.09"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/mosaik-229",
+      "clicks": 10,
+      "impressions": 1262,
+      "ctr": "0.79%",
+      "position": "12.79"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/bastelset-vogelhaus",
+      "clicks": 9,
+      "impressions": 1555,
+      "ctr": "0.58%",
+      "position": "11.03"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/bastelfilz-21x30cm-599",
+      "clicks": 9,
+      "impressions": 1360,
+      "ctr": "0.66%",
+      "position": "10.15"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/mosaik-und-steinkleber-100ml-8032",
+      "clicks": 8,
+      "impressions": 2399,
+      "ctr": "0.33%",
+      "position": "17.5"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/holz-schlusselkasten-gro-698",
+      "clicks": 8,
+      "impressions": 2333,
+      "ctr": "0.34%",
+      "position": "10.1"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/acryl-farben",
+      "clicks": 8,
+      "impressions": 1562,
+      "ctr": "0.51%",
+      "position": "12.51"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/acrylfarbe-metallic-50ml-antik-gold-4889",
+      "clicks": 8,
+      "impressions": 925,
+      "ctr": "0.86%",
+      "position": "13.52"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/leinenband-6cm-x-3m",
+      "clicks": 7,
+      "impressions": 540,
+      "ctr": "1.3%",
+      "position": "10.53"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/metall-schubladenknauf-rund-5-stuck-6663",
+      "clicks": 7,
+      "impressions": 350,
+      "ctr": "2%",
+      "position": "11.91"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/steinpaste-100ml-lehm-5345",
+      "clicks": 7,
+      "impressions": 235,
+      "ctr": "2.98%",
+      "position": "10.72"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/flussiges-metall-50ml-antikgold-4893",
+      "clicks": 6,
+      "impressions": 941,
+      "ctr": "0.64%",
+      "position": "10.98"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/fugenpulver-110g-schwarz-7359",
+      "clicks": 6,
+      "impressions": 801,
+      "ctr": "0.75%",
+      "position": "11.96"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/products/textil-und-lederfarbe-50ml-grun-5729",
+      "clicks": 6,
+      "impressions": 700,
+      "ctr": "0.86%",
+      "position": "10.17"
+    },
+    {
+      "url": "https://www.bastelschachtel.at/collections/lasuren-109",
+      "clicks": 6,
+      "impressions": 695,
+      "ctr": "0.86%",
+      "position": "13.87"
+    }
+  ]
+}

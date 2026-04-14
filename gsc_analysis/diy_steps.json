@@ -1,0 +1,62 @@
+{
+  "handykette": {
+    "title": "Handykette / Handyarmband DIY",
+    "steps": [
+      {
+        "id": "363056005458",
+        "title": "Schritt 1: Vorbereitung der Basis",
+        "description": "Führe die Aufreihseide durch einen Ring und ziehe ihn in die Mitte.\n\nLege anschließend beide Fadenenden in die Aufreihnadel und fädle eine Quetschperle auf."
+      },
+      {
+        "id": "363056038226",
+        "title": "Schritt 2: Erste Fixierung",
+        "description": "Positioniere die Quetschperle direkt unter dem Ring.\n\nFixiere sie mit einem kleinen Tropfen Schmuckkleber und drücke sie anschließend mit der Zange vorsichtig zusammen, sodass sie sicher sitzt."
+      },
+      {
+        "id": "363056070994",
+        "title": "Schritt 3: Kette gestalten",
+        "description": "\nJetzt entsteht deine Kette.\n\nFädle die Perlen und Buchstaben in deiner gewünschten Reihenfolge auf – passend zu deiner geplanten Länge.\n\nTipp: Lege die Perlen vorher kurz aus. So sitzt dein Name spät"
+      },
+      {
+        "id": "363056169298",
+        "title": "Schritt 4: Zweite Verbindung vorbereiten",
+        "description": "Fädle nun eine zweite Quetschperle auf.\n\nFühre die Nadel durch den zweiten Ring und anschließend wieder zurück durch die Quetschperle."
+      },
+      {
+        "id": "363056202066",
+        "title": "Schritt 5: Zweite Fixierung",
+        "description": "Fixiere auch diese Quetschperle mit etwas Schmuckkleber und drücke sie mit der Zange vorsichtig zusammen."
+      },
+      {
+        "id": "363056234834",
+        "title": "Schritt 6: Faden sichern",
+        "description": "Führe die Aufreihseide durch zwei bis drei Perlen zurück.\n\nSo wird der Faden sauber vernäht und hält zuverlässig.\n\nSchneide anschließend das überstehende Ende ab."
+      },
+      {
+        "id": "363056267602",
+        "title": "Schritt 7: Verschlüsse anbringen",
+        "description": "Öffne beide Ringe vorsichtig mit der Zange, hänge jeweils einen Karabiner ein und schließe die Ringe wieder sorgfältig.\n\n"
+      },
+      {
+        "id": "363056431442",
+        "title": "Schritt 8: Mit dem Handy verbinden",
+        "description": "Lege zum Schluss das Handy-Inlay zwischen Smartphone und Hülle, sodass die kleine Schlaufe unten sichtbar bleibt.\n\nDaran befestigst du deine Kette – und sie ist bereit für den Alltag."
+      }
+    ]
+  },
+  "batik-tshirt": {
+    "title": "Batik T-Shirt DIY",
+    "steps": [
+      {
+        "id": "365331743058",
+        "title": "Utensilien vorbereiten",
+        "description": "Lege alle benötigten Materialien wie T‑Shirt, Batikfarbe, Gummibänder, Handschuhe und Unterlage bereit, damit du beim Färben alles griffbereit hast."
+      },
+      {
+        "id": "365331841362",
+        "title": "T‑Shirt anfeuchten",
+        "description": "Sprühe das Shirt mit Wasser leicht ein, sodass der Stoff feucht, aber nicht tropfnass ist – das sorgt für schönere Farbübergänge.\n\n"
+      }
+    ]
+  }
+}

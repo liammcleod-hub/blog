@@ -1,0 +1,66 @@
+{%- comment -%}
+================================================================================
+Schema: Organization - Master Node (AEO Identity Spine)
+================================================================================
+Purpose:   Declares Bastelschachtel as a recognized entity in AI knowledge graphs.
+           The Master Node that all other schema entities link back to.
+Type:      ArtSupplyStore (specific subtype for 2026 AEO topical authority)
+Scope:     Global - rendered on every page via theme.liquid
+Created:   2026-04-13
+Reference: Bastelschachtel AEO/GEO Framework
+
+@id Anchor: shop.url/#organization
+Linked by:  - LocalBusiness (parentOrganization)
+            - WebSite (publisher)
+            - HowTo (publisher)
+
+Performance: Bottom of body placement (not head) for LCP optimization
+================================================================================
+{%- endcomment -%}
+
+{%- assign shop_url = shop.url -%}
+{%- assign shop_name = shop.name | json -%}
+{%- assign shop_logo = shop.logo | img_url: "600x" | json -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ArtSupplyStore",
+  "@id": "{{ shop_url }}#organization",
+  "name": {{ shop_name }},
+  "url": "{{ shop_url }}",
+  "logo": {{ shop_logo }},
+  "knowsAbout": [
+    "Bastelbedarf",
+    "Korbflechten",
+    "Pentart Produkte",
+    "Basteln mit Kindern",
+    "DIY Handarbeit",
+    "Bastelzubehör Österreich"
+  ],
+  "sameAs": [
+    "https://www.youtube.com/channel/UCv8kayedKQE_SwS9wVFnASg",
+    "https://www.instagram.com/bastelschachtel_onlineshop/",
+    "https://www.facebook.com/bastelschachtel",
+    "https://at.pinterest.com/bastelschachtel/",
+    "https://www.wko.at/oe/bastel-kreativ-gmbh",
+    "https://www.firmen.at/bastelschachtel"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+43 664 4564271",
+    "contactType": "customer service",
+    "availableLanguage": ["German"],
+    "areaServed": "AT"
+  },
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "name": "Bastel-Kreativ GmbH",
+    "streetAddress": "Swarovskistraße 3",
+    "addressLocality": "Wattens",
+    "postalCode": "6112",
+    "addressCountry": "AT"
+  }
+}
+</script>

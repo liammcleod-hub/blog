@@ -1,0 +1,191 @@
+# Internal Links Map — Bastelschachtel
+
+This document catalogs key Bastelschachtel pages that should be referenced in blog content for strategic internal linking. Use this when writing content to guide where internal links belong.
+
+For each page category:
+- **URL**: The actual page location
+- **When to link**: Specific topics/contexts where this link fits naturally
+- **Anchor text**: Naturally phrased link text (not "click here")
+
+---
+
+## Homepage & Core Pages
+
+### Homepage
+- **URL**: `https://bastelschachtel.at/`
+- **When to Link**: Only when introducing Bastelschachtel broadly; rarely in blog content
+- **Anchor Text**: "Bastelschachtel", "unser Shop", "zu Bastelschachtel"
+
+### About / Mission / Team
+- **URL**: TBD (check site structure)
+- **When to Link**: When discussing brand story, Austrian origin, hand-packing promise
+- **Anchor Text**: "unsere Geschichte", "über Bastelschachtel", "das Team"
+
+### Blog Home
+- **URL**: `https://bastelschachtel.at/blogs/uebersicht` (verify)
+- **When to Link**: When cross-referencing other tutorials or DIY content
+- **Anchor Text**: "zum Blog", "weitere Bastelideen", "DIY Anleitungen"
+
+---
+
+## Core Commercial Pages (Money Pages)
+
+### Bastelbedarf — Broad Commercial Landing
+- **URL**: `https://bastelschachtel.at/pages/bastelbedarf` (from SEO copy deck)
+- **When to Link**: Introduction or overview posts; broad craft material topics; "shop materials" CTAs
+- **Anchor Text**: "Bastelbedarf kaufen", "zum Bastelbedarf", "gesamte Bastelsortiment"
+- **Priority**: High—link to this page from most blog content
+
+### Pentart Shop / Collection
+- **URL**: `https://bastelschachtel.at/collections/ihr-pentart-lieferant` (from SEO copy deck)
+- **When to Link**: Any Pentart tutorial, color mixing, glaze techniques, surface decoration projects
+- **Anchor Text**: "Pentart Produkte", "unser Pentart Shop", "zu den Pentart Farben"
+- **Priority**: High for Pentart-focused content
+
+### Reispapier Collection
+- **URL**: `https://bastelschachtel.at/collections/reispapier`
+- **When to Link**: Decoupage tutorials, surface decoration, furniture projects, gift ideas using rice paper
+- **Anchor Text**: "Reispapier kaufen", "Decoupage Materialien", "zum Reispapier"
+- **Priority**: High for Decoupage/Reispapier content
+
+### Korbflechten / Peddigrohr Landing Page
+- **URL**: `https://bastelschachtel.at/pages/korbflechten-material-kaufen` (planned; from SEO copy deck)
+- **When to Link**: Basket weaving tutorials, Peddigrohr projects, beginner weaving guides
+- **Anchor Text**: "Korbflechten Material", "Peddigrohr kaufen", "Flechtsets"
+- **Priority**: High for basket-weaving content
+
+### Bastelsets Category
+- **URL**: Check current site URL (appears to be under "Bastelsets & Bundles" menu)
+- **When to Link**: Beginner projects, gift-making content, "easy start" recommendations
+- **Anchor Text**: "Bastelsets", "Bastelsets für Anfänger", "komplette Sets"
+- **Priority**: Medium-High for beginner content
+
+### Silikonformen / Gips & Beton Landing Page
+- **URL**: `https://bastelschachtel.at/pages/silikonformen-fuer-gips-und-beton` (planned; from SEO copy deck)
+- **When to Link**: Casting tutorials, plaster projects, concrete crafting, decorative mold projects
+- **Anchor Text**: "Silikonformen", "Gips & Beton Materialien", "zum Gießzubehör"
+- **Priority**: High for casting/mold content
+
+---
+
+## Topical Category & Collection Pages
+
+### Glasätzung & Ätzung
+- **URL**: Check under "DIY > Glasmalerei & Ätzung" menu
+- **When to Link**: Glass etching tutorials, personalized glass projects, decorative glass
+- **Anchor Text**: "Glasätzung Materialien", "Glasmalerei Produkte"
+
+### Farben & Veredelung
+- **URL**: Check under "DIY > Farben & Veredelung" menu
+- **When to Link**: Color mixing, finish techniques, surface effects, specialty paint projects
+- **Anchor Text**: "Farben & Veredelung", "Veredelungsprodukte"
+
+### Papier & Decoupage
+- **URL**: Check under "DIY > Papier & Decoupage" menu
+- **When to Link**: Decoupage techniques, paper-based projects, serviette technique
+- **Anchor Text**: "Papier & Decoupage", "Decoupage Materialien"
+
+### Korbflechten (Collection)
+- **URL**: Check under "DIY > Korbflechten" menu
+- **When to Link**: Basket weaving projects, Peddigrohr content (though landing page link is preferred)
+- **Anchor Text**: "Korbflechten Bereich", "Korb Materialien"
+
+### Material & Formen
+- **URL**: Check under "DIY > Material & Formen" menu
+- **When to Link**: Casting, mold, form-related projects (though landing page link is preferred)
+- **Anchor Text**: "Gießformen", "Bastelmaterialien"
+
+---
+
+## Seasonal / Bundle Pages
+
+### Für Weihnachten (Holiday Crafting)
+- **URL**: Check under "Bastelsets & Bundles > Für Weihnachten"
+- **When to Link**: Holiday project content, Christmas gift-making tutorials
+- **Anchor Text**: "Weihnachts Bastelsachen", "Bastelsets für Weihnachten"
+
+### Für dich selbst (Self-Directed)
+- **URL**: Check under "Bastelsets & Bundles > Für dich selbst"
+- **When to Link**: Permission-focused content, "take creative time for yourself" messaging
+- **Anchor Text**: "Bastelsets für dich", "kreative Zeit für mich"
+
+### Zum Verschenken (Gift-Giving)
+- **URL**: Check under "Bastelsets & Bundles > Zum Verschenken"
+- **When to Link**: Gift-making tutorials, handmade gift ideas, permission-based giving content
+- **Anchor Text**: "Bastelsets zum Verschenken", "Geschenke selber machen"
+
+### Mit Kindern (Family Crafting)
+- **URL**: Check under "Bastelsets & Bundles > Mit Kindern"
+- **When to Link**: Family DIY projects, beginner-friendly content, kids' crafting ideas
+- **Anchor Text**: "Bastelprojekte mit Kindern", "Familien Bastelsets"
+
+---
+
+## Linking Strategy
+
+### Primary Linking Pattern
+Every blog post should link to **at least one money page** (preferably `/pages/bastelbedarf` or a category-specific landing page) at or near the CTA.
+
+**Good example CTA with internal link:**
+"Jetzt brauchst du nur noch die richtigen Materialien. Schau mal in unserem [Bastelbedarf Shop](https://bastelschachtel.at/pages/bastelbedarf) vorbei—oder direkt zu den [Reispapier Produkten](https://bastelschachtel.at/collections/reispapier)."
+
+### Cross-Blog Linking
+Link to related tutorial or guide posts when appropriate:
+- "Du möchtest mehr über Decoupage lernen? Hier ist unsere [komplette Decoupage Anleitung](...)."
+- Keep cross-blog links contextual, not forced
+
+### Avoid Over-Linking
+- Don't link to the same page more than 2-3 times per article
+- Link only when the anchor text feels natural
+- One link per paragraph maximum
+
+---
+
+## Internal Linking Best Practices
+
+When adding internal links to blog content:
+
+1. **Link Naturally**: Only link when genuinely relevant and helpful to the reader
+2. **Vary Anchor Text**: Use different phrases for the same destination URL
+3. **3-5 Links Per Post**: Aim for 3-5 strategic internal links in each blog post
+4. **Deep Linking**: Link to specific relevant pages, not just the homepage
+5. **Early Links Matter**: Links in the first few paragraphs carry more weight
+6. **Update This Map**: Add new pages as you create them, remove outdated URLs
+
+---
+
+## Quick Reference by Topic
+
+**When writing about Pentart**, link to:
+- Pentart Shop — "zu den Pentart Produkten"
+- Bastelbedarf — "complete Bastelbedarf"
+- Related tutorials — "Pentart Anleitung"
+
+**When writing about Decoupage/Reispapier**, link to:
+- Reispapier Collection — "Reispapier kaufen"
+- Bastelbedarf — "Bastelmaterialien"
+- Related tutorial posts — "Decoupage Techniken"
+
+**When writing about Korbflechten**, link to:
+- Korbflechten Landing Page — "Korbflechten Material"
+- Bastelsets — "Anfänger Flechtsets"
+- Bastelbedarf — "complete Bastelsortiment"
+
+**When writing about Casting/Gips**, link to:
+- Silikonformen Landing Page — "Gießformen kaufen"
+- Bastelbedarf — "Bastelmaterialien"
+- Related casting tutorials — "Gips Projekte"
+
+**When writing beginner content**, link to:
+- Bastelsets — "Anfänger Sets"
+- "Für dich selbst" — "kreative Zeit für dich"
+- Relevant materials — specific collections
+
+**When writing gift-making content**, link to:
+- "Zum Verschenken" — "Geschenke selber machen"
+- Bastelsets — "Gift-Making Sets"
+- Relevant materials — specific collections
+
+---
+
+*Note: Keep this document updated as you publish new content or restructure your site. Accurate internal linking improves SEO and user experience.*

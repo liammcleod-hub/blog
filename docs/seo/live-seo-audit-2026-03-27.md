@@ -396,3 +396,8 @@ If you fix homepage targeting, collection H1/meta consistency, and the broken Ko
 - [[docs/seo/seo-execution-checklist-2026-03-27|seo-execution-checklist-2026-03-27]]
 - [[docs/seo/master-article-plan-2026-03-29|master-article-plan-2026-03-29]]
 - [[docs/customer reviews/category-voc-priority-map|category-voc-priority-map]]
+
+<!-- audit-date: 2026-04-14 -->
+
+---
+← [[docs/core tech seo/MASTER|Bastelschachtel SEO & AEO/GEO — Master Index]]
