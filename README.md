@@ -1,18 +1,34 @@
-# bastelschachtel
-#context
+# Bastelschachtel
 
-Repo map and startup index for Bastelschachtel.
+Working repo for Bastelschachtel’s SEO/AEO research, content pipeline, and Shopify publishing integration.
 
 ## Start Here
 
-- Read [[sessionstart]] for the minimal startup pointer.
-- Bastelschachtel's full operating context lives at `.agents/product-marketing-context.md`.
-- Main doc entrypoints:
-  - [[docs/seo/README]]
-  - [[docs/customer reviews/README]]
-  - [[docs/superpowers/specs/README]]
-  - [[docs/reference/skill-guides/README]]
-  - [[output/content-jobs/README]]
+- `README_START_HERE.md` (pipeline overview + next tasks)
+- `SHOPIFY_INTEGRATION_STRATEGY.md` (architecture + integration plan)
+- `.agents/product-marketing-context.md` (source-of-truth context)
+- Key doc entrypoints:
+  - `docs/seo/README.md`
+  - `docs/customer reviews/README.md`
+  - `docs/superpowers/specs/README.md`
+  - `docs/reference/skill-guides/README.md`
+  - `output/content-jobs/README.md`
+
+## Secrets & Environment
+
+This repo uses GitHub push protection. Do not commit secrets.
+
+- `.env` is gitignored
+- Copy `.env.example` → `.env` and set `SHOPIFY_ACCESS_TOKEN`
+
+PowerShell example:
+
+```powershell
+Copy-Item .env.example .env
+$env:SHOPIFY_ACCESS_TOKEN = "<your token>"
+```
+
+Several scripts under `docs/core tech seo/` read `SHOPIFY_ACCESS_TOKEN` from the environment and exit if it’s missing.
 
 ## Obsidian Tags
 
@@ -26,13 +42,16 @@ Repo map and startup index for Bastelschachtel.
 This is a names-only orientation map. If it drifts, refresh it from current folder and file names only. Do not read file contents to update this section.
 
 ```text
-bastelschachtel/
+./
 |- .agents/
 |  |- marketingskills/
 |  |- skills/
 |  `- product-marketing-context.md
+|- .anton/
+|- .claude/
 |- .codex/
 |- .obsidian/
+|- .skill-backups/
 |- bastelschachtel.agents/
 |- brand_assets/
 |- docs/
@@ -52,11 +71,13 @@ bastelschachtel/
 |  |- playwright/
 |  `- README.md
 |- plugins/
+|- public/
 |- repo-skills/
 |  |- blog-seo-pipeline/
 |  |- marketing-library/
 |  `- README.md
 |- README.md
+|- README_START_HERE.md
 `- sessionstart.md
 ```
 
@@ -94,3 +115,14 @@ bastelschachtel/
 - `python .agents/skills/obsidian-check/scripts/obsidian_check.py check`
 - `python .agents/skills/obsidian-check/scripts/obsidian_check.py check --fix`
 - `python .agents/skills/obsidian-check/scripts/obsidian_check.py check --print-verification-roots`
+
+## Git / Branch Workflow
+
+This repo is pushed to GitHub at `liammcleod-hub/blog` (remote: `origin`/`origin-https`).
+
+```powershell
+git status
+git add README.md
+git commit -m "docs: update README"
+git -c http.sslBackend=openssl push -u origin-https bastelschachtel-2026-04-14
+```
