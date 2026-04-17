@@ -5,3 +5,12 @@
 node_modules/
 .obsidian/
 nul
+.gstack/
+# --- shopify_api_work (collections cleanup) ---
+shopify_api_work/out/
+shopify_api_work/__pycache__/
+shopify_api_work/.env
+shopify_api_work/collections_cleanup_config.json
+
+# local one-off verification artifacts
+verify_*.json

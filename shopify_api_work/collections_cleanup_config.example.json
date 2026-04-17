@@ -1,0 +1,53 @@
+{
+  "curated_handles": [
+    "betondeko",
+    "mama-ist-die-beste",
+    "papa-ist-der-beste",
+    "weihnachtsdeko",
+    "winterdeko",
+    "herbstdeko",
+    "sommerdeko",
+    "fruhling-deko",
+    "osterndeko"
+  ],
+  "never_touch_handles": [],
+  "never_touch_title_keywords": [],
+  "verify_synonyms": {},
+  "verify_exempt_handles": [
+    "bastelsets"
+  ],
+  "verify_umbrella_handles": [
+    "farben-veredelung"
+  ],
+  "manual_to_smart_overrides": {
+    "dekorieren-mit-blattmetall-metallflocken-und-metallfolie-441": {
+      "appliedDisjunctively": true,
+      "rules": [
+        { "column": "TYPE", "relation": "EQUALS", "condition": "Flakes/ Blattmetall" },
+        { "column": "TITLE", "relation": "CONTAINS", "condition": "Blattmetall" },
+        { "column": "TITLE", "relation": "CONTAINS", "condition": "Metallflocken" },
+        { "column": "TITLE", "relation": "CONTAINS", "condition": "Metallfolie" },
+        { "column": "TITLE", "relation": "CONTAINS", "condition": "Metallfolien" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "metallfolie" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "dekorieren mit blattmetall und metallflocken" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "dekorfolien für metallische effekte" }
+      ]
+    },
+    "dekorieren-mit-micro-und-random-krakelierlack-481": {
+      "appliedDisjunctively": true,
+      "rules": [
+        { "column": "TAG", "relation": "EQUALS", "condition": "krakelierlack" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "opaker krakelierlack" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "transparent krakeliergel" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "einkomponenten krakelierlack" },
+        { "column": "TAG", "relation": "EQUALS", "condition": "dekorieren mit micro- und random-krakelierlack" }
+      ]
+    }
+  },
+  "rules_overrides": {
+    "farben-veredelung": {
+      "intent": "Umbrella category: should behave like OR across many color/finish effect keywords.",
+      "appliedDisjunctively": true
+    }
+  }
+}
