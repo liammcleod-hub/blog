@@ -46,6 +46,8 @@ Wir haben hier auch schon ein paar Sachen selbst gemacht —
 kleine Glücksbringer, Teelichthalter in Beton.  
 Die kannst du dir bei uns direkt anschauen.
 
+Oder schau online: bastelschachtel.at
+
 Lass die Ideen ein paar Tage bei dir wirken.
 
 Nächste Woche schreiben wir dir mehr —  
