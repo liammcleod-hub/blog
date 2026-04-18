@@ -1,0 +1,232 @@
+{% comment %} 
+  Master DIY Anleitung Section - THE MEGA VERSION
+  Handles everything: Hero, Steps, and Interactive Materials Checklist.
+{% endcomment %}
+
+{%- liquid
+  assign title = metaobject.title
+  assign subtitle = metaobject.subtitle
+  assign difficulty = metaobject.difficulty | default: metaobject.diffuculty
+  assign hero_image = metaobject.hero_image
+  
+  assign intro = metaobject.intro.value | default: metaobject.intro_text
+  
+  assign steps = metaobject.steps.value | default: metaobject.steps_list.value
+  
+  assign materials = metaobject.materials_products.value | default: metaobject.materials_list.value
+  
+  assign midpage_heading = metaobject.midpage_heading | default: metaobject.midpage_cta_heading
+  assign midpage_subheading = metaobject.midpage_subheading
+  assign midpage_text = metaobject.midpage_text | default: metaobject.midpage_cta_text.value
+  
+  assign pdf_guide = metaobject.pdf_guide.value | default: metaobject.download_file.value
+  assign download_url = metaobject.download_url.value
+  assign download_label = metaobject.download_button_label
+-%}
+
+{% style %}
+  .diy-master--container { padding: 40px 0; }
+  .diy-master--hero { text-align: center; margin-bottom: 4rem; }
+  .diy-master--hero h1 { margin-bottom: 0.5rem; }
+  .hero-image-wrapper img { border-radius: 10px; max-width: 100%; height: auto; margin: 2rem 0; }
+  
+  .diy-master--steps { margin-bottom: 5rem; }
+  .step-card { display: flex; flex-wrap: wrap; gap: 2rem; align-items: start; border-bottom: 1px solid #eee; padding-bottom: 3rem; margin-bottom: 3rem; }
+  .step-image { flex: 1 1 300px; }
+  .step-image img { border-radius: 8px; width: 100%; height: auto; }
+  .step-content { flex: 1 1 400px; }
+  
+  /* Materials Checklist Styles */
+  .materials-checklist {
+    background: #fdfdfd;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 5rem;
+  }
+  .materials-checklist__list { list-style: none; padding: 0; margin: 0 0 2rem; }
+  .materials-checklist__item { display: flex; align-items: center; gap: 20px; padding: 15px 0; border-bottom: 1px solid #f0f0f0; }
+  .materials-checklist__item:last-child { border-bottom: none; }
+  .materials-checklist__item.is-disabled { opacity: 0.5; }
+  .materials-checklist__image { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
+  .materials-checklist__info { flex: 1; }
+  .materials-checklist__price { font-weight: bold; color: #912e38; }
+  .materials-checklist__footer { display: flex; justify-content: space-between; align-items: center; border-top: 2px solid #eee; padding-top: 20px; }
+  .add-to-cart-btn { background: #912e38; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+  .add-to-cart-btn:disabled { background: #ccc; cursor: not-allowed; }
+{% endstyle %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ title | json }},
+  "description": {{ intro | strip_html | json }},
+  "image": {{ hero_image | image_url: width: 1200 | json }},
+  "step": [
+    {% for step in steps %}
+    {
+      "@type": "HowStep",
+      "url": "{{ shop.url }}{{ request.path }}#step-{{ forloop.index }}",
+      "name": {{ step.title | default: step.step_title | json }},
+      "itemListElement": [{
+        "@type": "HowToDirection",
+        "text": {{ step.description | default: step.step_body | strip_html | json }}
+      }],
+      "image": {{ step.image | default: step.step_image | image_url: width: 600 | json }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "supply": [
+    {% for product in materials %}
+    {
+      "@type": "HowToSupply",
+      "name": {{ product.title | json }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}]
+}
+</script>
+
+<div class="diy-master--container page-width color-{{ section.settings.color_scheme }}">
+  <!-- 1. Hero Section -->
+  <header class="diy-master--hero">
+    <h1 class="h0">{{ title }}</h1>
+    {% if subtitle %}<p class="h2">{{ subtitle }}</p>{% endif %}
+    {% if difficulty %}
+      <span class="badge color-accent-1" style="padding: 0.5rem 1rem;">Schwierigkeit: {{ difficulty }}</span>
+    {% endif %}
+    {% if hero_image %}
+      <div class="hero-image-wrapper">
+        {{ hero_image | image_url: width: 1400 | image_tag: loading: 'lazy' }}
+      </div>
+    {% endif %}
+    <div class="intro-text rte" style="max-width: 800px; margin: 0 auto;">{{ intro }}</div>
+  </header>
+
+  <!-- 2. Midpage Text -->
+  {% if midpage_heading or midpage_text %}
+  <section class="diy-master--midpage rte" style="background: #f7f7f7; padding: 3rem; border-radius: 12px; margin-bottom: 5rem;">
+    <h2>{{ midpage_heading }}</h2>
+    <div class="midpage-body">{{ midpage_text }}</div>
+  </section>
+  {% endif %}
+
+  <!-- 3. Steps Section -->
+  {% if steps.size > 0 %}
+  <section class="diy-master--steps">
+    <h2 class="h1" style="margin-bottom: 3rem;">Anleitung: Schritt für Schritt</h2>
+    {% for step in steps %}
+      <div class="step-card" id="step-{{ forloop.index }}">
+        <div class="step-image">
+          {% assign s_image = step.image | default: step.step_image %}
+          {% if s_image %}{{ s_image | image_url: width: 800 | image_tag: loading: 'lazy' }}{% endif %}
+        </div>
+        <div class="step-content">
+          <span class="h3" style="color: #999;">Schritt {{ forloop.index }}</span>
+          <h3 class="h2">{{ step.title | default: step.step_title }}</h3>
+          <div class="rte">{{ step.description | default: step.step_body }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <!-- 4. Interactive Materials Checklist -->
+  {% if materials.size > 0 %}
+  <diy-checklist class="materials-checklist">
+    <h2 class="h1">Was du dafür brauchst</h2>
+    <ul class="materials-checklist__list">
+      {% for product in materials %}
+        {% assign variant = product.first_available_variant | default: product.variants.first %}
+        <li class="materials-checklist__item {% unless variant.available %}is-disabled{% endunless %}" data-variant-id="{{ variant.id }}">
+          <input type="checkbox" {% if variant.available %}checked{% else %}disabled{% endif %} data-checklist-item>
+          {% if product.featured_image %}
+            <img  loading="lazy" data-avada-lazy src="{{ product.featured_image | image_url: width: 120 }}" class="materials-checklist__image" alt="">
+          {% endif %}
+          <div class="materials-checklist__info">
+            <p style="margin:0; font-weight:bold;">{{ product.title }}</p>
+            {% if product.variants.size > 1 %}
+              <select data-variant-picker style="margin-top: 5px;">
+                {% for v in product.variants %}
+                  <option value="{{ v.id }}" data-price="{{ v.price }}" {% if v == variant %}selected{% endif %} {% unless v.available %}disabled{% endunless %}>
+                    {{ v.title }} - {{ v.price | money }}
+                  </option>
+                {% endfor %}
+              </select>
+            {% endif %}
+          </div>
+          <div class="materials-checklist__price" data-price="{{ variant.price }}">{{ variant.price | money }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="materials-checklist__footer">
+      <div class="h3">Gesamt: <span data-total-price>0,00 ?</span></div>
+      <button class="add-to-cart-btn" data-add-button>Ausgewählte in den Warenkorb</button>
+    </div>
+  </diy-checklist>
+
+  <script>
+    class DiyChecklist extends HTMLElement {
+      constructor() {
+        super();
+        this.updateTotal = this.updateTotal.bind(this);
+      }
+      connectedCallback() {
+        this.querySelectorAll('input, select').forEach(el => el.addEventListener('change', this.updateTotal));
+        this.querySelector('[data-add-button]').addEventListener('click', () => this.addToCart());
+        this.updateTotal();
+      }
+      updateTotal() {
+        let total = 0;
+        this.querySelectorAll('.materials-checklist__item').forEach(item => {
+          const cb = item.querySelector('input');
+          if (cb.checked && !cb.disabled) {
+            const select = item.querySelector('select');
+            const price = select ? parseInt(select.options[select.selectedIndex].dataset.price) : parseInt(item.querySelector('[data-price]').dataset.price);
+            total += price;
+          }
+        });
+        this.querySelector('[data-total-price]').textContent = (total / 100).toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+      }
+      async addToCart() {
+        const items = [];
+        this.querySelectorAll('.materials-checklist__item').forEach(item => {
+          const cb = item.querySelector('input');
+          if (cb.checked && !cb.disabled) {
+            const select = item.querySelector('select');
+            items.push({ id: select ? select.value : item.dataset.variantId, quantity: 1 });
+          }
+        });
+        const btn = this.querySelector('[data-add-button]');
+        btn.disabled = true; btn.textContent = 'Wird hinzugefügt...';
+        await fetch('/cart/add.js', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ items }) });
+        window.location.href = '/cart';
+      }
+    }
+    customElements.define('diy-checklist', DiyChecklist);
+  </script>
+  {% endif %}
+
+  <!-- 5. Download CTA -->
+  {% if pdf_guide or download_url %}
+    <footer style="margin-top: 5rem; text-align: center; background: #eee; padding: 4rem; border-radius: 12px;">
+      <h2>Lieber analog arbeiten?</h2>
+      <p>Lade dir diese Anleitung als PDF herunter.</p>
+      <a href="{{ pdf_guide.url | default: download_url }}" class="button button--primary">{{ download_label | default: 'PDF laden' }}</a>
+    </footer>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Master DIY Content",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "background-1"
+    }
+  ]
+}
+{% endschema %}

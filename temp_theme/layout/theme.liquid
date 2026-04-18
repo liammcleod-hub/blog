@@ -1,0 +1,186 @@
+<!doctype html>
+<html
+  {% if request.design_mode %}
+    class="shopify-design-mode"
+  {% endif %}
+  lang="{{ request.locale.iso_code }}"
+>
+  <head>
+    {%- if settings.favicon != blank -%}
+      <link
+        rel="icon"
+        type="image/png"
+        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+      >
+    {%- endif -%}
+
+    {% comment %} This a way to wait for main content to load when navigating to a new page so that the view transitions can work consistently {% endcomment %}
+    {% if settings.transition_to_main_product or settings.page_transition_enabled %}
+      <link
+        rel="expect"
+        href="#MainContent"
+        blocking="render"
+        id="view-transition-render-blocker"
+      >
+    {% endif %}
+
+    {%- render 'meta-tags' -%}
+    {%- render 'stylesheets' -%}
+    {%- render 'fonts' -%}
+    {%- render 'scripts' -%}
+    {%- render 'theme-styles-variables' -%}
+    {%- render 'color-schemes' -%}
+
+    {% if request.design_mode %}
+      {%- render 'theme-editor' -%}
+    {% endif %}
+
+    {{ content_for_header }}
+
+    {%- render "schema-main-graph" -%}
+
+    {% render 'rapid-search-settings' %}
+
+    {% section 'glassmorphism-controls' %}
+
+
+	<!-- AVADA SEO Suite include REMOVED by Schema Fortress deployment -->
+	</head>
+
+  <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
+    {% render 'skip-to-content-link', href: '#MainContent', text: 'accessibility.skip_to_text' %}
+    <div id="header-group">
+      {% sections 'header-group' %}
+    </div>
+
+    <script>
+      // Inline header height calculation to prevent layout shift
+      (function setHeaderHeighCustomProperties() {
+        const header = document.querySelector('header-component');
+        const headerGroup = document.querySelector('#header-group');
+        const hasHeaderSection = headerGroup?.querySelector('.header-section');
+
+        if (!header || !headerGroup) return;
+
+        const headerHeight = header.offsetHeight;
+        let headerGroupHeight = 0;
+        const children = headerGroup.children;
+        for (let i = 0; i < children.length; i++) {
+          const element = children[i];
+          if (element === header || !(element instanceof HTMLElement)) continue;
+          headerGroupHeight += element.offsetHeight;
+        }
+
+        if (header.hasAttribute('transparent') && header.parentElement?.nextElementSibling) {
+          headerGroupHeight += headerHeight;
+        }
+
+        document.body.style.setProperty('--header-height', `${headerHeight}px`);
+        document.body.style.setProperty('--header-group-height', `${headerGroupHeight}px`);
+
+        if (!hasHeaderSection || !header?.hasAttribute('transparent')) {
+          document.body.style.setProperty('--transparent-header-offset-boolean', '0');
+          return;
+        }
+
+        const hasImmediateSection = hasHeaderSection.nextElementSibling?.classList.contains('shopify-section');
+        const shouldApplyOffset = !hasImmediateSection ? '1' : '0';
+        document.body.style.setProperty('--transparent-header-offset-boolean', shouldApplyOffset);
+      })();
+    </script>
+
+    <main
+      id="MainContent"
+      class="content-for-layout"
+      role="main"
+      data-page-transition-enabled="{{ settings.page_transition_enabled }}"
+      data-product-transition="{{ settings.transition_to_main_product }}"
+      data-template="{{ template }}"
+    >
+      {{ content_for_layout }}
+    </main>
+
+    {% sections 'footer-group' %}
+
+    {% render 'search-modal' %}
+
+    {% if settings.quick_add or settings.mobile_quick_add %}
+      {% render 'quick-add-modal' %}
+    {% endif %}
+    
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const containers = document.querySelectorAll('.rte, .product__description, .product-single__description');
+    
+    containers.forEach(root => {
+      const selectors = 'iframe[src*="youtube.com"], iframe[src*="youtu.be"], iframe[src*="vimeo.com"]';
+      root.querySelectorAll(selectors).forEach(iframe => {
+        if (iframe.closest('.embed-video')) return;
+        iframe.removeAttribute('width');
+        iframe.removeAttribute('height');
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'embed-video';
+        
+        iframe.parentNode.insertBefore(wrapper, iframe);
+        wrapper.appendChild(iframe);
+      });
+    });
+  });
+</script>
+
+
+  
+    <!-- Schema renders in body for template-conditional pages -->
+    {%- if template.name == 'page' and page.handle == 'faq-haufig-fragen' -%}
+      {%- render "schema-faq" -%}
+    {%- endif -%}
+    {%- if template.suffix contains 'metaobject' and closest.metaobject.diy_experience -%}
+      {%- render "schema-howto" -%}
+    {%- endif -%}
+
+    <!-- AVADA Schema Suppression - removes duplicate Organization from app embed injections -->
+    <script data-schema-authority="bastelschachtel">
+    (function() {
+      function suppress() {
+        var ours = document.querySelector('[data-schema-authority]');
+        var scripts = document.querySelectorAll('script[type="application/ld+json"]');
+        scripts.forEach(function(s) {
+          if (s.hasAttribute('data-schema-authority')) return;
+          try {
+            var data = JSON.parse(s.textContent);
+            var entities = data['@graph'] || (Array.isArray(data) ? data : [data]);
+            if (!ours) return;
+            var removed = false;
+            entities.forEach(function(e) {
+              var type = e['@type'] || '';
+              var url = e['url'] || '';
+              var name = (e['name'] || '').toLowerCase();
+              var isBastel = url.includes('bastelschachtel') || name.includes('bastel');
+              var isOrgType = type in {'ArtSupplyStore':1, 'Organization':1, 'LocalBusiness':1, 'WebSite':1};
+              if (isOrgType && isBastel) {
+                e['@type'] = '_REMOVE';
+                removed = true;
+              }
+            });
+            if (removed) {
+              var clean = entities.filter(function(e) { return e['@type'] !== '_REMOVE'; });
+              if (clean.length === 0) {
+                s.remove();
+              } else if (data['@graph']) {
+                data['@graph'] = clean;
+                s.textContent = JSON.stringify(data);
+              }
+            }
+          } catch(err) {}
+        });
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', suppress);
+      } else {
+        suppress();
+      }
+    })();
+    </script>
+  </body>
+  </html>

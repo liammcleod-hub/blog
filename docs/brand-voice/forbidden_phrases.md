@@ -17,6 +17,7 @@ type: document
 | Category | Files |
 |----------|-------|
 | **Core Brand Voice** | [[BASTELSCHACHTEL-BRAND-VOICE]] · [[brand_guidelines]] · [[tone_doc]] · [[voice_guidelines]] |
+| **Email Copywriting** | [[email-copywriting-guide]] ⭐ NEW: April 2026 voice calibration |
 | **Live Examples** | [[bastelschachtel-soul-first]] · [[example_subject]] |
 | **Context** | [[product-marketing-context]] · [[marketing-handbook]] |
 
@@ -176,6 +177,79 @@ Beyond phrases, flag these violations:
 
 ---
 
+## Category 7: Voice Pitfalls ⭐ NEW (April 2026)
+
+**These aren't "forbidden" but signal you're writing brand guidelines, not Bastelschachtel.**
+
+### Prescriptive Language
+
+**Flag these:**
+- "Genau richtig" / "Perfekt"
+- "Das ist die beste Wahl"
+- "Du solltest..."
+- "Das passt perfekt zu dir"
+
+**Why:** Sounds like authority, not invitation.
+
+**Use instead:** "Genug Zeit um nachzudenken was du machen könntest" / "Vielleicht möchtest du..."
+
+---
+
+### Explicit Permission Statements
+
+**Flag these:**
+- "Das ist vollkommen in Ordnung" (repeated)
+- "Du musst das nicht machen"
+- "Kein Druck" / "Ohne Druck"
+
+**Why:** Real permission doesn't announce itself.
+
+**Use instead:** Show permission through alternatives and tone. "Wenn dir das zu viel ist, überhaupt kein Problem" + immediate alternative.
+
+---
+
+### Composed/Literary Language
+
+**Flag these:**
+- "Dinge, die wirken, als wären sie mit Liebe gemacht. Weil sie das sind."
+- "In einer Welt voller..."
+- Too many line breaks (every phrase on new line)
+- Em-dashes for everything
+
+**Why:** Sounds like you're performing warmth.
+
+**Use instead:** Simple, conversational. "Wir haben hier auch schon ein paar Sachen selbst gemacht"
+
+---
+
+### Negative Framing
+
+**Flag these:**
+- "Sie werden sich nicht am Ergebnis erinnern"
+- "Du brauchst kein Talent"
+- "Es ist nicht kompliziert"
+
+**Why:** Focuses on limitation, not possibility.
+
+**Use instead:** Lead with positive. "Sie werden sich vor allem an den Nachmittag erinnern"
+
+---
+
+### Over-Stacked Emphasis
+
+**Flag these:**
+- "wirklich besonders tolle" in one sentence
+- Three+ emphasis words per thought
+- "eigentlich" in every paragraph
+
+**Why:** Trying too hard.
+
+**Rule:** One emphasis moment per thought. "nicht einfach etwas bestellt, sondern wirklich gemacht, spezifisch für sie" (flows as one escalating thought = okay). "Vielleicht möchtest du dir wirklich die Zeit nehmen, etwas ganz besonders Schönes zu machen" (stacked = too much).
+
+> See [[email-copywriting-guide]] for full guidance on emphasis density and conversational rhythm.
+
+---
+
 ## Quick Reference Table
 
 | ❌ Forbidden | ✅ Use Instead |
@@ -203,6 +277,7 @@ Beyond phrases, flag these violations:
 | [[brand_guidelines]] | Company identity and values |
 | [[tone_doc]] | Emotional register and tone dimensions |
 | [[voice_guidelines]] | Voice principles and prose poetry rules |
+| [[email-copywriting-guide]] | ⭐ Email copywriting guide (April 2026 calibration) |
 | [[example_subject]] | Email subject line examples |
 | [[bastelschachtel-soul-first]] | Raw real emails showing what not to do |
 | [[marketing-handbook]] | Assistant handbook with brand immersion |
@@ -219,4 +294,5 @@ Beyond phrases, flag these violations:
 
 ---
 
-*Last updated: 2026-04-14*
+*Last updated: 2026-04-18*  
+*April 2026: Added Category 7 (Voice Pitfalls) from real owner calibration*

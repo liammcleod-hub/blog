@@ -1,0 +1,463 @@
+{% doc %}
+  @prompt
+    Create a new section called diy-materials-checklist for a metaobject template of type diy_experience. The section should:
+    
+    Loop through a metaobject field called materials_products (a list of product references) and render each product as a checkbox item, pre-checked by default
+    Show each product's featured image (small thumbnail), title, and price
+    If a product has multiple variants, show a simple dropdown to select the variant (and update the displayed price accordingly)
+    Disable/grey out the checkbox if the selected variant is out of stock
+    Show a live running total price that updates as checkboxes are ticked/unticked or variants are changed
+    Include an "Add selected to cart" button that POSTs all checked variant IDs + quantities to /cart/add.js using the Shopify Cart API (multiple items in one request), then redirects to /cart
+    Style it cleanly, consistent with the surrounding theme
+    The section should have no schema settings (it reads everything from the metaobject context)
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .diy-materials-checklist-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+  }
+
+  .diy-materials-checklist__title-{{ ai_gen_id }} {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: #000000;
+  }
+
+  .diy-materials-checklist__list-{{ ai_gen_id }} {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+
+  .diy-materials-checklist__item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background-color 0.2s ease;
+  }
+
+  .diy-materials-checklist__item-{{ ai_gen_id }}:hover {
+    background-color: #fafafa;
+  }
+
+  .diy-materials-checklist__item-{{ ai_gen_id }}:last-child {
+    border-bottom: none;
+  }
+
+  .diy-materials-checklist__checkbox-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+  }
+
+  .diy-materials-checklist__checkbox-{{ ai_gen_id }} {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #912e38;
+  }
+
+  .diy-materials-checklist__checkbox-{{ ai_gen_id }}:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .diy-materials-checklist__image-{{ ai_gen_id }} {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .diy-materials-checklist__info-{{ ai_gen_id }} {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .diy-materials-checklist__product-title-{{ ai_gen_id }} {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 8px;
+    color: #000000;
+  }
+
+  .diy-materials-checklist__variant-select-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+  .diy-materials-checklist__variant-select-{{ ai_gen_id }}:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: #f5f5f5;
+  }
+
+  .diy-materials-checklist__price-{{ ai_gen_id }} {
+    font-size: 18px;
+    font-weight: 600;
+    color: #912e38;
+  }
+
+  .diy-materials-checklist__out-of-stock-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: #999999;
+    font-style: italic;
+  }
+
+  .diy-materials-checklist__item-{{ ai_gen_id }}.is-disabled {
+    opacity: 0.6;
+  }
+
+  .diy-materials-checklist__footer-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 2px solid #e6e6e6;
+    gap: 16px;
+  }
+
+  .diy-materials-checklist__total-{{ ai_gen_id }} {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .diy-materials-checklist__total-label-{{ ai_gen_id }} {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    margin-right: 8px;
+  }
+
+  .diy-materials-checklist__add-button-{{ ai_gen_id }} {
+    padding: 14px 28px;
+    background-color: #912e38;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .diy-materials-checklist__add-button-{{ ai_gen_id }}:hover {
+    background-color: #333333;
+  }
+
+  .diy-materials-checklist__add-button-{{ ai_gen_id }}:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .diy-materials-checklist__empty-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999999;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .diy-materials-checklist-{{ ai_gen_id }} {
+      padding: 16px;
+    }
+
+    .diy-materials-checklist__item-{{ ai_gen_id }} {
+      flex-wrap: wrap;
+    }
+
+    .diy-materials-checklist__image-{{ ai_gen_id }} {
+      width: 60px;
+      height: 60px;
+    }
+
+    .diy-materials-checklist__footer-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .diy-materials-checklist__add-button-{{ ai_gen_id }} {
+      width: 100%;
+    }
+  }
+{% endstyle %}
+
+<diy-materials-checklist-{{ ai_gen_id }}
+  class="diy-materials-checklist-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <h2 class="diy-materials-checklist__title-{{ ai_gen_id }}">Materials Checklist</h2>
+
+  {% if metaobject.materials_products.value.size > 0 %}
+    <ul class="diy-materials-checklist__list-{{ ai_gen_id }}">
+      {% for product in metaobject.materials_products.value %}
+        {% assign first_available_variant = nil %}
+        {% for variant in product.variants %}
+          {% if variant.available and first_available_variant == nil %}
+            {% assign first_available_variant = variant %}
+          {% endif %}
+        {% endfor %}
+
+        {% if first_available_variant == nil %}
+          {% assign first_available_variant = product.variants.first %}
+        {% endif %}
+
+        <li
+          class="diy-materials-checklist__item-{{ ai_gen_id }} {% unless first_available_variant.available %}is-disabled{% endunless %}"
+          data-product-id="{{ product.id }}"
+          data-variant-id="{{ first_available_variant.id }}"
+        >
+
+          <div class="diy-materials-checklist__checkbox-wrapper-{{ ai_gen_id }}">
+            <input
+              type="checkbox"
+              class="diy-materials-checklist__checkbox-{{ ai_gen_id }}"
+              data-item-checkbox
+              {% if first_available_variant.available %}checked{% else %}disabled{% endif %}
+            >
+          </div>
+
+          {% if product.featured_image %}
+            <img
+              src="{{ product.featured_image | image_url: width: 160 }}"
+              alt="{{ product.featured_image.alt | escape }}"
+              class="diy-materials-checklist__image-{{ ai_gen_id }}"
+              loading="lazy"
+              width="80"
+              height="80"
+            >
+          {% endif %}
+
+          <div class="diy-materials-checklist__info-{{ ai_gen_id }}">
+            <h3 class="diy-materials-checklist__product-title-{{ ai_gen_id }}">{{ product.title }}</h3>
+
+            {% if product.variants.size > 1 %}
+              <select
+                class="diy-materials-checklist__variant-select-{{ ai_gen_id }}"
+                data-variant-select
+                data-product-id="{{ product.id }}"
+              >
+                {% for variant in product.variants %}
+                  <option
+                    value="{{ variant.id }}"
+                    data-price="{{ variant.price }}"
+                    data-available="{{ variant.available }}"
+                    {% if variant.id == first_available_variant.id %}selected{% endif %}
+                    {% unless variant.available %}disabled{% endunless %}
+                  >
+                    {{ variant.title }}
+                    {% unless variant.available %} - Out of stock{% endunless %}
+                  </option>
+                {% endfor %}
+              </select>
+            {% endif %}
+
+            <div
+              class="diy-materials-checklist__price-{{ ai_gen_id }}"
+              data-item-price
+              data-price-value="{{ first_available_variant.price }}"
+            >
+              {{ first_available_variant.price | money }}
+            </div>
+
+            {% unless first_available_variant.available %}
+              <div class="diy-materials-checklist__out-of-stock-{{ ai_gen_id }}">
+                Out of stock
+              </div>
+            {% endunless %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="diy-materials-checklist__footer-{{ ai_gen_id }}">
+      <div class="diy-materials-checklist__total-{{ ai_gen_id }}">
+        <span class="diy-materials-checklist__total-label-{{ ai_gen_id }}">Total:</span>
+        <span data-total-price>{{ 0 | money }}</span>
+      </div>
+      <button
+        type="button"
+        class="diy-materials-checklist__add-button-{{ ai_gen_id }}"
+        data-add-to-cart
+      >
+        Ausgewählte in den Warenkorb
+      </button>
+    </div>
+  {% else %}
+    <div class="diy-materials-checklist__empty-{{ ai_gen_id }}">
+      No materials have been added to this DIY experience yet.
+    </div>
+  {% endif %}
+</diy-materials-checklist-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class DiyMaterialsChecklist{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.checkboxes = [];
+        this.variantSelects = [];
+        this.totalDisplay = null;
+        this.addToCartButton = null;
+      }
+
+      connectedCallback() {
+        this.checkboxes = Array.from(this.querySelectorAll('[data-item-checkbox]'));
+        this.variantSelects = Array.from(this.querySelectorAll('[data-variant-select]'));
+        this.totalDisplay = this.querySelector('[data-total-price]');
+        this.addToCartButton = this.querySelector('[data-add-to-cart]');
+
+        this.setupEventListeners();
+        this.updateTotal();
+      }
+
+      setupEventListeners() {
+        this.checkboxes.forEach((checkbox) => {
+          checkbox.addEventListener('change', () => this.updateTotal());
+        });
+
+        this.variantSelects.forEach((select) => {
+          select.addEventListener('change', (e) => this.handleVariantChange(e));
+        });
+
+        if (this.addToCartButton) {
+          this.addToCartButton.addEventListener('click', () => this.addToCart());
+        }
+      }
+
+      handleVariantChange(event) {
+        const select = event.target;
+        const selectedOption = select.options[select.selectedIndex];
+        const price = selectedOption.dataset.price;
+        const available = selectedOption.dataset.available === 'true';
+        const item = select.closest('.diy-materials-checklist__item-{{ ai_gen_id }}');
+        const checkbox = item.querySelector('[data-item-checkbox]');
+        const priceDisplay = item.querySelector('[data-item-price]');
+
+        priceDisplay.dataset.priceValue = price;
+        priceDisplay.textContent = this.formatMoney(price);
+
+        if (available) {
+          checkbox.disabled = false;
+          checkbox.checked = true;
+          item.classList.remove('is-disabled');
+        } else {
+          checkbox.disabled = true;
+          checkbox.checked = false;
+          item.classList.add('is-disabled');
+        }
+
+        this.updateTotal();
+      }
+
+      updateTotal() {
+        let total = 0;
+
+        this.checkboxes.forEach((checkbox) => {
+          if (checkbox.checked && !checkbox.disabled) {
+            const item = checkbox.closest('.diy-materials-checklist__item-{{ ai_gen_id }}');
+            const priceDisplay = item.querySelector('[data-item-price]');
+            const price = parseInt(priceDisplay.dataset.priceValue, 10);
+            total += price;
+          }
+        });
+
+        if (this.totalDisplay) {
+          this.totalDisplay.textContent = this.formatMoney(total);
+        }
+
+        if (this.addToCartButton) {
+          const hasSelectedItems = this.checkboxes.some((cb) => cb.checked && !cb.disabled);
+          this.addToCartButton.disabled = !hasSelectedItems;
+        }
+      }
+
+      formatMoney(cents) {
+        const amount = (cents / 100).toFixed(2);
+        return '€' + amount.replace('.', ',');
+      }
+
+      async addToCart() {
+        const items = [];
+
+        this.checkboxes.forEach((checkbox) => {
+          if (checkbox.checked && !checkbox.disabled) {
+            // Find the <li> parent
+            const item = checkbox.closest('.diy-materials-checklist__item-{{ ai_gen_id }}');
+            if (!item) return;
+
+            // Priority 1: Check for a dropdown selection
+            // Priority 2: Use the data-variant-id directly from the <li>
+            const variantSelect = item.querySelector('[data-variant-select]');
+            const variantId = variantSelect ? variantSelect.value : item.getAttribute('data-variant-id');
+
+            if (variantId) {
+              items.push({
+                id: parseInt(variantId, 10), // Convert to number (crucial for Shopify)
+                quantity: 1
+              });
+            }
+          }
+        });
+
+        if (items.length === 0) return;
+
+        this.addToCartButton.disabled = true;
+        this.addToCartButton.textContent = 'Wird hinzugefügt...';
+
+        try {
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ items: items })
+          });
+
+          if (response.ok) {
+            window.location.href = '/cart';
+          } else {
+            const error = await response.json();
+            console.error('Shopify Error:', error);
+            alert('Fehler: ' + (error.description || 'Bitte erneut versuchen.'));
+            this.resetButton();
+          }
+        } catch (err) {
+          this.resetButton();
+        }
+}
+
+// Helper to keep code clean
+resetButton() {
+  this.addToCartButton.disabled = false;
+  this.addToCartButton.textContent = 'Ausgewählte in den Warenkorb';
+}
+    }
+
+    customElements.define('diy-materials-checklist-{{ ai_gen_id }}', DiyMaterialsChecklist{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "DIY materials checklist",
+  "tag": null,
+  "class": "diy-materials-checklist-section"
+}
+{% endschema %}

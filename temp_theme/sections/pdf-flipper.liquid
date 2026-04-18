@@ -1,0 +1,154 @@
+<div class="pdf-flipbook-outer">
+  <div id="book-viewport">
+    <div id="my-flipbook">
+       <p id="loading-msg" style="text-align: center; font-family: sans-serif; padding: 100px 0; color: #6e3a42;">Katalog wird geladen...</p>
+    </div>
+  </div>
+</div>
+
+<div class="pdf-controls-container">
+  {%- assign download_link = section.settings.download_pdf_url | default: section.settings.pdf_url -%}
+  <a href="{{ download_link }}" target="_blank" download class="pdf-download-btn">
+    PDF Herunterladen
+  </a>
+</div>
+
+<style>
+  .pdf-flipbook-outer { 
+    background-color: #ffffff !important; 
+    padding: 0 !important;
+    margin: 0 auto !important;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #book-viewport { 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stf__parent {
+    margin: 0 auto !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+    background: white;
+  }
+
+  .pdf-controls-container {
+    text-align: center;
+    padding: 30px 0 60px 0;
+    background: #ffffff;
+  }
+
+  .pdf-download-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1.2rem 2.8rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6e3a42; 
+    color: #ffffff !important;
+    border-radius: 8px; 
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border: none;
+  }
+
+  .pdf-download-btn:hover {
+    background-color: #5a2f36; 
+    transform: translateY(-2px);
+  }
+
+  @media screen and (max-width: 767px) {
+    #book-viewport { padding: 20px 0; }
+  }
+</style>
+
+{{ 'pdf.min.js' | asset_url | script_tag }}
+{{ 'page-flip.browser.min.js' | asset_url | script_tag }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const pdfUrl = "{{ section.settings.pdf_url }}";
+    if (!pdfUrl) return;
+
+    const pdfjsLib = window['pdfjs-dist/build/pdf'];
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    const loadingTask = pdfjsLib.getDocument(pdfUrl);
+    loadingTask.promise.then(async (pdf) => {
+        const container = document.getElementById("my-flipbook");
+        container.innerHTML = ""; 
+
+        // Initialize Flipper
+        const pageFlip = new St.PageFlip(container, {
+            width: 550, 
+            height: 778,
+            size: "stretch",
+            minWidth: 315,
+            maxWidth: 1000,
+            usePortrait: true,
+            showCover: true,
+            mode: "landscape",
+            mobileScrollSupport: true
+        });
+
+        // Loop through and render pages
+        for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i);
+            const viewport = page.getViewport({ scale: 1.5 }); // Balanced scale for speed/quality
+            
+            const pageDiv = document.createElement("div");
+            pageDiv.className = "page";
+            const canvas = document.createElement("canvas");
+            const context = canvas.getContext("2d");
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            await page.render({ canvasContext: context, viewport: viewport }).promise;
+            pageDiv.appendChild(canvas);
+            container.appendChild(pageDiv);
+
+            // Start the book as soon as page 2 is ready
+            if (i === 2) {
+                pageFlip.loadFromHTML(document.querySelectorAll(".page"));
+            }
+            // Update the book as more pages load in background
+            if (i > 2) {
+                pageFlip.updateFromHtml(document.querySelectorAll(".page"));
+            }
+        }
+
+        window.addEventListener('resize', () => { pageFlip.update(); });
+    });
+});
+</script>
+
+{% schema %}
+{
+  "name": "PDF Flipbook",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pdf_url",
+      "label": "Viewer PDF URL (The Split Version)"
+    },
+    {
+      "type": "text",
+      "id": "download_pdf_url",
+      "label": "Download PDF URL (The Original Spread Version)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDF Flipbook"
+    }
+  ]
+}
+{% endschema %}

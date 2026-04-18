@@ -297,3 +297,45 @@
 - [[docs/customer reviews/README]]
 - [[docs/reference/skill-guides/blogs|Blogs]]
 - [[.codex/memories/bastelschachtel/README|Bastelschachtel Memory]]
+
+## Mobile Menu Fix (April 2026)
+
+### Problem
+Mobile hamburger menu on bastelschachtel.at was not scrollable. Menu cut off at "Saisonale Deko" — items below (Blog, Katalog) were inaccessible. The `.menu-drawer` had `height: var(--drawer-height)` where `--drawer-height: 100dvh` (full viewport), and `overflow: visible` — no scrollbar.
+
+### Root Cause
+- `.menu-drawer` CSS: `height: var(--drawer-height); overflow: auto;` BUT `.menu-drawer:has(details[open])` overrides to `overflow: initial`
+- `--drawer-height: 100dvh` makes drawer exactly viewport height = no room for content to overflow = no scroll
+- HTML structure: `<header-drawer> > <details#Details-menu-drawer-container.menu-drawer-container> > <div.menu-drawer> > <nav.menu-drawer__navigation>`
+
+### Fix
+Appended to `base.aio.min.css` (the compiled CSS Shopify actually serves — NOT `base.css` which gets compiled):
+```css
+/* MOBILE MENU SCROLL FIX */
+@media screen and (max-width: 749px) {
+  .menu-drawer {
+    overflow-y: auto !important;
+  }
+}
+```
+
+### Critical Lessons
+1. **Shopify serves `base.aio.min.css`, NOT `base.css`**. Edits to `base.css` don't appear on the live site unless Shopify recompiles. Always edit `base.aio.min.css` directly.
+2. **`header-drawer.aio.min.js` is the served JS**, not `header-drawer.js`. Same pattern — edit the compiled file.
+3. **The original `base.aio.min.css` had an unclosed CSS rule**: `.section-content-wrapper .blog-post-content.rte { ... /* } */` — the closing brace was commented out. Any appended CSS gets NESTED inside this rule. Must fix the `/* } */` → `}` before appending.
+4. **`{% stylesheet %}` blocks in Liquid snippets do NOT compile into served CSS.** They're ignored by Shopify's build system.
+5. **Never overwrite files — always APPEND.** Previous model destroyed `base.css` (99KB → 221 bytes) and `header-drawer.js` (5KB → 530 bytes).
+6. **`menu-open` class is on `<details#Details-menu-drawer-container>`, NOT on `.menu-drawer` div.** All MutationObserver attempts that targeted `.menu-drawer` for class changes failed.
+7. **`shopify theme publish` requires interactive terminal** — can't be run non-interactively from CLI tools.
+
+### Theme IDs
+- Live Theme: #196991385938 "Maerz 2026"
+- Backup Theme: #199264305490 "Kopie von Maerz 2026"
+- Store: bastelschachtel.myshopify.com
+- CSS served from: `/cdn/shop/t/27/assets/` (or t/28 after changes)
+
+### Verification
+- Full height preserved (100dvh = 812px on iPhone)
+- Scroll works (scrollHeight: 997 > clientHeight: 812)
+- Color intact (`color-scheme-1` class, white background)
+- No AEO/GEO content in CSS (correct — that belongs in HTML/Liquid)

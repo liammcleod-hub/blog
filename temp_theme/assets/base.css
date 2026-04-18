@@ -1,0 +1,8 @@
+/* Mobile Menu Scroll Fix - CSS Override */
+@media screen and (max-width: 749px) {
+  .menu-drawer {
+    max-height: 80vh !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+}

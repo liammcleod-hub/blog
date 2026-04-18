@@ -1,0 +1,623 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "custom_liquid_w9MzxR": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<nav aria-label=\"Brotkrumen\" class=\"breadcrumb\" style=\"max-width:960px;margin:8px auto 16px;padding:0 1px;\">\n  <a href=\"/\">Startseite</a> › <span>Bastelbedarf</span>\n</nav>\n<style>\n.stack-table{width:100%;border-collapse:collapse}\n.stack-table th{border-bottom:1px solid #e5e7eb;padding:8px;text-align:left}\n.stack-table td{padding:8px;border-bottom:1px solid #f1f5f9}\n.stack-table caption{caption-side:top;text-align:left;font-weight:600;margin:0 0 .5rem}\n@media (max-width:720px){\n  .stack-table thead{display:none}\n  .stack-table,.stack-table tbody,.stack-table tr,.stack-table td{display:block;width:100%}\n  .stack-table tr{margin:0 0 .75rem}\n  .stack-table td{border-bottom:1px solid #eef2f7;padding:.5rem 0}\n  .stack-table td::before{content:attr(data-label);font-weight:600;display:block;margin-bottom:.2rem;color:#334155}\n}\n</style>\n\n<script type=\"application/ld+json\">\n{\n \"@context\":\"https://schema.org\",\n \"@type\":\"HowTo\",\n \"@id\":\"{{ shop.url }}{{ page.url }}#howto-decoupage\",\n \"name\":\"Decoupage (Serviettentechnik) auf Holz\",\n \"description\":\"Einfache Schritt-für-Schritt-Anleitung für Decoupage auf Holz mit Serviettenkleber und Klarlack.\",\n \"inLanguage\":\"de-AT\",\n \"totalTime\":\"PT45M\",\n \"estimatedCost\":{\"@type\":\"MonetaryAmount\",\"currency\":\"EUR\",\"value\":\"10-25\"},\n \"supply\":[\n  {\"@type\":\"HowToSupply\",\"name\":\"Serviette oder Decoupagepapier\"},\n  {\"@type\":\"HowToSupply\",\"name\":\"Serviettenkleber/Medium\"},\n  {\"@type\":\"HowToSupply\",\"name\":\"Klarlack matt oder seidenmatt\"},\n  {\"@type\":\"HowToSupply\",\"name\":\"Holzrohling\"}\n ],\n \"tool\":[\n  {\"@type\":\"HowToTool\",\"name\":\"Weicher Flachpinsel\"},\n  {\"@type\":\"HowToTool\",\"name\":\"Schleifschwamm\"}\n ],\n \"step\":[\n  {\"@type\":\"HowToStep\",\"name\":\"Untergrund vorbereiten\",\"text\":\"Holz fein anschleifen, staubfrei machen; helle Grundierung verbessert die Farbwiedergabe.\"},\n  {\"@type\":\"HowToStep\",\"name\":\"Motiv vorbereiten\",\"text\":\"Serviette auf eine Lage reduzieren und Motiv reißen für weiche Ränder.\"},\n  {\"@type\":\"HowToStep\",\"name\":\"Kleben\",\"text\":\"Dünn Serviettenkleber auftragen, Motiv auflegen und von innen nach außen glattstreichen.\"},\n  {\"@type\":\"HowToStep\",\"name\":\"Trocknen & versiegeln\",\"text\":\"1–2 dünne Schichten Klarlack (matt/seidenmatt) für Schutz und Finish.\"}\n ]\n}\n</script>"
+          },
+          "blocks": {}
+        },
+        "custom_liquid_x9zeJg": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n:root{\n  --brand-red:#912E38; --brand-red-mid:#B23A46; --brand-red-dark:#7A2630; --brand-red-10:#F6E8EA;\n  --radius:14px; --gap:12px; --header-h:72px;\n}\nhtml{scroll-behavior:smooth}\n@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}\n[id]{scroll-margin-top:calc(var(--header-h) + 12px)}\n/* Cards / buttons / chips shared */\n.kat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--gap);margin-top:8px}\n.kat-card{border:1px solid #e5e7eb;border-radius:var(--radius);padding:14px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.03)}\n.kat-card:hover{box-shadow:0 2px 6px rgba(0,0,0,.06)}\n.kat-card h4{margin:0 0 .25rem;font-size:1.05rem;line-height:1.35}\n.kat-card .meta{margin:.25rem 0 .5rem;color:#475569;font-size:.95rem}\n.kat-card .links a{color:var(--brand-red);text-decoration:none;font-weight:600}\n.kat-card .links a:hover{text-decoration:underline}\n.kat-cta,.btn{display:inline-block;padding:.55rem .9rem;border:1px solid var(--brand-red);border-radius:9999px;text-decoration:none;font-weight:700;line-height:1;color:var(--brand-red);background:#fff;transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease,transform .05s ease}\n.kat-cta:hover,.btn:hover{background:var(--brand-red-10);border-color:var(--brand-red-mid)}\n.kat-cta:focus-visible,.btn:focus-visible{outline:2px solid var(--brand-red-mid);outline-offset:2px;box-shadow:0 0 0 3px rgba(145,46,56,.15)}\n.kat-cta:active,.btn:active{transform:translateY(1px)}\n.kat-cta:visited,.btn:visited{color:var(--brand-red-dark);border-color:var(--brand-red-dark)}\n/* TOC */\n#inhaltsverzeichnis h2{font-size:1.5rem;line-height:1.3;font-weight:700;text-align:center;margin:0 0 16px;color:#2f2f2f}\n.toc-chip{display:inline-flex;align-items:center;gap:.35rem;padding:10px 14px;border-radius:9999px;border:1px solid var(--brand-red);color:var(--brand-red);background:#fff;text-decoration:none;font-weight:700;line-height:1;transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease,transform .05s ease}\n.toc-chip:hover{background:var(--brand-red-10);border-color:var(--brand-red-mid)}\n.toc-chip:focus-visible{outline:2px solid var(--brand-red-mid);outline-offset:2px;box-shadow:0 0 0 3px rgba(145,46,56,.15)}\n.toc-chip:active{transform:translateY(1px)}\n/* Utility */\n.muted{color:#64748b}\n.center{display:flex;justify-content:center}\n</style>\n\n\n<style id=\"bs-bastelbedarf-speed\">\n/* 2a) Use a system stack on this page to avoid font swaps (CLS) */\n:root { --bs-font-sans: system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\",\"Segoe UI Emoji\"; }\nhtml, body { font-family: var(--bs-font-sans); }\n\n/* 2b) Reserve space for announcement bar + header to avoid shifts */\n.announcement-bar__section { min-height: 40px; }\n.header-wrapper, header[role=\"banner\"] { min-height: 68px; }\n\n/* 2c) Chips/links/buttons — keep your brand red */\n:root{\n  --bs-red:#912E38;            /* brand */\n  --bs-red-600:#7a2630;        /* hover/dark */\n  --bs-red-100:#F4E6E8;        /* soft background/border */\n}\na { color: var(--bs-red); }\na:hover, a:focus { color: var(--bs-red-600); }\n.toc-chip{\n  display:inline-block; padding:8px 12px; border-radius:9999px;\n  border:1px solid var(--bs-red-100); color:var(--bs-red); text-decoration:none;\n  transition:background .15s ease, color .15s ease, border-color .15s ease;\n}\n.toc-chip:hover{ background:var(--bs-red); color:#fff; border-color:var(--bs-red); }\n\n/* 2d) Section virtualization: render only what’s in view */\n.bs-speed-chunk{ content-visibility:auto; contain-intrinsic-size: 1px 680px; }\n\n/* 2e) Image safety: ensure layout stability even when JS injects images */\nimg{ height:auto; }\nimg[width][height]{ aspect-ratio: attr(width) / attr(height); } /* supported in modern Chrome */\n</style>\n\n<script id=\"bs-bastelbedarf-lazy\">\n(function(){\n  if (!location.pathname.match(/\\/pages\\/bastelbedarf\\/?$/)) return;\n\n  const lazify = (root=document) => {\n    root.querySelectorAll('img:not([loading])').forEach(img=>{\n      img.loading = 'lazy';\n      img.decoding = 'async';\n      img.fetchPriority = 'low';\n      // If no size attributes, try to preserve aspect to avoid CLS\n      if(!img.hasAttribute('width') || !img.hasAttribute('height')){\n        const w = img.naturalWidth || 1, h = img.naturalHeight || 1;\n        img.style.aspectRatio = (w && h) ? (w + ' / ' + h) : 'auto';\n      }\n    });\n  };\n\n  // Initial & future mutations (apps inserting images after load)\n  lazify();\n  new MutationObserver(m=>m.forEach(r=>r.addedNodes.forEach(n=>n.tagName==='IMG' ? lazify(n.parentNode) : (n.querySelectorAll?.('img').length && lazify(n)))))\n    .observe(document.documentElement,{subtree:true,childList:true});\n})();\n</script>"
+          },
+          "blocks": {}
+        },
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "disabled": true,
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_w9MzxR",
+        "custom_liquid_x9zeJg",
+        "heading",
+        "page-content"
+      ],
+      "custom_css": [],
+      "settings": {
+        "content_direction": "column",
+        "gap": 0,
+        "color_scheme": "",
+        "padding-block-start": 16,
+        "padding-block-end": 34
+      }
+    },
+    "section_gQBkpr": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_YcRUjJ": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"intro\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n\n <h2>Willkommen in der Welt des Bastelbedarfs</h2> <p>Neu im DIY-Universum? Hier bist du richtig. In unserem Bastelshop findest du alles, was du für kreative Projekte brauchst – von Farben und Klebern über Papier &amp; Werkzeuge bis zu praktischen Bastelsets. Diese Seite führt dich Schritt für Schritt vom ersten Überblick bis zum passenden Material und beantwortet die wichtigsten Fragen – ideal für Einsteiger:innen und Wiedereinsteiger:innen.</p> <p>Wir achten auf einfache Erklärungen, schnelle Orientierung und starke Marken (z.&nbsp;B. Pentart, Heyda, Ciao Bella). So kannst du Bastelmaterial online kaufen, das zu deinem Projekt, deinem Budget und deinem Können passt.</p> <ul> <li><strong>Schnell starten:</strong> Kurz-Guide mit Material-Empfehlungen für Papier-, Holz- und Glasprojekte.</li> <li><strong>Richtig auswählen:</strong> Vergleichstabellen zu Farben, Klebern, Pinseln &amp; Papieren – verständlich erklärt.</li> <li><strong>Für alle Levels:</strong> Tipps für Anfänger:innen, Kinderprojekte &amp; Fortgeschrittene.</li> <li><strong>Marken &amp; Sets:</strong> Berühmte DIY-Marken und liebevoll kuratierte Bastelsets zum Loslegen.</li> </ul> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_YcRUjJ"
+      ],
+      "name": "Wilkommen",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_BND3R9": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_cFdPDR": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<style>\n/* ===== Brand tokens (same shades as earlier) ===== */\n:root{\n  --brand-red:#912E38;\n  --brand-red-dark:#7A2630;   /* visited/focus contrast */\n  --brand-red-mid:#B23A46;    /* hover border */\n  --brand-red-10:#F6E8EA;     /* subtle hover bg */\n}\n\n/* ===== Global button/link system (re-usable) ===== */\n.kat-cta,.btn{\n  display:inline-block;\n  padding:.55rem .9rem;\n  border:1px solid var(--brand-red);\n  border-radius:9999px;                 /* pill */\n  text-decoration:none;\n  font-weight:700;\n  line-height:1;\n  color:var(--brand-red);\n  background:#fff;\n  transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease,transform .05s ease;\n}\n.kat-cta:hover,.btn:hover{background:var(--brand-red-10);border-color:var(--brand-red-mid)}\n.kat-cta:focus-visible,.btn:focus-visible{outline:2px solid var(--brand-red-mid);outline-offset:2px;box-shadow:0 0 0 3px rgba(145,46,56,.15)}\n.kat-cta:active,.btn:active{transform:translateY(1px)}\n.kat-cta:visited,.btn:visited{color:var(--brand-red-dark);border-color:var(--brand-red-dark)}\n\n/* Inline text links in cards + breadcrumb */\n.link-red,.breadcrumb a,.kat-card .links a{\n  color:var(--brand-red); text-decoration:none; font-weight:600;\n}\n.link-red:hover,.breadcrumb a:hover,.kat-card .links a:hover{ text-decoration:underline; }\n.link-red:visited,.kat-card .links a:visited{ color:var(--brand-red-dark); }\n\n/* ===== TOC heading + chips (match buttons) ===== */\n#inhaltsverzeichnis h2{\n  font-size:1.5rem;   /* true H2 */\n  line-height:1.3;\n  font-weight:700;\n  text-align:center;\n  margin:0 0 16px;\n  color:#2f2f2f;\n}\n.toc-chip{\n  display:inline-flex;align-items:center;gap:.35rem;\n  padding:10px 14px;border-radius:9999px;\n  border:1px solid var(--brand-red);\n  color:var(--brand-red);background:#fff;\n  text-decoration:none;font-weight:700;line-height:1;\n  transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease,transform .05s ease;\n}\n.toc-chip:hover{background:var(--brand-red-10);border-color:var(--brand-red-mid)}\n.toc-chip:focus-visible{outline:2px solid var(--brand-red-mid);outline-offset:2px;box-shadow:0 0 0 3px rgba(145,46,56,.15)}\n.toc-chip:active{transform:translateY(1px)}\n.toc-chip:visited{color:var(--brand-red-dark);border-color:var(--brand-red-dark)}\n\n/* Active section highlight (if browser supports :has) */\n#inhaltsverzeichnis:has(~ #basics:target) a[href=\"#basics\"],\n#inhaltsverzeichnis:has(~ #kategorien:target) a[href=\"#kategorien\"],\n#inhaltsverzeichnis:has(~ #farben:target) a[href=\"#farben\"],\n#inhaltsverzeichnis:has(~ #kleber:target) a[href=\"#kleber\"],\n#inhaltsverzeichnis:has(~ #papiere:target) a[href=\"#papiere\"],\n#inhaltsverzeichnis:has(~ #werkzeuge:target) a[href=\"#werkzeuge\"],\n#inhaltsverzeichnis:has(~ #sets:target) a[href=\"#sets\"],\n#inhaltsverzeichnis:has(~ #techniken:target) a[href=\"#techniken\"],\n#inhaltsverzeichnis:has(~ #faq:target) a[href=\"#faq\"],\n#inhaltsverzeichnis:has(~ #beratung:target) a[href=\"#beratung\"]{\n  background:var(--brand-red-10);border-color:var(--brand-red-mid);color:var(--brand-red-dark);\n}\n</style>\n\n<nav id=\"inhaltsverzeichnis\" aria-label=\"Inhaltsverzeichnis\" style=\"position:sticky;top:72px;z-index:10;background:#F1EFE7;max-width:960px;margin:0 auto;padding:16px 16px 24px;border-radius:8px;\">\n  <h2>Inhaltsverzeichnis</h2>\n  <div style=\"display:flex;flex-wrap:wrap;gap:8px;justify-content:center;\">\n    <a href=\"#basics\" class=\"toc-chip\">Bastelbedarf – Basics</a>\n    <a href=\"#kategorien\" class=\"toc-chip\">Kategorien &amp; Anwendungsfälle</a>\n    <a href=\"#farben\" class=\"toc-chip\">Farben-Guide</a>\n    <a href=\"#kleber\" class=\"toc-chip\">Kleber &amp; Lacke</a>\n    <a href=\"#papiere\" class=\"toc-chip\">Papiere &amp; Servietten</a>\n    <a href=\"#werkzeuge\" class=\"toc-chip\">Werkzeuge &amp; Pinsel</a>\n    <a href=\"#sets\" class=\"toc-chip\">Bastelsets für den Einstieg</a>\n    <a href=\"#techniken\" class=\"toc-chip\">Techniken (Decoupage, Holz, Glas)</a>\n    <a href=\"#faq\" class=\"toc-chip\">FAQ</a>\n    <a href=\"#beratung\" class=\"toc-chip\">Beratung &amp; Kontakt</a>\n  </div>\n</nav>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_cFdPDR"
+      ],
+      "name": "Inhaltsverzeichnis",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_EhkzeF": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_tdxarA": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"basics\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n <h2>Bastelbedarf – die Basics in 60&nbsp;Sekunden</h2> <p><strong>Bastelbedarf</strong> (auch: Bastelmaterial, DIY-Material) umfasst alle Verbrauchsmaterialien und Werkzeuge für kreative Arbeiten: Farben (Acryl, Outdoor, Glas), Papiere &amp; Servietten, Kleber &amp; Lacke, Holzrohlinge, Schablonen, Formen, Pinsel und Sets. Unser schneller Überblick zeigt dir, welches Material wofür gedacht ist – damit du ohne Umwege startest.</p> <ul> <li><strong>Papier &amp; Servietten:</strong> Karten, Deko, Scrapbooking &amp; Decoupage.</li> <li><strong>Farben:</strong> Acryl für Vieles, Spezialfarben für Glas/Porzellan &amp; Outdoor.</li> <li><strong>Kleber &amp; Lacke:</strong> Halt &amp; Finish – von Bastel- bis Serviettenkleber.</li> <li><strong>Werkzeuge &amp; Pinsel:</strong> Sauberes Arbeiten, präzise Ergebnisse.</li> <li><strong>Sets:</strong> Alles in einem Paket – ideal für Einsteiger:innen &amp; Geschenke.</li> </ul> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_tdxarA"
+      ],
+      "name": "Basics",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_Ce4geF": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_C64VcV": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"kategorien\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n\n <h2>Kategorien &amp; Anwendungsfälle – den richtigen Bastelbedarf finden</h2> <p>Ob Einsteiger:in, Familienprojekt oder Fortgeschrittene – hier findest du schnell das passende <strong>Bastelmaterial</strong>. Nutze die Kurzempfehlungen und springe direkt in die passenden Kategorien, um <em>Bastelbedarf online zu kaufen</em>, der wirklich zu deinem Vorhaben passt.</p> <h3>Für Einsteiger:innen</h3> <ul> <li><a href=\"/collections/bastelsets\">Bastelsets</a> – alles in einer Box, inkl. Anleitung.</li> <li><a href=\"/collections/bestseller\">Bestseller</a> – bewährte Produkte unserer Community.</li> <li><a href=\"/collections/lieblingsprodukte\">Lieblingsprodukte</a> – kuratierte Favoriten zum schnellen Start.</li> </ul> <h3>Für Kinder &amp; Familien</h3> <ul> <li><a href=\"/collections/bastelsets\">Bastelsets</a> – kindgerechte Projekte mit schnellen Erfolgen.</li> <li><a href=\"/collections/holzprodukte\">Holzprodukte</a> – robuste Rohlinge zum Bemalen &amp; Dekorieren.</li> <li><a href=\"/collections/outdoor-farben\">Outdoor Farben</a> – wetterfeste Farbe für Garten-Deko.</li> </ul> <h3>Für Fortgeschrittene &amp; Spezialeffekte</h3> <ul> <li><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Farben für besondere Dekoeffekte</a> – Rost, Metallic, Stein &amp; mehr.</li> <li><a href=\"/collections/glasatzpasten\">Glasätzpasten</a> – Glas dauerhaft mattieren &amp; personalisieren.</li> <li><a href=\"/collections/pentart-shop\">Pentart Shop</a> – große Auswahl an Medien, Lacken &amp; Pasten.</li> </ul> <h3>Mini-Guide: Projekt &rarr; Empfehlung</h3> \n<!-- A) CARD GRID CHOOSER — brand red -->\n<style>\n/* brand tokens */\n:root {\n  --brand-red: #912E38;\n  --brand-red-dark: #7A2630;   /* focus/visited */\n  --brand-red-mid: #B23A46;    /* hover border */\n  --brand-red-10: #F6E8EA;     /* subtle hover bg */\n}\n\n.kat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:8px}\n.kat-card{border:1px solid #e5e7eb;border-radius:14px;padding:14px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.03)}\n.kat-card:hover{box-shadow:0 2px 6px rgba(0,0,0,.06)}\n.kat-card h4{margin:0 0 .25rem;font-size:1.05rem;line-height:1.35}\n.kat-card .meta{margin:.25rem 0 .5rem;color:#475569;font-size:.95rem}\n\n/* links inside cards */\n.kat-card .links a{color:var(--brand-red);text-decoration:none}\n.kat-card .links a:hover{text-decoration:underline}\n.kat-card .links a:visited{color:var(--brand-red-dark)}\n\n/* CTA pill */\n.kat-cta{\n  display:inline-block;margin-top:.6rem;padding:.5rem .75rem;\n  border:1px solid var(--brand-red);border-radius:9999px;\n  text-decoration:none;font-weight:600;color:var(--brand-red);\n  transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease\n}\n.kat-cta:hover{background:var(--brand-red-10);border-color:var(--brand-red-mid)}\n.kat-cta:focus{outline:2px solid var(--brand-red-mid);outline-offset:2px}\n.kat-cta:visited{color:var(--brand-red-dark);border-color:var(--brand-red-dark)}\n\n.kat-ico{font-size:1.1rem;margin-right:.3rem}\n@media (max-width:720px){.kat-card{padding:12px}}\n</style>\n\n<div class=\"kat-grid\" aria-label=\"Schnellauswahl Kategorien\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🎁</span>Schneller Einstieg / Geschenk</h4>\n    <p class=\"meta\">Empfehlung: Komplett-<strong>Bastelset</strong> mit Anleitung</p>\n    <div class=\"links\"><a href=\"/collections/bastelsets\">Bastelsets ansehen</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bastelsets\">Jetzt starten</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪟</span>Glas dekorieren / personalisieren</h4>\n    <p class=\"meta\">Empfehlung: <a href=\"/collections/glasfarben\">Glasfarben</a> oder <a href=\"/collections/glasatzpasten\">Glasätzpasten</a></p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Zu Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/glasatzpasten\">Mattieren &amp; ätzen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪵</span>Holz kreativ bemalen</h4>\n    <p class=\"meta\">Empfehlung: Acryl-/ <a href=\"/collections/outdoor-farben\">Outdoor-Farben</a> &amp; <a href=\"/collections/holzprodukte\">Holzrohlinge</a></p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzprodukte entdecken</a></div>\n    <a class=\"kat-cta\" href=\"/collections/outdoor-farben\">Farben auswählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">✨</span>Auffällige Oberflächen &amp; Effekte</h4>\n    <p class=\"meta\">Empfehlung: <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> (Rost, Metallic, Stein)</p>\n    <div class=\"links\"><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben wählen</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Medien &amp; Lacke</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧺</span>Körbe &amp; Flechtarbeiten</h4>\n    <p class=\"meta\">Empfehlung: <a href=\"/collections/grundmaterial_zum_korb_flechten\">Peddigrohr</a> &amp; Korbböden</p>\n    <div class=\"links\"><a href=\"/collections/grundmaterial_zum_korb_flechten\">Material zum Korbflechten</a></div>\n    <a class=\"kat-cta\" href=\"/collections/sets-aus-peddigrohr-83\">Flecht-Sets</a>\n  </article>\n</div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_C64VcV"
+      ],
+      "name": "Kategorien & Anwendungsfälle",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_jQJ4mw": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_aUBiDH": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"farben\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Farben-Guide – die richtige Farbe für jedes Projekt</h2> <p>Welche <strong>Farbe</strong> passt zu deinem Vorhaben? Hier findest du eine schnelle Auswahlhilfe für <em>Glasfarben</em>, <em>Outdoor Farben</em> und <em>Effektfarben</em> – ideal, wenn du <strong>Bastelbedarf Farben online kaufen</strong> möchtest und dir langlebige Ergebnisse wichtig sind.</p> <h3>Schnellauswahl</h3> <ul> <li><a href=\"/collections/glasfarben\">Glasfarben</a> – transparente &amp; deckende Töne, optional im Ofen fixierbar.</li> <li><a href=\"/collections/outdoor-farben\">Outdoor Farben</a> – wetterfest für Garten, Balkon &amp; Deko im Freien.</li> <li><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> – Rost, Metallic, Stein &amp; mehr für besondere Oberflächen.</li> <li><a href=\"/collections/pentart-shop\">Pentart Farben &amp; Medien</a> – Lacke, Kleber &amp; Medien zum Versiegeln und Kombinieren.</li> </ul> <h3>Welche Farbe wofür?</h3> <div class=\"kat-grid\" aria-label=\"Farben-Guide Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪟</span>Gläser, Vasen, Fenster</h4>\n    <p class=\"meta\">Empfehlung: <strong>Glasfarben</strong> – teils ofenfixierbar für höhere Beständigkeit.</p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Zu Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/glasfarben\">Farben ansehen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🌤️</span>Garten-Deko, Schilder, Töpfe</h4>\n    <p class=\"meta\">Empfehlung: <strong>Outdoor-Farben</strong> – wetterfest &amp; UV-beständig.</p>\n    <div class=\"links\"><a href=\"/collections/outdoor-farben\">Outdoor-Farben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/outdoor-farben\">Jetzt auswählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">✨</span>Hingucker-Effekte</h4>\n    <p class=\"meta\">Empfehlung: <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> – Rost, Metallic, Stein.</p>\n    <div class=\"links\"><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben wählen</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Medien &amp; Lacke</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪵</span>Holz-Deko &amp; Upcycling</h4>\n    <p class=\"meta\">Empfehlung: <strong>Acryl</strong> + Versiegelung aus dem <a href=\"/collections/pentart-shop\">Pentart Shop</a>.</p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzrohlinge</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Lack/Medium wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🎁</span>Einfach starten / Geschenk</h4>\n    <p class=\"meta\">Empfehlung: <strong>Bastelset</strong> – alles drin inkl. Anleitung.</p>\n    <div class=\"links\"><a href=\"/collections/bastelsets\">Bastelsets</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bastelsets\">Jetzt starten</a>\n  </article>\n</div>\n<h3>Anwendung in 3 Schritten</h3> <ol> <li><strong>Vorbereiten:</strong> Oberfläche reinigen &amp; entfetten; bei Holz leicht anschleifen.</li> <li><strong>Auftragen:</strong> Dünne Schichten mit Pinsel/Rolle; Trocknungszeit beachten.</li> <li><strong>Schützen:</strong> Je nach Projekt mit Lack/Medium versiegeln (z.&nbsp;B. im <a href=\"/collections/pentart-shop\">Pentart Shop</a>).</li> </ol> <h3>Finish &amp; Haltbarkeit</h3> <ul> <li><strong>Matt, Seidenmatt, Glänzend:</strong> Wähle das Finish passend zum Look – Glanz betont Farben, Matt wirkt edel.</li> <li><strong>Fixierung:</strong> Glasfarben ggf. im Ofen einbrennen (Herstellerangaben beachten) – erhöht Beständigkeit.</li> <li><strong>Versiegeln:</strong> Für Outdoor/Beanspruchung mit Klarlack oder Medium schützen (<a href=\"/collections/pentart-shop\">Pentart Medien</a>).</li> </ul> <h3>Sicherheit &amp; Reinigung</h3> <ul> <li>Gut lüften, Hautkontakt vermeiden; kindersicher arbeiten.</li> <li>Pinsel abhängig vom Produkt mit Wasser oder geeignetem Reiniger säubern.</li> <li>Test an unauffälliger Stelle – besonders bei Glas und Effektmedien.</li> </ul> <p style=\"margin-top:8px;\">Tipp: Für besondere Glas-Looks probiere <a href=\"/collections/glasatzpasten\">Glasätzpasten</a> – dauerhaft mattierte Designs ohne Abblättern.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_aUBiDH"
+      ],
+      "name": "Farben Guide",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_VqUe3P": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_63Ftii": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"kleber\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Kleber &amp; Lacke – Halt &amp; Finish für dein Projekt</h2> <p>Der richtige <strong>Kleber</strong> sorgt für zuverlässigen Halt, der passende <strong>Lack</strong> für ein schönes, langlebiges Finish. Hier findest du die schnelle Auswahlhilfe – von <em>Serviettenkleber</em> für Decoupage bis zum wetterfesten Überzug für Outdoor-Deko.</p> <h3>Schnellauswahl nach Anwendung</h3> <div class=\"kat-grid\" aria-label=\"Kleber & Lacke Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧴</span>Papier &amp; Servietten (Decoupage)</h4>\n    <p class=\"meta\">Kleber: Servietten-/Decoupagekleber · Finish: Klarlack matt/seidenmatt/glanz.</p>\n    <div class=\"links\"><a href=\"/collections/pentart-shop\">Zum Pentart Shop</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Kleber &amp; Lack</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧰</span>Holz, MDF, Rohlinge</h4>\n    <p class=\"meta\">Kleber: Bastelkleber/Holzleim · Schutz: Acrylklarlack (2–3 Schichten bei Beanspruchung).</p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzprodukte</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Lack auswählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪟</span>Glas-Deko (Label, Papier, Folien)</h4>\n    <p class=\"meta\">Kleber/Medium dünn &amp; blasenfrei · Schutz: Transparentes Medium/Klarlack, ggf. Ofenfixierung.</p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Medium wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🌧️</span>Outdoor-Projekte</h4>\n    <p class=\"meta\">Kleber: wasserfest für außen · Schutz: wetterfester Überzug, UV-beständig.</p>\n    <div class=\"links\"><a href=\"/collections/outdoor-farben\">Outdoor-Farben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Überzug wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">💎</span>Effekte (Glitter, Folien, Flakes)</h4>\n    <p class=\"meta\">Kleber: Transfer-/Spezialkleber · Finish: passender Klarlack/Medium.</p>\n    <div class=\"links\"><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Spezialkleber</a>\n  </article>\n</div>\n <h3>So arbeitest du sauber &amp; haltbar (3 Schritte)</h3> <ol> <li><strong>Vorbereitung:</strong> Oberfläche staub- &amp; fettfrei, bei Holz leicht anschleifen. Probeklebung an verdeckter Stelle.</li> <li><strong>Kleben:</strong> Dünn auftragen, gleichmäßig verstreichen. Trocknungszeit je Produkt beachten – lieber zwei dünne Schichten als eine dicke.</li> <li><strong>Schützen:</strong> Mit passendem Lack versiegeln (matt, seidenmatt oder glanz). Außenbereich: mehrere Schichten, ausreichend Trocknung.</li> </ol> <h3>Finish, Glanzgrad &amp; Beständigkeit</h3> <ul> <li><strong>Matt:</strong> edel &amp; reflexionsarm – ideal für Vintage/Chalk-Looks.</li> <li><strong>Seidenmatt:</strong> Allround-Finish für die meisten Deko-Projekte.</li> <li><strong>Glanz:</strong> betont Farben &amp; Tiefe – gut für kräftige Glas/Metallic-Looks.</li> <li><strong>Outdoor:</strong> UV-stabiler Überzug mindert Ausbleichen, erhöht Abriebfestigkeit.</li> </ul> <h3>Sicherheit &amp; Reinigung</h3> <ul> <li>In gut belüfteten Räumen arbeiten, Haut-/Augenkontakt vermeiden; kindersicher aufbewahren.</li> <li>Werkzeuge je nach Produkt mit Wasser oder geeignetem Reiniger säubern.</li> <li>Bei Kontakt mit Lebensmitteln keine Lacke/Kleber verwenden; Glasdeko außerhalb der Lippenzone platzieren.</li> </ul> <p style=\"margin-top:12px;\">Tipp: Medien &amp; Lacke perfekt kombinieren findest du im <a href=\"/collections/pentart-shop\">Pentart Shop</a> sowie als Probiergrößen unter <a href=\"/collections/pentart-minis-20ml\">Pentart Minis 20&nbsp;ml</a> oder als Klassiker in <a href=\"/collections/pentart-classics-50ml\">Pentart Classics 50&nbsp;ml</a>.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_63Ftii"
+      ],
+      "name": "Kleber & Lacke",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_h6RBVy": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_eQNJwg": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"papiere\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Papiere &amp; Servietten – Karten, Decoupage &amp; Deko leicht gemacht</h2> <p><strong>Bastelpapier</strong> und <strong>Servietten</strong> sind die Basis für Karten, Geschenkverpackungen, Decoupage und viele DIY-Ideen. Mit der richtigen Grammatur, Oberfläche und dem passenden Medium gelingen saubere, haltbare Ergebnisse – ohne Wellen oder Durchfärben.</p> <h3>Schnellauswahl nach Projekt</h3> <div class=\"kat-grid\" aria-label=\"Papiere & Servietten Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">✉️</span>Kartenbasteln &amp; Stempeln</h4>\n    <p class=\"meta\">160–300&nbsp;g/m², glatt/strukturiert · Kleber dünn · Finish: seidenmatt.</p>\n    <div class=\"links\"><a href=\"/collections/pentart-shop\">Kleber &amp; Lack</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bestseller\">Inspiration</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪵</span>Decoupage auf Holz</h4>\n    <p class=\"meta\">Serviette (1 Lage) / Decoupagepapier · Serviettenkleber · Lack matt/seidenmatt.</p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzrohlinge</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Decoupagekleber</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪟</span>Decoupage auf Glas/Keramik</h4>\n    <p class=\"meta\">Helle Motive · Transparentes Medium sehr dünn · Glanzlack, ggf. Ofenfixierung.</p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Medium &amp; Lack</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🎁</span>Geschenkboxen &amp; Deko</h4>\n    <p class=\"meta\">120–200&nbsp;g/m², farbig/bedruckt · Kleber punktuell · optional Klarlack.</p>\n    <div class=\"links\"><a href=\"/collections/lieblingsprodukte\">Lieblingsprodukte</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bastelsets\">Schnell starten</a>\n  </article>\n</div>\n <h3>Decoupage (Serviettentechnik) in 5 Schritten</h3> <ol> <li><strong>Vorbereiten:</strong> Untergrund (z.&nbsp;B. <a href=\"/collections/holzprodukte\">Holzprodukte</a>) fein anschleifen &amp; entstauben. Helle Grundierung lässt Motive strahlen.</li> <li><strong>Motiv trennen:</strong> Serviette auf 1 Lage reduzieren; Motiv reißen statt schneiden (weiche Ränder).</li> <li><strong>Kleben:</strong> Dünne Schicht <a href=\"/collections/pentart-shop\">Serviettenkleber/Medium</a> auftragen, Motiv auflegen, von innen nach außen glattstreichen.</li> <li><strong>Trocknen lassen:</strong> Geduld – Föhn nur kalt &amp; vorsichtig, um Falten zu vermeiden.</li> <li><strong>Versiegeln:</strong> 1–2 dünne Schichten Lack (matt/seidenmatt/glanz) für Schutz &amp; schönes Finish.</li> </ol> <h3>Pro-Tipps gegen Wellen &amp; Durchfärben</h3> <ul> <li><strong>Dünn arbeiten:</strong> Lieber mehrere hauchdünne Schichten als eine dicke.</li> <li><strong>Neutraler Untergrund:</strong> Weiß/hell verhindert Durchscheinen dunkler Flächen.</li> <li><strong>Weiche Werkzeuge:</strong> Schaum-Stupfpinsel oder weicher Flachpinsel verhindern Risse.</li> <li><strong>Kanten sichern:</strong> Ränder extra dünn mit Medium bestreichen, dann versiegeln.</li> </ul> <h3>Passt perfekt dazu</h3> <p>Kombiniere Papier &amp; Servietten mit <a href=\"/collections/pentart-shop\">Medien &amp; Lacken</a>, setze Highlights mit <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> und nutze <a href=\"/collections/holzprodukte\">Holzrohlinge</a> als stabile Basis. Für einen schnellen Start empfehlen wir <a href=\"/collections/bastelsets\">Bastelsets</a> – ideal als Geschenk.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_eQNJwg"
+      ],
+      "name": "Papiere & Servietten",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_AECgmi": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_xDX4Pm": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"werkzeuge\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Werkzeuge &amp; Pinsel – sauber arbeiten, bessere Ergebnisse</h2> <p>Mit dem richtigen <strong>Werkzeug</strong> wird Basteln einfacher, präziser und sauberer. Hier findest du eine praxisnahe Auswahlhilfe – von <em>Pinseln</em> über <em>Spachteln</em> bis zu <em>Cutter &amp; Schneidematte</em> – plus Profi-Tipps für Pflege und Sicherheit.</p> <h3>Grundausstattung für den Start</h3> <ul> <li><strong>Flachpinsel</strong> (Acryl/Flächen) – gleichmäßige, streifenarme Anstriche.</li> <li><strong>Rundpinsel</strong> (Details/Linien) – Konturen, kleine Motive.</li> <li><strong>Schablonen-/Stupfpinsel</strong> – tupfend arbeiten, verhindert Unterlaufen.</li> <li><strong>Schaumrolle/Schwämmchen</strong> – glatte, schnelle Flächen ohne Pinselspuren.</li> <li><strong>Spachtel/Palette</strong> – für Pasten, Struktur- &amp; Effektmedien.</li> <li><strong>Cutter/Bastelmesser &amp; Schneidematte</strong> – saubere Kanten, sichere Unterlage.</li> <li><strong>Stahllineal &amp; Krepp/Masking Tape</strong> – exakte Schnitte &amp; scharfe Farbkanten.</li> <li><strong>Schleifschwamm/Feile</strong> – Kanten glätten, Zwischen- und Endschliff.</li> </ul> <h3>Welche Werkzeuge wofür?</h3> <div class=\"kat-grid\" aria-label=\"Werkzeuge & Pinsel Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🖌️</span>Acryl auf Holz/MDF</h4>\n    <p class=\"meta\">Flachpinsel, Schaumrolle · Dünn schichten, Zwischenschliff.</p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzprodukte</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Werkzeuge &amp; Lacke</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🔠</span>Schablonieren</h4>\n    <p class=\"meta\">Schablonen-/Stupfpinsel, Kreppband · Wenig Farbe, senkrecht tupfen.</p>\n    <div class=\"links\"><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Stupfpinsel</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🗜️</span>Effektpasten/Struktur</h4>\n    <p class=\"meta\">Spachtel, Palettmesser · In eine Richtung ziehen für feine Strukturen.</p>\n    <div class=\"links\"><a href=\"/collections/pentart-shop\">Pentart Shop</a></div>\n    <a class=\"kat-cta\" href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektpasten</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🖍️</span>Glas bemalen</h4>\n    <p class=\"meta\">Feiner Rundpinsel, weicher Flachpinsel · Konturenlinie für Kanten.</p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/glasfarben\">Farben wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧴</span>Decoupage</h4>\n    <p class=\"meta\">Weicher Flachpinsel, Schaumstupfer · Von innen nach außen glätten.</p>\n    <div class=\"links\"><a href=\"/collections/pentart-shop\">Medien &amp; Lacke</a></div>\n    <a class=\"kat-cta\" href=\"/collections/holzprodukte\">Untergründe</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪣</span>Outdoor großflächig</h4>\n    <p class=\"meta\">Schaumrolle, breiter Flachpinsel · Nass-in-nass, mehrere dünne Schichten.</p>\n    <div class=\"links\"><a href=\"/collections/outdoor-farben\">Outdoor-Farben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/outdoor-farben\">Jetzt streichen</a>\n  </article>\n</div>\n <h3>Pinselpflege &amp; Haltbarkeit</h3> <ul> <li><strong>Sofort reinigen:</strong> Acryl &amp; Medien nicht eintrocknen lassen; mit Wasser bzw. passendem Reiniger säubern.</li> <li><strong>Form halten:</strong> Borsten nach dem Waschen in Form streichen; liegend trocknen, Ferrule nicht im Wasser stehen lassen.</li> <li><strong>Getrennt nutzen:</strong> Eigene Pinsel für Kleber/Medien vs. Farben – verlängert die Lebensdauer.</li> <li><strong>Staubfrei lagern:</strong> Trocken, lichtgeschützt, Borsten nach oben oder in Hüllen.</li> </ul> <h3>Sauber &amp; sicher arbeiten</h3> <ul> <li>Cutter stets vom Körper weg führen; <strong>Schneidematte</strong> mit Raster nutzen.</li> <li>Bei Pasten/Medien gut lüften, Handschuhe tragen; Unterlage abdecken.</li> <li>Klebekanten mit Kreppband sichern, erst nach Antrocknen „vom Werk weg“ abziehen.</li> </ul> <h3>Passt perfekt dazu</h3> <p>Für Materialien &amp; Medien sieh dir den <a href=\"/collections/pentart-shop\">Pentart Shop</a> an. Kombiniere Werkzeuge mit <a href=\"/collections/holzprodukte\">Holzprodukten</a>, setze Highlights mit <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> oder starte unkompliziert mit <a href=\"/collections/bastelsets\">Bastelsets</a>.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_xDX4Pm"
+      ],
+      "name": "Werkzeuge & Pinsel",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_eWA6di": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_tDRM7k": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"sets\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Bastelsets – der einfachste Weg zum gelungenen Projekt</h2> <p><strong>Bastelsets</strong> bündeln alles, was du brauchst: Material, Werkzeuge in Mini-Größe und eine klare Anleitung. Ideal für Einsteiger:innen, Familienprojekte und als Geschenk. So startest du ohne Einkaufslisten und bekommst schnell sichtbare Ergebnisse.</p> <h3>Schnellauswahl</h3> <ul> <li><a href=\"/collections/bastelsets\">Alle Bastelsets</a> – thematisch sortiert, direkt startklar.</li> <li><a href=\"/collections/bestseller\">Bestseller</a> – Sets, die unsere Community liebt.</li> <li><a href=\"/collections/lieblingsprodukte\">Lieblingsprodukte</a> – kuratierte Empfehlungen zum Verschenken.</li> <li><a href=\"/collections/sets-aus-peddigrohr-83\">Sets aus Peddigrohr</a> – Körbe &amp; Flechtarbeiten leicht gemacht.</li> </ul> <h3>Welches Set passt zu dir?</h3> <div class=\"kat-grid\" aria-label=\"Bastelsets Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🚀</span>Einfach starten (Anfänger)</h4>\n    <p class=\"meta\">Material + Schritt-für-Schritt Anleitung · 30–90&nbsp;Min.</p>\n    <div class=\"links\"><a href=\"/collections/bastelsets\">Einsteiger-Sets</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bastelsets\">Jetzt starten</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">👨‍👩‍👧</span>Kinder &amp; Familien</h4>\n    <p class=\"meta\">Kindgerechte Materialien &amp; sichere Werkzeuge · 30–60&nbsp;Min.</p>\n    <div class=\"links\"><a href=\"/collections/bastelsets\">Familien-Sets</a></div>\n    <a class=\"kat-cta\" href=\"/collections/bastelsets\">Sets ansehen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧪</span>Spezialtechniken</h4>\n    <p class=\"meta\">Spezialfarben/Medien · 60–120&nbsp;Min. je nach Projekt.</p>\n    <div class=\"links\"><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effekt-Projekte</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Medien wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧺</span>Flechten &amp; Körbe</h4>\n    <p class=\"meta\">Peddigrohr, Böden, Zubehör · 90–180&nbsp;Min.</p>\n    <div class=\"links\"><a href=\"/collections/sets-aus-peddigrohr-83\">Korbflecht-Sets</a></div>\n    <a class=\"kat-cta\" href=\"/collections/grundmaterial_zum_korb_flechten\">Material wählen</a>\n  </article>\n</div>\n <h3>So funktionieren Bastelsets – in 4 Schritten</h3> <ol> <li><strong>Auspacken &amp; prüfen:</strong> Anleitung lesen, Teile sortieren, Arbeitsplatz vorbereiten.</li> <li><strong>Vorbereiten:</strong> Untergrund säubern/anschleifen; Schutzunterlage auslegen.</li> <li><strong>Umsetzen:</strong> Schritt-für-Schritt folgen; dünn arbeiten, Trocknungszeiten einhalten.</li> <li><strong>Veredeln:</strong> Mit Lack/Medium versiegeln (<a href=\"/collections/pentart-shop\">Pentart Medien</a>) und nach Wunsch dekorieren.</li> </ol> <h3>Geschenkideen &amp; schnelle Erfolge</h3> <ul> <li><strong>Geschenk, Last-Minute:</strong> Wähle ein Thema (z.&nbsp;B. Glas, Holz, Effekt) – fertige Box, minimaler Vorbereitungsaufwand.</li> <li><strong>Erste Erfolgserlebnisse:</strong> Sets mit klarer Anleitung sorgen für sichtbare Ergebnisse in unter 60&nbsp;Minuten.</li> <li><strong>Aufbauend lernen:</strong> Nach dem ersten Set auf größere Gebinde wechseln (<a href=\"/collections/pentart-minis-20ml\">Pentart Minis 20&nbsp;ml</a>, <a href=\"/collections/pentart-classics-50ml\">Pentart Classics 50&nbsp;ml</a>).</li> </ul> <h3>Passt perfekt dazu</h3> <p>Ergänze dein Set mit <a href=\"/collections/werkzeuge\">Werkzeugen &amp; Pinseln</a> (falls nicht enthalten), veredle Oberflächen mit <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> und finde weitere Inspiration in unseren <a href=\"/collections/bestseller\">Bestsellern</a> und <a href=\"/collections/lieblingsprodukte\">Lieblingsprodukten</a>.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_tDRM7k"
+      ],
+      "name": "Bastelsets",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_NwP6tW": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_aafYPA": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"techniken\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Techniken – Decoupage, Holz &amp; Glas leicht gemacht</h2> <p>Du willst <strong>Bastelbedarf</strong> nicht nur kaufen, sondern sicher anwenden? Hier sind drei beliebte Techniken – mit kurzen Schritt-für-Schritt-Anleitungen, Materialempfehlungen und Links zu den passenden Kategorien.</p> <h3>1) Decoupage / Serviettentechnik</h3> <ol> <li><strong>Untergrund vorbereiten:</strong> Holz (<a href=\"/collections/holzprodukte\">Holzprodukte</a>) fein anschleifen, staubfrei machen; helle Grundierung sorgt für strahlende Motive.</li> <li><strong>Motiv vorbereiten:</strong> Serviette auf 1 Lage reduzieren, Motiv reißen (weichere Ränder).</li> <li><strong>Kleben:</strong> Dünn <a href=\"/collections/pentart-shop\">Servietten-/Decoupagekleber</a> auftragen, Motiv auflegen, von innen nach außen glätten.</li> <li><strong>Trocknen &amp; versiegeln:</strong> 1–2 dünne Schichten Lack (matt/seidenmatt/glanz) für Schutz &amp; Finish.</li> </ol> <p><em>Pro-Tipps:</em> Dünn arbeiten, weiche Pinsel nutzen, Kanten extra sichern. Für Glanz-Effekte: anschließend <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> oder Metallic-Wachs einsetzen.</p> <h3>2) Holz bemalen &amp; veredeln</h3> <ol> <li><strong>Schleifen &amp; Grundieren:</strong> Kanten glätten; bei Bedarf Haftgrund.</li> <li><strong>Farbe auftragen:</strong> Acryl/Outdoor je nach Einsatz (<a href=\"/collections/outdoor-farben\">Outdoor Farben</a> für außen). Dünn schichten, Zwischenschliff.</li> <li><strong>Effekte setzen:</strong> Strukturpasten, Rost/Metallic/Stein aus <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a>.</li> <li><strong>Schützen:</strong> Passenden Klarlack aus dem <a href=\"/collections/pentart-shop\">Pentart Shop</a> wählen.</li> </ol> <p><em>Pro-Tipps:</em> Schablonen fixieren (tupfen, nicht streichen), Kanten mit Kreppband sichern, mehrere dünne Lackschichten für höhere Abriebfestigkeit.</p> <h3>3) Glas gestalten – Farbe oder Ätzen?</h3> <ul> <li><strong>Glasfarben</strong> (<a href=\"/collections/glasfarben\">zu den Glasfarben</a>): leuchtend, teils ofenfixierbar; ideal für Fensterbilder, Vasen, Gläser. Konturen helfen bei sauberen Kanten.</li> <li><strong>Glasätzpasten</strong> (<a href=\"/collections/glasatzpasten\">zu den Glasätzpasten</a>): mattieren die Oberfläche <em>dauerhaft</em>; perfekt für Schriftzüge &amp; personalisierte Geschenke.</li> </ul> <ol> <li><strong>Vorbereiten:</strong> Glas entfetten (Isopropanol), staubfrei.</li> <li><strong>Gestalten:</strong> Farbe dünn auftragen <em>oder</em> Ätzpaste mit Schablone (<a href=\"/collections/schablonen\">Schablonen</a>) aufbringen.</li> <li><strong>Fixieren:</strong> Je nach Farbe im Ofen einbrennen (Herstellerangaben) <em>oder</em> Ätzpaste nach Einwirkzeit gründlich abspülen.</li> </ol> <p><em>Sicherheit:</em> Bei Ätzpaste Handschuhe tragen, gut lüften; nur auf echtem Glas verwenden.</p> <h3>Technik-Wahl auf einen Blick</h3> <div class=\"kat-grid\" aria-label=\"Techniken Auswahl\">\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧴</span>Decoupage</h4>\n    <p class=\"meta\">Einfach · 30–60&nbsp;Min. · Papier/Serviette + Medium + Lack.</p>\n    <div class=\"links\"><a href=\"/collections/bastelsets\">Bastelsets</a> · <a href=\"/collections/pentart-shop\">Medium</a></div>\n    <a class=\"kat-cta\" href=\"/collections/holzprodukte\">Untergrund wählen</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🪵</span>Holz bemalen</h4>\n    <p class=\"meta\">Einfach–Mittel · 45–120&nbsp;Min. · Holz + Farbe + Lack.</p>\n    <div class=\"links\"><a href=\"/collections/holzprodukte\">Holzrohlinge</a> · <a href=\"/collections/outdoor-farben\">Farben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/pentart-shop\">Lacke &amp; Medien</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🎨</span>Glas bemalen</h4>\n    <p class=\"meta\">Mittel · 30–90&nbsp;Min. + Fixierung · Glasfarben + feine Pinsel.</p>\n    <div class=\"links\"><a href=\"/collections/glasfarben\">Glasfarben</a></div>\n    <a class=\"kat-cta\" href=\"/collections/glasfarben\">Jetzt gestalten</a>\n  </article>\n\n  <article class=\"kat-card\">\n    <h4><span class=\"kat-ico\">🧪</span>Glas ätzen</h4>\n    <p class=\"meta\">Mittel · 20–40&nbsp;Min. · Ätzpaste + Schablonen (nur echtes Glas!).</p>\n    <div class=\"links\"><a href=\"/collections/glasatzpasten\">Ätzpaste</a> · <a href=\"/collections/schablonen\">Schablonen</a></div>\n    <a class=\"kat-cta\" href=\"/collections/glasatzpasten\">Jetzt ätzen</a>\n  </article>\n</div>\n <h3>Passt perfekt dazu</h3> <p>Für schnelle Erfolge nutze <a href=\"/collections/bastelsets\">Bastelsets</a>. Für Oberflächen-Highlights greife zu <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a>. Medien, Lacke &amp; Kleber findest du im <a href=\"/collections/pentart-shop\">Pentart Shop</a>.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_aafYPA"
+      ],
+      "name": "Techniken",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_N8GMtG": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_DrBmJc": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"faq\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Häufige Fragen zu Bastelbedarf</h2> <h3>Was gehört alles zu Bastelbedarf?</h3> <p><strong>Bastelbedarf</strong> umfasst Farben (Acryl, <a href=\"/collections/glasfarben\">Glas</a>, <a href=\"/collections/outdoor-farben\">Outdoor</a>), Kleber &amp; Lacke (<a href=\"/collections/pentart-shop\">Pentart Medien</a>), Papiere &amp; Servietten, <a href=\"/collections/holzprodukte\">Holzrohlinge</a>, Schablonen, Werkzeuge &amp; <a href=\"/collections/bastelsets\">Bastelsets</a>. Je nach Projekt kommen <a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a> oder <a href=\"/collections/glasatzpasten\">Glasätzpasten</a> hinzu.</p> <h3>Ich bin Anfänger: Womit starte ich am besten?</h3> <p>Für schnelle Erfolge empfehlen wir <a href=\"/collections/bastelsets\">Bastelsets</a> (alles enthalten) oder Projekte mit Acrylfarben auf Holz (<a href=\"/collections/holzprodukte\">Holzprodukte</a>). Unsere <a href=\"#farben\">Farben-Übersicht</a> und der <a href=\"#kategorien\">Kategorien-Guide</a> helfen dir bei der Auswahl.</p> <h3>Welche Farbe ist die richtige – Acryl, Glas oder Outdoor?</h3> <p><a href=\"/collections/outdoor-farben\">Outdoor Farben</a> sind wetterfest, <a href=\"/collections/glasfarben\">Glasfarben</a> haften auf Glas (oft im Ofen fixierbar), Acryl ist der Allrounder für Holz, Pappe &amp; MDF. Details findest du im <a href=\"#farben\">Farben-Guide</a>.</p> <h3>Glas gestalten: Farbe oder Glasätzen?</h3> <p><a href=\"/collections/glasfarben\">Glasfarben</a> bieten leuchtende Farben; <a href=\"/collections/glasatzpasten\">Glasätzpasten</a> mattieren die Oberfläche dauerhaft – ideal für personalisierte Schriftzüge. Bei Ätzpaste immer Handschuhe tragen und nur auf echtem Glas arbeiten.</p> <h3>Welche Kleber &amp; Lacke brauche ich?</h3> <p>Für Papier &amp; Servietten nutze Servietten-/Decoupagekleber; für Holz Bastelkleber/Holzleim; für Outdoor-Projekte einen wetterfesten Überzug. Alles im <a href=\"/collections/pentart-shop\">Pentart Shop</a>. Siehe auch <a href=\"#kleber\">Kleber &amp; Lacke</a>.</p> <h3>Tipps gegen Wellen &amp; Flecken bei Decoupage?</h3> <p>Dünn arbeiten, helle Grundierung wählen, Servietten auf eine Lage reduzieren und von innen nach außen glattstreichen. Danach mit Lack matt/seidenmatt/glanz versiegeln. Mehr dazu bei <a href=\"#papiere\">Papiere &amp; Servietten</a>.</p> <h3>Ist der Bastelbedarf kinderfreundlich?</h3> <p>Viele Projekte sind für Kinder geeignet. Achte auf altersgerechte Sets (<a href=\"/collections/bastelsets\">Bastelsets</a>), gut belüftete Räume, Schutzhandschuhe bei Medien/Ätzpaste und kindgerechte Werkzeuge. Erwachsene sollten beaufsichtigen.</p> <h3>Wie versiegeln &amp; haltbar machen?</h3> <p>Für Beanspruchung im Innenbereich 1–2 Schichten Klarlack, im Außenbereich mehrere Schichten <a href=\"/collections/outdoor-farben\">Outdoor-Überzug</a>. Glasfarben ggf. im Ofen fixieren (Herstellerangaben beachten).</p> <h3>Ich suche „Bastelbedarf günstig, schnell lieferbar“ – was empfehlt ihr?</h3> <p>Starte mit <a href=\"/collections/bestseller\">Bestsellern</a> (bewährte Auswahl) oder stöbere in <a href=\"/collections/ausverkauf\">Ausverkauf</a> für starke Angebote. Für kuratierte Highlights sieh dir <a href=\"/collections/lieblingsprodukte\">Lieblingsprodukte</a> an.</p> <h3>Welche Marken führt ihr?</h3> <p>Ein Schwerpunkt liegt auf <a href=\"/collections/pentart-shop\">Pentart</a> – inklusive <a href=\"/collections/pentart-minis-20ml\">Minis (20&nbsp;ml)</a> zum Testen und <a href=\"/collections/pentart-classics-50ml\">Classics (50&nbsp;ml)</a> für größere Projekte.</p> <h3>Wo finde ich weitere Hilfe?</h3> <p>Sieh dir die Technik-Anleitungen unter <a href=\"#techniken\">Techniken</a> an – oder kontaktiere uns mit deinem Projektziel; wir empfehlen dir passenden <strong>Bastelbedarf</strong> und verlinken auf konkrete Produkte.</p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_DrBmJc"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_eKfg4d": {
+      "type": "section",
+      "blocks": {
+        "custom_liquid_G4Hh4z": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"bs-speed-chunk\">\n\n<div id=\"beratung\" class=\"section\" style=\"max-width:960px;margin:0 auto;padding:24px 16px;scroll-margin-top:96px;\">\n<h2>Beratung &amp; Kontakt – wir helfen dir beim Auswählen</h2> <p>Als familiengeführter Bastelshop aus Tirol beraten wir dich persönlich – online und im Laden in Wattens. Sag uns, welches Projekt du planst, und wir empfehlen dir passenden <strong>Bastelbedarf</strong> (Einsteiger, Kinder, Spezialtechniken) inklusive konkreter Produktlinks.</p> <div style=\"display:grid;grid-template-columns:1fr;gap:16px;margin-top:8px;\"> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:16px;\"> <h3>Schnelle Hilfe</h3> <ul> <li><a href=\"#kategorien\">Kategorien &amp; Anwendungsfälle</a> – finde in 1&nbsp;Minute das passende Material.</li> <li><a href=\"#farben\">Farben-Guide</a> – welche Farbe hält auf Holz, Glas &amp; draußen?</li> <li><a href=\"#faq\">FAQ</a> – kurze Antworten auf die häufigsten Fragen.</li> </ul> </div> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:16px;\"> <h3>Direkt Kontakt aufnehmen</h3> <p>Du möchtest Empfehlungen für ein konkretes Projekt oder ein Geschenk? Schick uns kurz Thema, Oberfläche (z.&nbsp;B. Holz/Glas) und gewünschtes Finish.</p> <ul> <li><a href=\"/contact\">Kontaktformular</a> (Shopify) – wir antworten zeitnah.</li> <li>E-Mail: <a href=\"mailto:info@bastelschachtel.at\">info@bastelschachtel.at</a></li> </ul> <p style=\"font-size:0.95em;color:#334155;\">Hinweis: Für sensible Medien (z.&nbsp;B. Ätzpaste) beraten wir zu Sicherheit, Anwendung und Alternativen.</p> </div> </div> <h3>Starter-Checkliste (für Einsteiger)</h3> <ul> <li><strong>Projekt wählen:</strong> Karte, Holzdeko, Glasgestaltung oder Set?</li> <li><strong>Grundmaterial:</strong> passende Farbe (Acryl/Glas/Outdoor) + Kleber/Medium + Lack.</li> <li><strong>Werkzeuge:</strong> 1× Flachpinsel, 1× Rundpinsel, Stupfpinsel/Schwämmchen, Cutter &amp; Schneidematte.</li> <li><strong>Untergrund vorbereiten:</strong> reinigen/anschleifen; Probestück testen.</li> <li><strong>Finish:</strong> Lack (matt/seidenmatt/glanz) oder Ofenfixierung bei Glasfarben.</li> </ul> <h3>Jetzt Bastelbedarf entdecken</h3> <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;\"> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;\"> <strong><a href=\"/collections/bestseller\">Bestseller</a></strong><br/> Bewährte Auswahl unserer Community – ideal zum schnellen Einstieg. </div> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;\"> <strong><a href=\"/collections/bastelsets\">Bastelsets</a></strong><br/> Alles drin für Einsteiger, Kinder &amp; Geschenke – sofort loslegen. </div> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;\"> <strong><a href=\"/collections/pentart-shop\">Pentart Shop</a></strong><br/> Farben, Medien &amp; Lacke – Minis (20&nbsp;ml) zum Testen &amp; Classics (50&nbsp;ml). </div> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;\"> <strong><a href=\"/collections/glasfarben\">Glasfarben</a></strong><br/> Leuchtende Designs auf Glas &amp; Keramik; teils ofenfixierbar. </div> <div style=\"border:1px solid #e5e7eb;border-radius:12px;padding:12px;\"> <strong><a href=\"/collections/farben-fur-besondere-dekorationseffekte\">Effektfarben</a></strong><br/> Rost, Metallic, Stein &amp; mehr für besondere Oberflächen. </div> </div> <p style=\"margin-top:16px;\"><a href=\"#inhaltsverzeichnis\">Zurück nach oben</a> · <a href=\"#intro\">Zum Einstieg</a></p> </div>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "custom_liquid_G4Hh4z"
+      ],
+      "name": "Beratung & Kontakt",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_gQBkpr",
+    "section_BND3R9",
+    "section_EhkzeF",
+    "section_Ce4geF",
+    "section_jQJ4mw",
+    "section_VqUe3P",
+    "section_h6RBVy",
+    "section_AECgmi",
+    "section_eWA6di",
+    "section_NwP6tW",
+    "section_N8GMtG",
+    "section_eKfg4d"
+  ]
+}

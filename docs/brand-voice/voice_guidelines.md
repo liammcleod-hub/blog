@@ -17,6 +17,7 @@ type: document
 | Category | Files |
 |----------|-------|
 | **Core Brand Voice** | [[BASTELSCHACHTEL-BRAND-VOICE]] · [[brand_guidelines]] · [[tone_doc]] · [[forbidden_phrases]] |
+| **Email Copywriting** | [[email-copywriting-guide]] ⭐ NEW: April 2026 voice calibration |
 | **Live Examples** | [[bastelschachtel-soul-first]] · [[example_subject]] |
 | **Context** | [[product-marketing-context]] · [[marketing-handbook]] |
 
@@ -40,6 +41,8 @@ Warm. Personal. Curious. A little unhurried. Like someone who genuinely loves wh
 ---
 
 ## Structural Voice Principles
+
+> **⭐ NEW (April 2026):** For email-specific voice guidance including conversational rhythm, emphasis density, and warm colloquialisms, see [[email-copywriting-guide]].
 
 ### 1. Customer-Centric, Always
 
@@ -150,8 +153,12 @@ Never from a named individual unless it is a genuinely personal story and the na
 - [ ] Is it in warm, personal "du" form?
 - [ ] Is the product secondary to the creative possibility?
 - [ ] Would she want to sit down and read this?
+- [ ] **⭐ NEW:** Does it have conversational rhythm (not composed prose)?
+- [ ] **⭐ NEW:** Is emphasis density natural (one moment per thought)?
+- [ ] **⭐ NEW:** Is permission shown through tone (not stated explicitly)?
 
-> See [[BASTELSCHACHTEL-BRAND-VOICE]] for the full 8-question Voice Check.
+> See [[BASTELSCHACHTEL-BRAND-VOICE]] for the full voice check.  
+> See [[email-copywriting-guide]] for detailed email-specific criteria.
 
 ---
 
@@ -165,6 +172,7 @@ Never from a named individual unless it is a genuinely personal story and the na
 | [[brand_guidelines]] | Company identity and values |
 | [[tone_doc]] | Emotional register and tone dimensions |
 | [[forbidden_phrases]] | Never-use language and structural rules |
+| [[email-copywriting-guide]] | ⭐ Email copywriting guide (April 2026 calibration) |
 | [[example_subject]] | Email subject line examples |
 | [[bastelschachtel-soul-first]] | Raw real emails |
 | [[marketing-handbook]] | Assistant handbook with brand immersion |
@@ -180,4 +188,5 @@ Never from a named individual unless it is a genuinely personal story and the na
 
 ---
 
-*Last updated: 2026-04-14*
+*Last updated: 2026-04-18*  
+*April 2026: Added email copywriting guide and conversational voice calibration*

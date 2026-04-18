@@ -1,0 +1,533 @@
+{% doc %}
+  @prompt
+    Füge auf der Startseite einen neuen Blog-Bereich direkt unter Alles für das Bastelherz
+      und noch vor Community Spotlight ein.
+    
+      Anforderungen:
+    
+      - Zeige die neuesten 3 Blogbeiträge aus unserem Blog.
+      - Jeder Beitrag soll Bild, Titel, kurzen Auszug und einen Link wie Mehr lesen anzeigen.
+      - Gib dem Bereich diese Überschrift:
+        Kreative Ideen & Anleitungen aus unserem Blog
+      - Verwende diesen Einleitungstext:
+        Entdecke Bastelideen, DIY Anleitungen und kreative Tipps zu Reispapier, Pentart,
+        Korbflechten, Gips, Beton und vielen weiteren Projekten.
+      - Füge unter den Beiträgen einen Button ein:
+        Zum Blog
+      - Der Button soll auf unseren Blog-Index verlinken.
+      - Bitte das bestehende Design der Startseite beibehalten.
+      - Bitte nur diesen neuen Blog-Bereich hinzufügen und keine anderen Inhalte verändern.
+      - Keine englischen Texte verwenden.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-blog-section-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: 60px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-blog-section__container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ai-blog-section__header-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .ai-blog-section__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 16px 0;
+    font-weight: 700;
+  }
+
+  .ai-blog-section__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.8;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .ai-blog-section__posts-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+
+  .ai-blog-section__post-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background_color }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid {{ block.settings.card_border_color }};
+  }
+
+  .ai-blog-section__post-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-blog-section__post-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 66.67%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+
+  .ai-blog-section__post-image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-blog-section__post-image-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+
+  .ai-blog-section__post-image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-blog-section__post-content-{{ ai_gen_id }} {
+    padding: 24px;
+  }
+
+  .ai-blog-section__post-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.post_title_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .ai-blog-section__post-title-link-{{ ai_gen_id }} {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ai-blog-section__post-title-link-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.link_color }};
+  }
+
+  .ai-blog-section__post-excerpt-{{ ai_gen_id }} {
+    font-size: {{ block.settings.excerpt_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.8;
+    margin: 0 0 16px 0;
+    line-height: 1.6;
+  }
+
+  .ai-blog-section__post-link-{{ ai_gen_id }} {
+    display: inline-block;
+    font-size: {{ block.settings.link_size }}px;
+    color: {{ block.settings.link_color }};
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-blog-section__post-link-{{ ai_gen_id }}:hover {
+    opacity: 0.7;
+  }
+
+  .ai-blog-section__button-wrapper-{{ ai_gen_id }} {
+    text-align: center;
+  }
+
+  .ai-blog-section__button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+  }
+
+  .ai-blog-section__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    color: {{ block.settings.button_hover_text_color }};
+    transform: translateY(-2px);
+  }
+
+  .ai-blog-section__empty-state-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 60px 20px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.6;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-blog-section-{{ ai_gen_id }} {
+      padding: 40px 16px;
+    }
+
+    .ai-blog-section__posts-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .ai-blog-section__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.7);
+    }
+
+    .ai-blog-section__description-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.description_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<blog-section-{{ ai_gen_id }} class="ai-blog-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-blog-section__container-{{ ai_gen_id }}">
+    <div class="ai-blog-section__header-{{ ai_gen_id }}">
+      {% if block.settings.heading != blank %}
+        <h2 class="ai-blog-section__title-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+      {% endif %}
+      {% if block.settings.description != blank %}
+        <div class="ai-blog-section__description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+      {% endif %}
+    </div>
+
+    {% if block.settings.blog != blank %}
+      {% assign blog_articles = block.settings.blog.articles | limit: 3 %}
+      
+      {% if blog_articles.size > 0 %}
+        <div class="ai-blog-section__posts-{{ ai_gen_id }}">
+          {% for article in blog_articles %}
+            <article class="ai-blog-section__post-{{ ai_gen_id }}">
+              <div class="ai-blog-section__post-image-wrapper-{{ ai_gen_id }}">
+                {% if article.image %}
+                  <img
+                    src="{{ article.image | image_url: width: 600 }}"
+                    alt="{{ article.image.alt | escape }}"
+                    class="ai-blog-section__post-image-{{ ai_gen_id }}"
+                    loading="lazy"
+                    width="600"
+                    height="400"
+                  >
+                {% else %}
+                  <div class="ai-blog-section__post-image-placeholder-{{ ai_gen_id }}">
+                    {{ 'image' | placeholder_svg_tag }}
+                  </div>
+                {% endif %}
+              </div>
+              <div class="ai-blog-section__post-content-{{ ai_gen_id }}">
+                <h3 class="ai-blog-section__post-title-{{ ai_gen_id }}">
+                  <a href="{{ article.url }}" class="ai-blog-section__post-title-link-{{ ai_gen_id }}">
+                    {{ article.title }}
+                  </a>
+                </h3>
+                {% if article.excerpt != blank %}
+                  <div class="ai-blog-section__post-excerpt-{{ ai_gen_id }}">
+                    {{ article.excerpt | strip_html | truncate: 120 }}
+                  </div>
+                {% endif %}
+                <a href="{{ article.url }}" class="ai-blog-section__post-link-{{ ai_gen_id }}">
+                  {{ block.settings.read_more_text }}
+                </a>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+
+        {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+          <div class="ai-blog-section__button-wrapper-{{ ai_gen_id }}">
+            <a href="{{ block.settings.button_link }}" class="ai-blog-section__button-{{ ai_gen_id }}">
+              {{ block.settings.button_text }}
+            </a>
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="ai-blog-section__empty-state-{{ ai_gen_id }}">
+          <p>Noch keine Blogbeiträge verfügbar.</p>
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="ai-blog-section__empty-state-{{ ai_gen_id }}">
+        <p>Bitte wählen Sie einen Blog aus den Einstellungen aus.</p>
+      </div>
+    {% endif %}
+  </div>
+</blog-section-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class BlogSection{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.initializeObserver();
+      }
+
+      initializeObserver() {
+        if ('IntersectionObserver' in window) {
+          const posts = this.querySelectorAll('.ai-blog-section__post-{{ ai_gen_id }}');
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+              if (entry.isIntersecting) {
+                setTimeout(() => {
+                  entry.target.style.opacity = '1';
+                  entry.target.style.transform = 'translateY(0)';
+                }, index * 100);
+                observer.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.1 });
+
+          posts.forEach((post) => {
+            post.style.opacity = '0';
+            post.style.transform = 'translateY(20px)';
+            post.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(post);
+          });
+        }
+      }
+    }
+
+    customElements.define('blog-section-{{ ai_gen_id }}', BlogSection{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Blog Bereich",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Inhalt"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Überschrift",
+      "default": "Kreative Ideen & Anleitungen aus unserem Blog"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Beschreibung",
+      "default": "Entdecke Bastelideen, DIY Anleitungen und kreative Tipps zu Reispapier, Pentart, Korbflechten, Gips, Beton und vielen weiteren Projekten."
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "read_more_text",
+      "label": "Link Text",
+      "default": "Mehr lesen"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Zum Blog"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "header",
+      "content": "Farben"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Hintergrundfarbe",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Textfarbe",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Linkfarbe",
+      "default": "#912e38"
+    },
+    {
+      "type": "color",
+      "id": "card_background_color",
+      "label": "Karten Hintergrund",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Karten Rahmen",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button Hintergrund",
+      "default": "#912e38"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Button Hover Hintergrund",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button Hover Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button Rahmen",
+      "default": "#912e38"
+    },
+    {
+      "type": "header",
+      "content": "Typografie"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Überschrift Größe",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Beschreibung Größe",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "post_title_size",
+      "label": "Beitrag Titel Größe",
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "excerpt_size",
+      "label": "Auszug Größe",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "link_size",
+      "label": "Link Größe",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "label": "Button Text Größe",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Stil"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Karten Eckenradius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button Eckenradius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "label": "Button Rahmenbreite",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Bereich"
+    }
+  ]
+}
+{% endschema %}

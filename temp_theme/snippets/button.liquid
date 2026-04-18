@@ -1,0 +1,85 @@
+{%- doc -%}
+  Intended for use in a block similar to the button block.
+
+  @param {string} link - link to render
+  @param {object} [block] - The block
+
+  @example
+  {% render 'button', link: '/collections/all' %}
+{%- enddoc -%}
+
+{% assign block_settings = block.settings %}
+
+<a
+  {% if link == blank %}
+    role="link"
+    aria-disabled="true"
+  {% else %}
+    href="{{ link }}"
+  {% endif %}
+  class="
+  size-style
+  {{ block_settings.style_class }}
+  {{ block_settings.style_class }}--{{ block.id }}
+  {% if enable_glassmorphism %}glassmorphism-button{% endif %}
+"
+
+  style="{% render 'size-style', settings: block_settings %}"
+  {%- if block_settings.open_in_new_tab -%}
+    target="_blank"
+    rel="noopener noreferrer"
+  {%- endif -%}
+  {{ block.shopify_attributes }}
+>
+  {{ block_settings.label }}
+</a>
+
+{% stylesheet %}
+  .link {
+    text-decoration: none;
+    text-decoration-color: currentcolor;
+
+    &:hover {
+      color: var(--color-primary-hover);
+      text-decoration-color: transparent;
+    }
+  }
+
+  /* Glassmorphism effect - uses settings from glassmorphism-controls section */
+  .glassmorphism-button {
+    position: relative !important;
+    backdrop-filter: blur(var(--glass-blur, 15px)) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur, 15px)) !important;
+    background: var(--glass-gradient, linear-gradient(135deg, rgba(255,255,255,0.25), rgba(204,204,204,0.25))) !important;
+    border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.4)) !important;
+    box-shadow: 
+      0 8px 32px 0 rgba(31, 38, 135, 0.37),
+      inset 0 1px 1px 0 rgba(255, 255, 255, 0.3) !important;
+    transition: all var(--glass-speed, 0.4s) ease !important;
+    overflow: hidden !important;
+  }
+
+  .glassmorphism-button::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent) !important;
+    transition: left var(--glass-speed, 0.4s) ease !important;
+    pointer-events: none !important;
+  }
+
+  .glassmorphism-button:hover::before {
+    left: 100% !important;
+  }
+
+  .glassmorphism-button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 
+      0 12px 40px 0 rgba(31, 38, 135, 0.45),
+      inset 0 1px 1px 0 rgba(255, 255, 255, 0.4) !important;
+  }
+{% endstylesheet %}
+

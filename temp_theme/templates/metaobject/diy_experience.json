@@ -1,0 +1,863 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_Hca4zN": {
+      "type": "section",
+      "blocks": {
+        "image_fTCMbW": {
+          "type": "image",
+          "settings": {
+            "image": "{{ closest.metaobject.diy_experience.hero_image.value }}",
+            "link": "",
+            "image_ratio": "square",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_rjq9Lc": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_ebqPNi": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h1>{{ closest.metaobject.diy_experience.title.value }}</h1>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_KPH9VP": {
+              "type": "text",
+              "settings": {
+                "text": "<p>{{ closest.metaobject.diy_experience.subtitle.value }}</p>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_wEwTDT": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% assign diy = closest.metaobject.diy_experience %}\n{% assign url = diy.download_url.value | strip %}\n{% assign file = diy.download_file.value %}\n{% assign label = diy.download_button_label.value | strip %}\n\n{% if url != blank %}\n  {% if label == blank %}{% assign label = 'Download' %}{% endif %}\n  <a class=\"button\" href=\"{{ url | escape }}\" target=\"_blank\" rel=\"noopener\">{{ label | escape }}</a>\n{% elsif file != blank %}\n  {% if label == blank %}{% assign label = 'Download' %}{% endif %}\n  <a class=\"button\" href=\"{{ diy.download_file.value | file_url }}\" target=\"_blank\" rel=\"noopener\">{{ label | escape }}</a>\n{% else %}\n  {% if label == blank %}{% assign label = 'Zu den Schritten' %}{% endif %}\n  <a class=\"button\" href=\"#diy-steps-anchor\">{{ label | escape }}</a>\n{% endif %}"
+              },
+              "blocks": {}
+            },
+            "text_8DaE4z": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "{{ closest.metaobject.diy_experience.intro | metafield_tag }}",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_ebqPNi",
+            "text_KPH9VP",
+            "button_wEwTDT",
+            "text_8DaE4z"
+          ]
+        }
+      },
+      "block_order": [
+        "image_fTCMbW",
+        "group_rjq9Lc"
+      ],
+      "name": "t:names.image_with_text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "section_PQQgbR": {
+      "type": "section",
+      "blocks": {
+        "group_KJ6ae3": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "group_TaPk8k": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "group_zjHb9Q": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "text_hqtVtR": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "<h2>{{ closest.metaobject.diy_experience.midpage_cta_heading.value }}</h2>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_UBNPMU": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "<p>{{ closest.metaobject.diy_experience.midpage_subheader.value }}</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-heading--family)",
+                        "font_size": "1.25rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-primary)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_fiPRy3": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "{{ closest.metaobject.diy_experience.midpage_cta_text | metafield_tag }}",
+                        "width": "fit-content",
+                        "max_width": "none",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_hqtVtR",
+                    "text_UBNPMU",
+                    "text_fiPRy3"
+                  ]
+                },
+                "text_cERgDd": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "disabled": true,
+                  "settings": {
+                    "text": "",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_g6GMA8": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "disabled": true,
+                  "settings": {
+                    "text": "<p>{{ closest.metaobject.diy_experience.midpage_subheader.value }}</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "1.25rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_TwzGi4": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "disabled": true,
+                  "settings": {
+                    "text": "{{ closest.metaobject.diy_experience.midpage_cta_text | metafield_tag }}",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "group_tUmKXk": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "custom_liquid_steps_grid": {
+                      "type": "custom-liquid",
+                      "settings": {
+                        "custom_liquid": "<div id=\"diy-steps-{{ block.id }}\" class=\"diy-steps\">\n  <div id=\"diy-steps-anchor\" style=\"scroll-margin-top: 120px;\"></div>\n\n  <style>\n    #diy-steps-{{ block.id }} .diy-steps__grid {\n      display: grid;\n      grid-template-columns: repeat(4, minmax(0, 1fr));\n      gap: 24px;\n    }\n\n    @media (max-width: 990px) {\n      #diy-steps-{{ block.id }} .diy-steps__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n    }\n\n    @media (max-width: 640px) {\n      #diy-steps-{{ block.id }} .diy-steps__grid { grid-template-columns: 1fr; }\n    }\n\n    #diy-steps-{{ block.id }} .diy-steps__card {\n      border: 1px solid #eee;\n      border-radius: 12px;\n      padding: 18px;\n      background: #fff;\n    }\\n    #diy-steps-{{ block.id }} .diy-steps__title {\n      margin: 0 0 12px;\n      font-weight: 700;\n      line-height: 1.25;\n    }#diy-steps-{{ block.id }} .diy-steps__image {\n      aspect-ratio: 1 / 1;\n      overflow: hidden;\n      border-radius: 10px;\n      background: #f4f4f4;\n      margin: 0 0 12px;\n    }\n\n    #diy-steps-{{ block.id }} .diy-steps__image img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      display: block;\n    }\n\n    #diy-steps-{{ block.id }} .diy-steps__desc {\n      margin: 0;\n    }\n  </style>\n\n  {%- assign steps = metaobject.steps.value -%}\n  {%- if steps and steps.size > 0 -%}\n    <div class=\"diy-steps__grid\">\n      {%- assign emitted = 0 -%}\n      {%- for step in steps -%}\n        {%- assign s_image = step.image | default: step.step_image -%}\n        {%- if s_image == blank -%}\n          {%- continue -%}\n        {%- endif -%}\n\n        {%- assign emitted = emitted | plus: 1 -%}\n        {%- if emitted > 8 -%}\n          {%- break -%}\n        {%- endif -%}\n\n        <article class=\"diy-steps__card\">\n          <h3 class=\"diy-steps__title h3\">{{ step.title | default: step.step_title }}</h3>\n\n          <div class=\"diy-steps__image\">\n            {{ s_image | image_url: width: 900 | image_tag: loading: 'lazy' }}\n          </div>\n\n          <div class=\"diy-steps__desc rte\">{{ step.description | default: step.step_body | newline_to_br }}</div>\n        </article>\n      {%- endfor -%}\n    </div>\n  {%- endif -%}\n</div>"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "custom_liquid_steps_grid"
+                  ]
+                },
+                "group_h4pGfH": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 20,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "text_xYaKAD": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "<p><em>{{ closest.metaobject.diy_experience.tip | metafield_tag }}</em></p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1.125rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_xYaKAD"
+                  ]
+                }
+              },
+              "block_order": [
+                "group_zjHb9Q",
+                "text_cERgDd",
+                "text_g6GMA8",
+                "text_TwzGi4",
+                "group_tUmKXk",
+                "group_h4pGfH"
+              ]
+            }
+          },
+          "block_order": [
+            "group_TaPk8k"
+          ]
+        }
+      },
+      "block_order": [
+        "group_KJ6ae3"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": true,
+        "overlay_color": "#0000000d",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 56,
+        "padding-block-end": 62
+      }
+    },
+    "section_Hi3V48": {
+      "type": "section",
+      "blocks": {
+        "group_8RBniT": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_R6zWwg": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>{{ closest.metaobject.diy_experience.necessary_products_title.value }}</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_j7terG": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>{{ closest.metaobject.diy_experience.benotigte_produkte.value }}</p>",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1.125rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_phhc36": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "custom_liquid_materials_grid": {
+                  "type": "custom-liquid",
+                  "settings": {
+                    "custom_liquid": "<div id=\"diy-materials-{{ block.id }}\" class=\"diy-materials\">\n  <style>\n    #diy-materials-{{ block.id }} .diy-materials__grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(220px, 220px));\n      justify-content: center;\n      gap: 20px;\n      max-width: calc(4 * 220px + 3 * 20px);\n      margin-left: auto;\n      margin-right: auto;\n    }\n\n    @media (max-width: 990px) {\n      #diy-materials-{{ block.id }} .diy-materials__grid {\n        grid-template-columns: repeat(auto-fit, minmax(220px, 220px));\n        max-width: calc(2 * 220px + 1 * 20px);\n        margin-left: auto;\n        margin-right: auto;\n      }\n    }\n\n    @media (max-width: 640px) {\n      #diy-materials-{{ block.id }} .diy-materials__grid {\n        grid-template-columns: 1fr;\n      }\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__card {\n      border: 1px solid #eee;\n      border-radius: 12px;\n      padding: 14px;\n      background: #fff;\n      display: grid;\n      grid-template-rows: auto auto auto;\n      gap: 10px;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__top {\n      display: grid;\n      grid-template-columns: 1fr;\n      gap: 10px;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__link {\n      display: block;\n      text-decoration: none;\n      color: inherit;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__image {\n      aspect-ratio: 1 / 1;\n      overflow: hidden;\n      border-radius: 10px;\n      background: #f4f4f4;\n      margin: 0 0 10px;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__image img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      display: block;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__title {\n      margin: 0 0 6px;\n      font-weight: 700;\n      line-height: 1.25;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__price {\n      margin: 0;\n      font-weight: 700;\n      color: #912e38;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__controls {\n      display: grid;\n      gap: 10px;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__row {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      gap: 10px;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__select {\n      width: 100%;\n      padding: 10px 12px;\n      border: 1px solid #ddd;\n      border-radius: 10px;\n      background: #fff;\n    }\n\n    #diy-materials-{{ block.id }} .diy-qty {\n      display: inline-flex;\n      align-items: center;\n      border: 1px solid #ddd;\n      border-radius: 10px;\n      overflow: hidden;\n      background: #fff;\n    }\n\n    #diy-materials-{{ block.id }} .diy-qty button {\n      width: 36px;\n      height: 36px;\n      border: 0;\n      background: transparent;\n      cursor: pointer;\n      font-size: 18px;\n      line-height: 1;\n    }\n\n    #diy-materials-{{ block.id }} .diy-qty input {\n      width: 46px;\n      height: 36px;\n      border: 0;\n      text-align: center;\n      font-weight: 700;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__footer {\n      margin-top: 18px;\n      display: flex;\n      justify-content: center;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__add {\n      background: #912e38;\n      color: #fff;\n      border: 0;\n      border-radius: 12px;\n      padding: 12px 18px;\n      font-weight: 800;\n      cursor: pointer;\n    }\n\n    #diy-materials-{{ block.id }} .diy-materials__add:disabled {\n      opacity: 0.6;\n      cursor: not-allowed;\n    }\n  </style>\n\n  {%- assign materials = metaobject.materials_products.value | default: metaobject.materials_list.value -%}\n  {%- if materials and materials.size > 0 -%}\n    <div class=\"diy-materials__grid\" data-materials-grid>\n      {%- for product in materials -%}\n        {%- if product == blank -%}{%- continue -%}{%- endif -%}\n        {%- assign default_variant = product.selected_or_first_available_variant | default: product.first_available_variant | default: product.variants.first -%}\n\n        <div class=\"diy-materials__card\" data-product-card>\n          <div class=\"diy-materials__top\">\n            <label class=\"diy-materials__row\">\n              <span style=\"font-weight:700;\">Ausw&auml;hlen</span>\n              <input type=\"checkbox\" checked data-material-select>\n            </label>\n\n            <a class=\"diy-materials__link\" href=\"{{ product.url }}\">\n              <div class=\"diy-materials__image\">\n                {%- if product.featured_image -%}\n                  {{ product.featured_image | image_url: width: 600 | image_tag: loading: 'lazy' }}\n                {%- endif -%}\n              </div>\n              <p class=\"diy-materials__title\">{{ product.title }}</p>\n              {%- if default_variant -%}\n                <p class=\"diy-materials__price\" data-price>{{ default_variant.price | money }}</p>\n              {%- endif -%}\n            </a>\n          </div>\n\n          <div class=\"diy-materials__controls\">\n            {%- if product.variants.size > 1 -%}\n              <select class=\"diy-materials__select\" data-variant-select>\n                {%- for v in product.variants -%}\n                  <option value=\"{{ v.id }}\" data-price=\"{{ v.price }}\" {% if v == default_variant %}selected{% endif %} {% unless v.available %}disabled{% endunless %}>\n                    {{ v.title }} - {{ v.price | money }}\n                  </option>\n                {%- endfor -%}\n              </select>\n            {%- else -%}\n              {%- if default_variant -%}\n                <input type=\"hidden\" value=\"{{ default_variant.id }}\" data-variant-select>\n              {%- endif -%}\n            {%- endif -%}\n\n            <div class=\"diy-materials__row\">\n              <span style=\"font-weight:700;\">Menge</span>\n              <div class=\"diy-qty\" data-qty>\n                <button type=\"button\" aria-label=\"Minus\" data-qty-minus>-</button>\n                <input type=\"number\" min=\"0\" value=\"1\" inputmode=\"numeric\" data-qty-input>\n                <button type=\"button\" aria-label=\"Plus\" data-qty-plus>+</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      {%- endfor -%}\n    </div>\n\n    <div class=\"diy-materials__footer\">\n      <button class=\"diy-materials__add\" type=\"button\" data-add-selected>Ausgew&auml;hlte in den Warenkorb</button>\n    </div>\n\n    <script>\n      (function(){\n        const root = document.getElementById('diy-materials-{{ block.id }}');\n        if (!root) return;\n\n        function updatePrice(card){\n          const priceEl = card.querySelector('[data-price]');\n          const variantEl = card.querySelector('[data-variant-select]');\n          if (!priceEl || !variantEl) return;\n          const opt = variantEl.tagName === 'SELECT' ? variantEl.options[variantEl.selectedIndex] : null;\n          const priceCents = opt ? opt.getAttribute('data-price') : null;\n          if (!priceCents) return;\n          const cents = parseInt(priceCents, 10);\n          if (Number.isNaN(cents)) return;\n          priceEl.textContent = (cents/100).toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });\n        }\n\n        root.querySelectorAll('[data-product-card]').forEach(card => {\n          const minus = card.querySelector('[data-qty-minus]');\n          const plus = card.querySelector('[data-qty-plus]');\n          const input = card.querySelector('[data-qty-input]');\n          const variant = card.querySelector('[data-variant-select]');\n\n          if (minus && input) minus.addEventListener('click', () => { input.value = Math.max(0, (parseInt(input.value||'0',10)||0) - 1); });\n          if (plus && input) plus.addEventListener('click', () => { input.value = (parseInt(input.value||'0',10)||0) + 1; });\n          if (variant && variant.tagName === 'SELECT') variant.addEventListener('change', () => updatePrice(card));\n          updatePrice(card);\n        });\n\n        const btn = root.querySelector('[data-add-selected]');\n        if (!btn) return;\n\n        btn.addEventListener('click', async () => {\n          const items = [];\n          root.querySelectorAll('[data-product-card]').forEach(card => {\n            const checked = card.querySelector('[data-material-select]')?.checked;\n            if (!checked) return;\n            const variantEl = card.querySelector('[data-variant-select]');\n            const qty = parseInt(card.querySelector('[data-qty-input]')?.value || '0', 10) || 0;\n            if (!variantEl || qty <= 0) return;\n            const id = variantEl.tagName === 'SELECT' ? variantEl.value : variantEl.value;\n            items.push({ id, quantity: qty });\n          });\n\n          if (!items.length) return;\n          btn.disabled = true;\n          const prev = btn.textContent;\n          btn.textContent = 'Wird hinzugef?gt...';\n\n          try {\n            await fetch('/cart/add.js', {\n              method: 'POST',\n              headers: { 'Content-Type': 'application/json' },\n              body: JSON.stringify({ items })\n            });\n            window.location.href = '/cart';\n          } catch(e) {\n            btn.disabled = false;\n            btn.textContent = prev;\n          }\n        });\n      })();\n    </script>\n  {%- endif -%}\n</div>"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_liquid_materials_grid"
+              ]
+            }
+          },
+          "block_order": [
+            "text_R6zWwg",
+            "text_j7terG",
+            "group_phhc36"
+          ]
+        }
+      },
+      "block_order": [
+        "group_8RBniT"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "main": {
+      "type": "master-diy-anleitung",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1"
+      }
+    }
+  },
+  "order": [
+    "section_Hca4zN",
+    "section_PQQgbR",
+    "section_Hi3V48",
+    "main"
+  ]
+}
