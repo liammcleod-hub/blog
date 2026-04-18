@@ -32,6 +32,8 @@ Falls du noch etwas brauchst —
 Materialien, fertige Stücke —  
 diese Woche ist noch Zeit.
 
+**[→ Vatertagskollektion ansehen](https://www.bastelschachtel.at/collections/papa-ist-der-beste)**
+
 Wenn du bis Mittwoch (4. Juni) bestellst,  
 kommt es sicher rechtzeitig an.
 

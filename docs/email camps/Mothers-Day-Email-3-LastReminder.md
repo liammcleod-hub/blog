@@ -32,6 +32,8 @@ Falls du noch etwas brauchst —
 Materialien, fertige Stücke, eine Idee —  
 diese Woche ist noch Zeit.
 
+**[→ Muttertagskollektion ansehen](https://www.bastelschachtel.at/collections/mama-ist-die-beste)**
+
 Wenn du bis Montag (5. Mai) bestellst,  
 kommt es sicher rechtzeitig an.
 

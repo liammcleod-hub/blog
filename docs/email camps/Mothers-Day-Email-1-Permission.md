@@ -105,6 +105,12 @@ Wir helfen dir etwas zu finden das funktioniert:
 
 ---
 
+### Call-to-Action Button (Same for All)
+
+**[Schau dir unsere Muttertagskollektion an →](https://www.bastelschachtel.at/collections/mama-ist-die-beste)**
+
+---
+
 ## Footer (Same for All)
 
 [Standard Bastelschachtel footer with brand promise]

@@ -90,9 +90,9 @@ Etwas das hält.
 ### Product List for Option 1 (Same for All)
 
 **Was du brauchst:**  
-→ [Kreativ-Beton](link) — reicht für so 4-6 Teile  
-→ [Silikonformen — geometrische Formen](link)  
-→ Optional: [Betonfarbe](link) zum Färben
+→ [Kreativ-Beton](https://www.bastelschachtel.at/products/dekorbeton) — reicht für so 4-6 Teile  
+→ [Silikonformen — geometrische Formen](https://www.bastelschachtel.at/products/giessform-alchemy-numbers)  
+→ Optional: [Betonfarbe](https://www.bastelschachtel.at/products/pentart-antik-effekt-gel-150ml-braun-1) zum Färben
 
 Anleitung ist auf jeder Produktseite.  
 Schritt für Schritt.

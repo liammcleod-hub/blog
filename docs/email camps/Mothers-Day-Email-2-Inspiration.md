@@ -79,9 +79,9 @@ Musst du aber nicht.
 ### Product List (Same for All)
 
 **Was du brauchst:**  
-→ [Raysin Gießpulver](link) — reicht für so 8-10 Figuren  
-→ [Silikonformen — Figuren & Teelichthalter](link)  
-→ [Metallic-Wachspasten](link) — optional zum Verzieren
+→ [Raysin Gießpulver](https://www.bastelschachtel.at/products/1-kg) — reicht für so 8-10 Figuren  
+→ [Silikonformen — Figuren & Teelichthalter](https://www.bastelschachtel.at/products/giessform-alchemy-numbers)  
+→ [Metallic-Wachspasten](https://www.bastelschachtel.at/products/pentart-antik-effekt-gel-150ml-braun-1) — optional zum Verzieren
 
 Auf jeder Produktseite ist eine Anleitung dabei, Schritt für Schritt.
 

@@ -117,6 +117,12 @@ Auch das geht. Wir helfen dir dabei.
 
 ---
 
+### Call-to-Action Button (Same for All)
+
+**[Schau dir unsere Vatertagskollektion an →](https://www.bastelschachtel.at/collections/papa-ist-der-beste)**
+
+---
+
 ## Footer (Same for All)
 
 [Standard Bastelschachtel footer with brand promise]
