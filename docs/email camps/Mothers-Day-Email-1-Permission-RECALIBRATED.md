@@ -1,23 +1,32 @@
-# Mother's Day Email 1 - Permission Setting (Female) - RECALIBRATED
+# Mother's Day Email 1 - Permission Setting (Unified) - RECALIBRATED
 
 **Campaign:** Mother's Day 2026  
 **Send Date:** April 18, 2026  
-**Audience:** Female subscribers, engaged in last 90 days  
+**Audience:** All subscribers, engaged in last 90 days  
 **Email Type:** Permission-setting teaser
 
 ---
 
-## Subject Line Options
+## Subject Lines (Segment by Gender)
 
-1. "Es ist Zeit, an deine Mutter zu denken"
+### For Female Audience:
+1. **"Es ist Zeit, an deine Mutter zu denken"** ⭐ RECOMMENDED
 2. "Was würde sie sich selbst nie kaufen?"
 3. "In 22 Tagen ist Muttertag"
 
-**Recommended:** Option 1 (direct, warm, timely)
+### For Male Audience:
+1. **"Was du deiner Mutter selbst geben kannst"** ⭐ RECOMMENDED
+2. "Ein Geschenk, das wirklich von dir kommt"
+3. "Wir helfen dir dabei"
+
+### Neutral (If No Gender Data):
+1. **"Es ist Zeit, an deine Mutter zu denken"**
 
 ---
 
-## Email Body
+## Email Body (Unified with Key Variants)
+
+### Opening (Same for All)
 
 In 22 Tagen ist Muttertag.
 
@@ -26,11 +35,34 @@ etwas zu machen — nicht nur zu bestellen, sondern zu basteln.
 
 Genug Zeit um nachzudenken was du machen könntest.
 
+---
+
+### Emotional Core (VARIANT A: Female / VARIANT B: Male)
+
+**VARIANT A (Female Audience):**
+
 Deine Mutter wird sehen dass du dir Zeit genommen hast —  
 nicht einfach etwas bestellt, sondern wirklich gemacht, spezifisch für sie.
 
 Das ist eigentlich das größte Geschenk.  
 Die Zeit die du ihr gibst.
+
+---
+
+**VARIANT B (Male Audience):**
+
+Vielleicht siehst du dich nicht als jemanden der mit Gips oder Reispapier arbeitet.  
+Das ist in Ordnung.
+
+Aber deine Mutter würde etwas schätzen das von deinen Händen kommt.  
+Auch wenn es klein ist. Auch wenn es nicht perfekt ist.
+
+Das ist eigentlich das was zählt —  
+dass du dir Zeit genommen hast.
+
+---
+
+### Practical Section (Same for All)
 
 Du brauchst nicht handwerklich begabt zu sein.  
 Du brauchst die Materialien und die Zeit.  
@@ -58,12 +90,24 @@ Dein Bastelschachtel-Team
 
 ---
 
+### P.S. (VARIANT A: Female / VARIANT B: Male)
+
+**VARIANT A (Female Audience):**
+
 P.S. Du kannst uns auch anrufen wenn du nicht weißt wo du anfangen sollst:  
 **+43 (0) 664 [PHONE NUMBER]**
 
 ---
 
-## Footer
+**VARIANT B (Male Audience):**
+
+P.S. Wenn du nicht weißt wo du anfangen sollst, ruf uns einfach an.  
+Wir helfen dir etwas zu finden das funktioniert:  
+**+43 (0) 664 [PHONE NUMBER]**
+
+---
+
+## Footer (Same for All)
 
 [Standard Bastelschachtel footer with brand promise]
 
@@ -71,37 +115,57 @@ P.S. Du kannst uns auch anrufen wenn du nicht weißt wo du anfangen sollst:
 
 ---
 
-## Voice Recalibration Notes (April 18, 2026)
+## Implementation Guide
 
-### What Changed from Original
+### If You Have Gender Data:
+1. Segment list by gender
+2. **Female:** Use Subject A + VARIANT A body + VARIANT A P.S.
+3. **Male:** Use Subject B + VARIANT B body + VARIANT B P.S.
 
-**Before:** Too composed, too literary, permission stated explicitly  
-**After:** Conversational rhythm, permission shown through tone
+### If No Gender Data:
+- Use neutral subject line
+- Use **VARIANT A** for body (more universally applicable)
+- Use **VARIANT A** for P.S.
 
-### Key Improvements:
+### Variant Sections to Swap:
+- **Emotional Core** (paragraph 4-5 of body)
+- **P.S.** (final paragraph before footer)
 
-1. **Opening** — Removed prescriptive "genau richtig", used invitation instead
-2. **Emphasis density** — "wirklich gemacht, spezifisch für sie" (natural stacking)
-3. **Philosophical aside** — "Das ist eigentlich das größte Geschenk. Die Zeit die du ihr gibst."
-4. **Colloquialisms** — "überhaupt kein Problem" (not "vollkommen in Ordnung")
-5. **Location warmth** — "bei uns direkt" (not just "hier")
-6. **Natural rhythm** — "oder was mit Reispapier" (casual)
-7. **Comma removal** — "dass du dir Zeit genommen hast" (flows naturally without comma)
-8. **Humble tone** — "haben hier auch schon ein paar Sachen selbst gemacht" (not performing)
+---
 
-### Brand Voice Check ✅
+## What's Different Between Variants
 
-- ✅ Conversational rhythm, not composed prose
-- ✅ Permission shown through tone, not stated explicitly
-- ✅ Emphasis density natural (one moment per thought)
-- ✅ Philosophical asides feel casual, not precious
-- ✅ Warm colloquialisms used appropriately
-- ✅ Location warmth present ("bei uns direkt")
-- ✅ Humble, not performing
-- ✅ Reads like owner wrote it
+### VARIANT A (Female):
+- Assumes craft familiarity
+- Emotional framing: "Zeit die du ihr gibst"
+- Direct phone invitation
+
+### VARIANT B (Male):
+- Removes craft identity assumption: "Vielleicht siehst du dich nicht als..."
+- Adds reassurance: "Auch wenn es nicht perfekt ist"
+- More practical phone framing: "Wir helfen dir etwas zu finden das funktioniert"
+
+### Everything Else:
+- 90% identical
+- Same structure, same products, same permission language
+- Subject line + 2 small sections = full personalization
+
+---
+
+## Voice Calibration Notes
+
+✅ Conversational rhythm (not composed)  
+✅ Emphasis density natural  
+✅ Warm colloquialisms ("überhaupt kein Problem", "bei uns direkt")  
+✅ Permission shown through tone  
+✅ Not prescriptive  
+✅ Philosophical aside casual ("Das ist eigentlich...")  
+✅ Humble, not performing  
+✅ Location warmth present  
+✅ Simple shop link: "bastelschachtel.at"
 
 ---
 
 *Recalibrated: April 18, 2026*  
-*Based on: Direct owner feedback on voice and rhythm*  
-*Status: Ready for review*
+*Format: Unified body with variants*  
+*Status: Ready for scheduling*
